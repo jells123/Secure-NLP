@@ -4,5 +4,6 @@
 *.zip
 __pycache__/*
 to-remove/*
+.ipynb_checkpoints/*
 
 

@@ -1,0 +1,103 @@
+,label,text-rel,label_num,text-neigh
+0,command_and_control,The malware sent to files the C2 server,1,that will later be sent to the C2 server
+1,command_and_control,Carbanak downloads the file kldconfig.plug from its C2 server,1,within this process. Carbanak downloads the file kldconfig.plug from
+2,command_and_control,it sends a special notification to its C2 server,1,"the infected computer, it sends a special notification to"
+3,command_and_control,It receives commands,1,C2 server. It also receives commands. The commands are
+4,command_and_control,Carbanak sends its collected monitoring data to its C2 server,1,typical Carbanak request: Carbanak sends its collected monitoring data
+5,command_and_control,used to a Secure Shell (SSH) backdoor communicate with the C2 server,1,Shell (SSH) backdoor was used to communicate with the
+6,command_and_control,The Dragonfly attackers used hacked websites to host command-and-control (C&C) software,1,compromised. The Dragonfly attackers used hacked websites to host
+7,command_and_control,a persistent component C&C servers interacts with,1,a persistent component that interacts with C&C servers to
+8,command_and_control,download payloads,1,with C&C servers to download and execute payloads. The
+9,command_and_control,reaching out to the C&C server,1,components are downloaded by reaching out to the C&C server
+10,command_and_control,POST’ed it to a remote C&C server,1,form before it is POST’ed to a remote C&C
+11,command_and_control,It reach out to its C&C server,1,websites. It will only reach out to its C&C server
+12,command_and_control,sends output to over for the PlugX instance named pipes onward relay to the attacker’s Command-and-Control (C2) servers,1,"a cmd.exe process, which sends output to the PlugX"
+13,command_and_control,ZxShell connected to a C2 at newss.effers.com,1,"RAT called ZxShell, which connected to a C2 at"
+14,command_and_control,"malware connecting to a known TEMPER PANDA C2 address, www. verizon.proxydns.com",1,Notable Activity dropped malware connecting to a known TEMPER
+15,command_and_control,PlugX C2 servers used the following IP addresses as,1,following IP addresses are used as PlugX C2 servers:
+16,no-command_and_control,the program MBR Eraser to crack servers,0,to remove traces and to crack Windows computers and servers.
+17,no-command_and_control,They Backdoor.Oldrea bundle with a legitimate update of the affected software,0,software producers. They then bundle Backdoor.Oldrea with a legitimate
+18,no-command_and_control,selected executives and senior employees in target companies receive emails containing a malicious PDF attachment,0,employees in target companies receive emails containing a malicious
+19,no-command_and_control,Oldrea or Karagany drop on the victim’s computer,0,Explorer in order to drop Oldrea or Karagany on
+20,no-command_and_control,These campaigns relied on spear phishing with malicious documents that dropped malware (mostly PlugX) along with Vietnamese- language decoy documents,0,China Sea. These campaigns relied primarily on spear phishing
+21,no-command_and_control,This campaign leveraged fake websites to serve malware that poses as software updates for legitimate applications trick users into entering credentials,0,United States. This campaign leveraged fake websites to trick
+22,no-command_and_control,PlugX delivered to via targets a spear phishing attack containing a malicious RTF or Word document leveraging exploit code for the popular CVE-2012-0158 vulnerability,0,PlugX is most frequently delivered to targets via a
+23,no-command_and_control,Carbanak designed for espionage,0,"(initially based on Carberp), designed for espionage, data exfiltration"
+24,no-command_and_control,Carbanak designed for data exfiltration,0,"(initially based on Carberp), designed for espionage, data exfiltration"
+25,no-command_and_control,Carbanak designed to provide remote access to infected machines,0,"(initially based on Carberp), designed for espionage, data exfiltration"
+26,no-command_and_control,They install additional software such as the Ammyy Remote Administration Tool,0,victim´s infrastructure. They then install additional software such as
+27,no-command_and_control,They SSH servers compromise,0,"Administration Tool, or even compromise SSH servers. Notably, some"
+28,no-command_and_control,The videos sent to the C2 server,0,made. The videos were sent to the C2 server.
+29,no-command_and_control,made video recordings of the activities of bank employees,0,"particularly system administrators, were made The videos were sent"
+30,no-command_and_control,Carbanak determines if either the avp.exe or avpui.exe processes (components of Kaspersky Internet Security) is running,0,"the malicious service, Carbanak determines if either the avp.exe"
+31,no-command_and_control,the malware gets the proxy configuration from the registry entry,0,executed. Then the malware gets the proxy configuration from
+32,no-command_and_control,The malware saves files in,0,..\All users\%AppData%\Mozilla\ The malware saves files in this location
+33,no-command_and_control,Carbanak obtain proxy configuration information from headers sent through an application via SOCKS or HTTP,0,"Appendixes. Additionally, Carbanak can obtain proxy configuration information from"
+34,no-command_and_control,Carbanak logs keystrokes,0,"system is infected, Carbanak logs keystrokes and takes screenshots"
+35,no-command_and_control,Carbanak takes screenshots every 20 seconds,0,Carbanak logs keystrokes and takes screenshots every 20 seconds.
+36,no-command_and_control,Carbanak enable connections to the infected computer using the Remote Desktop Protocol (RDP),0,contact intelreports@kaspersky.com 9 To enable connections to the infected
+37,no-command_and_control,Carbanak detects the banking application BLIZKO (funds transfer software) in the infected computer,0,and winlogon.exe. If Carbanak detects the banking application BLIZKO
+38,no-command_and_control,the attackers recompiled the machine’s SSH daemon with so a backdoor they could gain direct access,0,"server, and the attackers recompiled the machine’s SSH daemon"
+39,no-command_and_control,the program MBR Eraser remove traces,0,program MBR Eraser to remove traces and to crack
+40,no-command_and_control,the program MBR Eraser Windows computers to crack,0,to remove traces and to crack Windows computers and servers.
+41,no-command_and_control,hackers got access to e-mail servers,0,"and payment systems, hackers got access to e-mail servers"
+42,no-command_and_control,hackers control all internal communications,0,to e-mail servers to control all internal communications. This
+43,no-command_and_control,download arbitrary exe- cutable files from the management server,0,is the ability to download arbitrary exe- cutable files
+44,no-command_and_control,the attacker gets remote access to the user computer,0,"a result, the attacker gets remote access to the"
+45,no-command_and_control,the attackers SSH backdoor use,0,the Linux family they use SSH backdoor that transmits
+46,no-command_and_control,SSH backdoor transmits the login/password data used to access the servers to the malicious server,0,use SSH backdoor that transmits to the malicious server
+47,no-command_and_control,SSH backdoor provides attackers remote access to the servers,0,access the servers and provides attackers remote access to
+48,no-command_and_control,"the at- tackers modify rules for firewalls Microsoft TMG, CISCO, etc",0,at- tackers may appropriately modify rules for firewalls Microsoft
+49,no-command_and_control,the attackers downloaded mali- cious scripts and changed denominations of issued banknotes in the ATM operating system registry,0,"Having access, the attackers downloaded mali- cious scripts and"
+50,no-command_and_control,The Gozi/ISFB based malware drop additional components on interesting systems,0,malware was used to drop additional components on interesting
+51,no-command_and_control,the dropper add persistence in the registry,0,by the dropper to add persistence in the registry
+52,no-command_and_control,the attackers compromising the update site for several industrial control system (ICS) software producers,0,by the attackers involves compromising the update site for
+53,no-command_and_control,Remote Access Tool (RAT) type malware provide the attackers with access and control of compromised computers,0,(RAT) type malware which provide the attackers with access
+54,no-command_and_control,extract data,0,"computer, allowing them to extract data and install further"
+55,no-command_and_control,install further malware,0,to extract data and install further malware. Oldrea appears
+56,no-command_and_control,The components are downloaded,0,execute payloads. The components are downloaded by reaching out to
+57,no-command_and_control,"Backdoor.Oldrea OS, user name, computer name, country, language, nation, Internet adapter configuration information, available drives, default browser, running processes, desktop file list, My Documents, Internet history, program files, and root of available drives collect system information such as",0,Backdoor.Oldrea will attempt to collect system information such as
+58,no-command_and_control,This data collected,0,files. This data is collected and written to a
+59,no-command_and_control,This data written to in a temporary file an encrypted form,0,data is collected and written to a temporary file
+60,no-command_and_control,It install additional files,0,designed to download and install additional files and exfiltrate
+61,no-command_and_control,It exfiltrate data,0,install additional files and exfiltrate data. Samples sometimes use
+62,no-command_and_control,Trojan.Karagany checks for by a live Internet connection visiting Microsoft or Adobe websites,0,system restarts. Trojan.Karagany first checks for a live Internet
+63,no-command_and_control,Dyreza intercept logins by acquiring the HTTP POST data from under banking SSL sessions,0,"banking fraud, acting to intercept logins and perform malicious"
+64,no-command_and_control,first-stage loaders install the Dridex payload onto the victim machine,0,loaders that will then install the Dridex payload onto
+65,no-command_and_control,This copy of Kaptoxa scanned volatile memory of infected systems for patterns that looked like credit card numbers,0,copy of Kaptoxa continuously scanned volatile memory of infected
+66,no-command_and_control,This copy of Kaptoxa logged them to a file,0,credit card numbers and logged them to a file
+67,no-command_and_control,This copy of Kaptoxa transferred a file to an internal network share,0,a file that was transferred to an internal network
+68,no-command_and_control,transferred the data to external FTP servers,0,which the data was transferred to external FTP servers.
+69,no-command_and_control,The malware scans memory for both Track 1 and Track 2 credit card data,0,criminal forums. The malware scans memory for both Track
+70,no-command_and_control,The malware HTTP requests exfiltrates its findings to over control servers,0,credit card data and exfiltrates its findings back to
+71,no-command_and_control,This tool log keystrokes on infected systems,0,"tool is used to log keystrokes, screenshots, and other"
+72,no-command_and_control,This tool log screenshots on infected systems,0,"tool is used to log keystrokes, screenshots, and other"
+73,no-command_and_control,This tool log other user activity on infected systems,0,"tool is used to log keystrokes, screenshots, and other"
+74,no-command_and_control,This tool exfiltrates this data to an attacker-controlled server,0,on infected systems and exfiltrates this data to an
+75,no-command_and_control,it deploys a backdoor Trojan,0,"executed, it extracts and deploys a backdoor Trojan, a"
+76,no-command_and_control,conducting reconnaissance of victim machines,0,"command set capable of conducting reconnaissance of victim machines,"
+77,no-command_and_control,exfiltrating data,0,"files, downloading files, and exfiltrating data. A number of"
+78,no-command_and_control,It log keystrokes,0,including the ability to log keystrokes; modify and copy
+79,no-command_and_control,capture screenshots video of user activity,0,modify and copy files; capture screenshots or video of
+80,no-command_and_control,logging off users,0,"Activity as terminating processes, logging off users, and rebooting victim"
+81,no-command_and_control,A full command shell provided,0,command shell is also provided through access to a
+82,no-command_and_control,Win64.exe invoke other programs with elevated privileges,0,that was used to invoke other programs with elevated
+83,no-command_and_control,Win64.exe elevate its privileges to those of the SYSTEM user,0,previously unknown vulnerability to elevate its privileges to those
+84,no-command_and_control,Win64.exe create a new process with to these access rights run the command that was passed as an argument,0,SYSTEM user and then create a new process with
+85,no-command_and_control,deleted it,0,"operations, and it was deleted immediately after use. A"
+86,no-command_and_control,executed any command passed to the executable with elevated privileges,0,to the executable was executed with elevated privileges. The
+87,no-command_and_control,combined malicious executable a decoy document with a malicious CVE-2014-1761 document,0,malicious executable to be combined with a malicious CVE-2014-1761
+88,no-command_and_control,this adversary gain legitimate credentials to move laterally,0,this adversary seeks to gain legitimate credentials to move
+89,no-command_and_control,this adversary RDP sessions establish to achieve their objectives,0,to move laterally and establish RDP sessions to achieve
+90,no-command_and_control,this provides the equivalent functionality of a RAT for adversary control of webservers,0,of Chopper webshell; this provides the equivalent functionality of
+91,no-command_and_control,they deploy privilege-escalation tools,0,"from which they can deploy privilege-escalation tools, move laterally,"
+92,no-command_and_control,"they seek legitimate credentials via tools such as Windows Credential Viewer, Windows Credential Editor, or Mimikatz",0,"victim’s network, they then seek legitimate credentials via tools"
+93,no-command_and_control,HURRICANE PANDA RDP rely on,0,"HURRICANE PANDA will often rely on RDP. First, they will"
+94,no-command_and_control,RAR compressed using files of interest,0,files of interest are compressed and password protected using
+95,no-command_and_control,RAR password protected using files of interest,0,"interest are compressed and password protected using RAR. Next, they"
+96,no-command_and_control,they stage the files at a convenient location,0,"using RAR. Next, they stage the files at a"
+97,no-command_and_control,they FTP exfiltrate the files from via the network,0,"convenient location. Finally, they exfiltrate the files from the"
+98,no-command_and_control,Pirpi provides the adversary with a traditional set of RAT features,0,use since 2009. Pirpi provides the adversary with a
+99,no-command_and_control,the adversary exfiltrate files,0,"allow the adversary to exfiltrate and deploy files, along"
+100,no-command_and_control,sophisticated Windows-based rootkit leverage an encrypted Virtual File System (VFS) as a staging area for tools to deploy and data prepared for exfiltration,0,Windows-based rootkit that can leverage an encrypted Virtual File
+101,no-command_and_control,Their main implant is a sophisticated RAT that exhibits a modular architecture and a multi-year development history,0,"main implant, called X-Agent, is a sophisticated RAT that"

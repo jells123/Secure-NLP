@@ -1,0 +1,1155 @@
+,label,text-rel,label_num,text-neigh
+0,File,the driver creates device named \Device\vstor32 with a symbolic link \DosDevices\vstor32,1,"first executed, the driver creates device named \Device\vstor32 with"
+1,File,it cleans out those logs,1,"the server, and then cleans out those logs: 03:52:16 UpLoad:"
+2,File,rootkit store configuration and log data,1,by the rootkit to store configuration and log data.
+3,File,rootkit The files within that directory are used,1,files within that directory are used by the rootkit to
+4,File,the pipe server saving data into a temporary file,1,"their behalf, such as saving data into a temporary"
+5,File,the pipe server copy files,1,"into a temporary file, copy delete files, save configuration"
+6,File,the pipe server delete files,1,"a temporary file, copy/ delete files, save configuration data"
+7,File,write into files,1,to be able to write into files/ registry. To
+8,File,it write data,1,"code of 0x222038. To write data, it opens the"
+9,File,it CreateFile(\\.\vstor32) opens the device with,1,"To write data, it opens the device with CreateFile(\\.\vstor32),"
+10,File,copying all the necessary logs into the shared virtual partition,1,to the driver by copying all the necessary logs
+11,File,executed the dropper,1,allowed to run. Once executed the dropper installs the
+12,File,The analysed 32-bit dropper creates a driver in the following location,1,The analysed 32-bit dropper creates a driver in the
+13,File,The installed hook handler checks if the name of the device is netbt or afd,1,original API and then checks if the name of
+14,File,the DLL log the data into the log files,1,that the DLL could log the data into the
+15,File,is written that data to the volume,1,encryption/decryption whenever that data is written to or read from
+16,File,read that data from the volume,1,is written to or read from the volume. The
+17,File,is saved the data into the volume Hd1,1,"result, whenever the data is saved into the volume Hd1,"
+18,File,it stores its message queue in a file called,1,"it. For example, it stores its message queue in"
+19,File,the Snake driver store its data and additional files on it,1,uses virtual volumes to store its data and additional
+20,File,is created,1,"64-bit unsigned driver file is created as usual: %windows%\$NtUninstallQ817473$\fdisk.sys However,"
+21,File,the dropper copies itself,1,"that, the dropper first copies itself as: %windows%\$NtUninstallQ817473$\fdisk_mon.exe The"
+22,File,the Snake dropper loads a copy of the NT core image (ntoskrnl.exe),1,"memory, the Snake dropper loads a copy of the"
+23,File,the Snake dropper SepInitializeCodeIntegrity() within it locates the import of CI.dll’s function CiInitialize(),1,"NT core image (ntoskrnl.exe), locates the import of CI.dll’s"
+24,File,it parses the function’s code to locate the offset of the variable,1,within it. Then it parses the function’s code to
+25,File,It MS09-025 and MS10-015 exploits running on the target system,1,to do this by running MS09-025 and MS10-015 exploits
+26,File,is written the initial message queue file into the virtual volume,1,message queue file which is written into the virtual volume.
+27,File,it reads configuration parameters from the configuration queue,1,"the DLL activates, it reads configuration parameters from the"
+28,File,the driver creates the configuration queue on a virtual volume,1,"queue, that the driver creates on a virtual volume."
+29,File,The data saved into a configuration file %system%\vtmon.bin,1,retrieves is encrypted and saved into a configuration file
+30,File,the latest samples of Snake Log files created,1,variants: 1dM3uu4j7Fw4sjnbcwlDqet4F7JyuUi4m5Imnxl1pzxI6as80cbLnmz54cs5Ldn4ri3do5L6gs923HL34x2f5cvd0fk6c1a0s Log files created by the latest samples
+31,File,the injected module write into files the sensitive registry hives,1,injected module could still write into files and into
+32,File,it The logs and dumps creates on the hidden virtual volumes,1,logs and dumps it creates on the hidden virtual
+33,File,written a binary executable file to the disk,1,"file, which is then written to the disk and"
+34,File,executed a binary executable file,1,to the disk and executed The second set of
+35,File,the dropper creates an additional file called winview.ocx,1,"than 3.26, the dropper creates an additional file called"
+36,File,The file is xored with the following obfuscation key,1,the past. The file is xored with the following obfuscation
+37,File,the malware checks if an older version is installed on the system,1,notice that the malware checks if an older version
+38,File,the dropper removes the older version,1,"the case, the dropper removes the older version. In"
+39,File,Uroburos was found on a version of Agent.BTZ a system,1,a version of Agent.BTZ was found on a system. flow
+40,File,Two log files are created during the malware execution,1,pipe. Two log files are created during the malware execution:
+41,File,is only executed in the main part (payload) of the malware explorer.exe,1,"(payload) of the malware is only executed in explorer.exe. Furthermore, the"
+42,File,the attacker delete files,1,"to upload, download, enumerate, delete search, and execute files"
+43,File,the attacker search files,1,"upload, download, enumerate, delete, search and execute files as"
+44,File,the attacker execute files,1,"enumerate, delete, search, and execute files as well as"
+45,File,the backdoor load the legitimate system32\msacm32.drv file,1,the backdoor will also load the legitimate system32\msacm32.drv file
+46,File,it cleans traces of the initial loader,1,"stage When launched, it cleans traces of the initial"
+47,File,it loads the next part of the toolkit,1,"of the initial loader, loads the next part of"
+48,File,Stage 2 On disinfect the compromised device failure,1,2 is able to disinfect the compromised device. The
+49,File,"The malware zeroes out its PE (Portable Executable, the Windows executable format) headers in memory",1,"compromised device. The malware zeroes out its PE (Portable Executable,"
+50,File,The malware replacing MZ with its own magic marker 0xfedcbafe,1,"format) headers in memory, replacing MZ with its own"
+51,File,It initializes the core components of the architecture,1,in Windows’ kernel. It initializes the core components of
+52,File,It loads the next parts of the malware,1,of the architecture and loads the next parts of
+53,File,a Regin driver loaded a sample,1,it might have been loaded by a Regin driver
+54,File,programs access information stored in the computer’s memory,1,the In order to access information stored in the
+55,File,was dumped the file from memory,1,hypothesis that the file was dumped from memory during a
+56,File,the driver zeroes the content,1,"using ExFreePool(), the driver zeroes the content, probably to"
+57,File,the driver remove remaining traces and artifacts,1,sequence of steps to remove remaining traces and artifacts.
+58,File,The second thread executing stage two payloads,1,responsible for downloading and executing stage two payloads. Messages
+59,File,be written a DLL or EXE to disk,1,or EXE that would be written to disk and executed.
+60,File,executed a DLL or EXE,1,written to disk and executed 8: CORESHELL Command ID
+61,File,CHOPSTICK creates a hidden file that may be named %ALLUSERSPROFILE%\edg6EF885E2.tmp for temporary storage,1,"collecting host information, CHOPSTICK creates a hidden file that"
+62,File,CHOPSTICK stores the encrypted message in an edg6EF885E2.tmp temporary file,1,"using RC4, and then stores the encrypted message in"
+63,File,CHOPSTICK deletes the file,1,"edg6EF885E2.tmp are uploaded, CHOPSTICK deletes the file. Figure 13"
+64,File,PSM module save the content of Dino modules in an encrypted file,1,the PSM module to save the content of Dino
+65,File,the operators look for files,1,allows the operators to look for files very precisely. For
+66,File,ramFS offering a disposable execution environment to the operators,1,"executed on the machine, offering a disposable execution environment"
+67,File,it executes files,1,"(it downloads, and then executes files, as it offers"
+68,File,an attacker overwrite the vftable pointer of a Flash object to redirect code execution,1,permits an attacker to overwrite the vftable pointer of
+69,File,it CreateFileA and WriteFile functions writes the file to with disk,1,InternetReadFile functions. Then it writes the file to disk
+70,File,it runs the file using the WinExec function,1,"WriteFile functions. Finally, it runs the file using the"
+71,File,attack executing designated programs,1,"downloading and uploading files, executing designated programs, injecting keyboard"
+72,File,a custom macro set automatically run upon document startup,1,custom macro set to automatically run upon document startup. Under
+73,File,a module writes it to disk in a special folder,1,a module encrypts and writes it to disk in
+74,File,It over- writes the files,1,"C&C server. It then overwrites the files, renames them"
+75,File,It renames them several times,1,"over- writes the files, renames them several times, and"
+76,File,It deletes them,1,"them several times, and deletes them, in an apparent"
+77,File,The exploit loaded shellcode,1,the document. The exploit loaded shellcode that downloaded a
+78,File,the FinSpy samples used in Bahrain overwrite the hard disk’s boot sector,1,samples used in Bahrain overwrite the hard disk’s boot
+79,File,an embedded Flash file that exploited a vulnerability fixed in Adobe Flash 11.4 loading shell code,1,"in Adobe Flash 11.4, loading shell code to download"
+80,File,a compiled Visual Basic project loads an executable packed with UPX via the RunPE method,1,Visual Basic project that loads via the RunPE method
+81,File,The .scr file ran both the bait document and the payload,1,archive that decompressed and ran both the bait document
+82,File,the downloader execute additional malware on the victim's system,1,is to download and execute additional malware on the
+83,File,the downloader execute an encrypted malicious payload,1,downloader will decrypt and execute Depending on the way
+84,File,written two additional files to the victim's hard disk,1,two additional files being written to the victim's hard
+85,File,the downloader execute additional malware on the victim's system,1,is to download and execute additional malware on the
+86,File,the downloader execute an encrypted malicious payload,1,downloader will decrypt and execute Depending on the way
+87,File,written two additional files to the victim's hard disk,1,two additional files being written to the victim's hard
+88,File,BE2 stores the downloaded plugins,1,the APT-specific BE2 now stores the downloaded plugins in
+89,File,it writes an encrypted Visual Basic Script,1,"on disk. Instead, it writes an encrypted Visual Basic"
+90,File,runs it,1,Visual Basic Script and runs it. Atlas exploit payload
+91,File,"The malware configuration file is written to the ""SYSTEM"" folder (as opposed to SYSTEM32)",1,"The malware configuration file is written to the ""SYSTEM"" folder"
+92,File,suspected Iranian actors destroyed data on with thousands of computers the Shamoon virus,1,suspected Iranian actors have destroyed data on thousands of
+93,File,the Shamoon attacks wiped computers in Saudi Arabia and Qatar,1,"the Shamoon attacks, which wiped computers in Saudi Arabia"
+94,File,The following files are written to in disk this location,1,Data\IntelRapidStart\. The following files are written to disk in this
+95,File,It AppTransferWiz.dll launches via the following command,1,modules. It drops and launches AppTransferWiz.dll via the following
+96,File,Harvested data written to on disk the local host,1,data is encrypted and written to disk on the
+97,File,an executable write to disk,1,"that, upon execution, will write to disk and execute"
+98,File,an executable CozyDuke execute,1,"write to disk and execute CozyDuke, while at the"
+99,File,CozyDuke executed droppers for DLL files reminiscent of OnionDuke,1,"some instances, downloaded and executed droppers for DLL files"
+100,File,it write two files to disk,1,"Upon execution, it will write two files to disk."
+101,File,This dropper write to the main CozyDuke components encrypted configuration file used by CozyDuke disk,1,will then proceed to write to disk the main
+102,File,The dropper write the CozyDuke components to the specified location,1,will then proceed to write the CozyDuke components to
+103,File,The dropper copy the system file rundll32.exe to the install location for CozyDuke,1,The dropper will additionally copy the system file rundll32.exe
+104,File,These tasks involve the execution of modules or executables providing additional functionality,1,tasks. These tasks usually involve the execution of modules
+105,File,CozyDuke PE executable files write to disk,1,files that CozyDuke will write to disk and execute
+106,File,CozyDuke PE executable files execute on the infected host,1,write to disk and execute on the infected host.
+107,File,execute file,1,"execute commands via PowerShell, execute a direct command or"
+108,File,save an executable to disk,1,"command or file, or save an executable to disk"
+109,File,execute it,1,"executable to disk and execute it. In several cases,"
+110,File,This exploit copied a fully functional version of Chrome into the Java cache directory,1,Java exploit. This exploit copied a fully functional version
+111,File,being written the ransom note to on disk an infected machine,1,see the ransom note being written to disk on an
+112,File,ransomware PCs locks,1,such as ransomware that locks PCs or financial Trojans
+113,File,an attacking group overwrote programmable logic controllers (PLCs) with an empty program module,1,tanker loading machinery and overwrote programmable logic controllers (PLCs)
+114,File,the malware delete itself from after it three successful propagations,1,own files and even delete itself from it after
+115,File,The dropper component creating all the required files on the system,1,component is responsible for creating all the required files
+116,File,It execute itself remotely if successfully copied,1,accessible network shares and execute itself remotely if successfully
+117,File,The malware overwriting them with a JPEG image or 192KB blocks of random data,1,file names and starts overwriting them with a JPEG
+118,File,is copied the valuable information,1,where the valuable information is copied and sent back to
+119,File,The malware deletes all files on a computer,1,energy sector. The malware deletes all files Page Targeted
+120,File,scan for deleted files on an infected computer,1,utilization. It can also scan for deleted files on
+121,File,The initial stages involve the installation and configuration of the threat’s internal services,1,architecture. The initial stages involve the installation and configuration
+122,File,it Stage 1 execute,1,it will install and execute Stage 1. It’s likely
+123,File,the attackers who operated Regin cleaned up compromised computers,1,attackers who operated Regin cleaned up compromised computers once they
+124,File,Regin logs to data the ApplicationLog.dat file,1,04h BYTEsectsize-4 Data Regin logs data to the ApplicationLog.dat
+125,File,a file execute the data,1,pipes or sockets and execute the data. The recovered
+126,File,Stage 1 looks for the last partition (in terms of physical location) on disk,1,"extended attribute, Stage 1 looks for the last partition"
+127,File,Stage 1 searches for in the payload the raw sectors in this area of the disk,1,location) on disk and searches for the payload in
+128,File,"the module delete some other, prob- ably older, components which might be present on the system",1,"the module attempts to delete some other, prob- ably"
+129,File,check if current directory has a file named «U»,1,is step is to check if current directory has
+130,File,the module wipes the file,1,"180 days, the module wipes TLP: Green For any"
+131,File,saved it to in a disk a file named «ctfmon.exe»,1,byte value 0x55 and saved to a disk in
+132,File,WinRar SFX file starts the module from %APPDATA%\Microsoft\Display\DmaUp3. exe,1,file that drops and starts the module from %APPDATA%\Microsoft\Display\DmaUp3.
+133,File,the malware executes some kind of embedded script,1,local system the malware executes some kind of embedded
+134,File,the downloaded file ex- ecutes it,1,7786570139f78e78bc940597) to %APPDATA%\MICROSOFT\DISPLAY and executes it. This component is
+135,File,The igfxext.exe component run,1,dropped to disk and run It spawns an- other
+136,File,The running process overwrites the igfxext.exe image in with the suspended process this smaller chunk of code,1,0xbb. The running process overwrites the igfxext.exe image in
+137,File,code running within svchost.exe on WinXP SP3 This sample is started,1,by certificate. This sample is started by code running within
+138,File,"This component writes the retrieved values ondisk to a ran- domly named .tmp, file like ffffz07131101.tmp",1,component then encrypts and writes the retrieved values ondisk
+139,File,This keylogger module stores gathered data in a log file,1,keylogger module encrypts and stores gathered data in a
+140,File,The file install.exe write two files (doc.exe and test.exe) to the hard-coded path C:\Users\Public,1,file install.exe attempts to write two files (doc.exe and
+141,File,"The first dropped file, doc.exe execute test.exe with the elevated privileges",1,and then attempts to execute test.exe with the elevated
+142,File,Creates the log file: %TEMP%\~DFD3O8.tmp,1,PE32 DLL Exports: _LowLevelKeyboardProc@12 Creates the log file: %TEMP%\~DFD3O8.tmp.
+143,File,read it from disk,1,"executed command), it is read from disk and uploaded"
+144,File,One sample write a malicious component to disk,1,primary purpose is to write a malicious component to
+145,File,a post exploitation tool remove log data,1,"systems, download additional tools, remove log data, and itself"
+146,File,The dropper write the malicious payload to using one of the following names the first available name in this set,1,The dropper attempts to write the malicious payload to
+147,File,The dropper sets the creation and last written timestamp of the newly created file to the date 2007-03-07 00:00:00,1,3. infocardapi.dll The dropper sets the creation and last
+148,File,the dropper writes the file to disk,1,"obfuscated. When the dropper writes the file to disk,"
+149,File,The dropper opens the dropped file,1,tools. The dropper subsequently opens the dropped file and
+150,File,The dropper corrects the header by writing the 'M' over the first byte,1,the dropped file and corrects the header by writing
+151,File,cleaning up the components dropped by the malware,1,This means that after cleaning up the components dropped by
+152,File,The command line options support launching the executable,1,The command line options support post exploitation capabilities such
+153,File,the backdoor filter the contents of specified files,1,allows the backdoor to filter the contents of specified
+154,File,the backdoor remove content using a regular expression (regex),1,of specified files to remove content using a regular
+155,File,"This command modifies the creation, modification, and last access timestamps of the modified file to conceal the content modifications",1,"(regex). This command then modifies the creation, modification, and"
+156,File,executing processes,1,new C2 servers and executing processes. DLL Sample (MD5:
+157,File,it copies itself,1,"characters>.ttf 2. After it copies itself, it will modify"
+158,File,"it modify the creation time, last access time and last modification    time to he current system time when the copy was made but with the year changed to 2005",1,"copies itself, it will modify the creation time, last"
+159,File,creates a copy of regsvr32.exe named Update.exe,1,"McAfee AV is installed, creates a copy of regsvr32.exe"
+160,File,writing the driver to disk,1,Following the decryption and writing of the driver to
+161,File,This handler class for command ID 8 C2 commands reading arbitrary files via,1,"APIs, as well as reading and writing arbitrary files"
+162,File,This handler class for command ID 8 C2 commands writing arbitrary files via,1,well as reading and writing arbitrary files via C2
+163,File,RATs searching specific files,1,seen in RATs for searching specific files to exfiltrate.
+164,File,this class launching specified executable files via the CreateProcess() API,1,"Additionally, this class implements launching of specified executable files"
+165,File,the malware invoke cmd.exe in the background,1,"the malware attempts to invoke cmd.exe in the background,"
+166,File,the malware launching a command or command line utility already present on the system,1,"cmd.exe in the background, launching a command or command"
+167,File,the DLL deleting itself,1,"directory contents 􀆔 Copying, deleting and moving files 􀆔"
+168,File,a client-side exploit executed it,1,"can be dropped and executed by a client-side exploit,"
+169,File,the adversary launch it using a variety of command line options,1,or the adversary can launch it using a variety
+170,File,the wiper deleted files on the file system,1,"used, the wiper recursively deleted files on the file"
+171,File,the wiper deleting the Windows folder,1,"on the file system, deleting the Windows folder last."
+172,File,"It overwrote the MBR with the strings ""HASTATI"", ""PRINCPES"", ""PRINCIPES"", or ""PR!NCPES",1,folder last. It then overwrote the MBR with the
+173,File,the malware searches these directories for configuration files and directories that may be associated with the connection manager clients mRemote and SecureCRT,1,"affected computer, the malware searches these directories for configuration"
+174,File,the dropper reads the configuration file,1,"is located, the dropper reads the configuration file and"
+175,File,it extracts the information,1,conditions are satisfied it extracts the information. The password
+176,File,"the dropper extracts information from sessions that have Username=root, Protocol=SSH and a saved password",1,"is located, the dropper extracts information from sessions that"
+177,File,the dropper run the bash script ~pr1.tmp,1,"remote servers, upload and run the bash script ~pr1.tmp."
+178,File,It overwrites with the first 512 bytes the string: princpes,1,all physical drives and overwrites the first 512 bytes
+179,File,It delete all files and folders in this directory,1,and then attempts to delete all files and folders
+180,File,is executed the AgentBase.exe component,1,When the AgentBase.exe component is executed it first attempts to
+181,File,It look for removable and fixed drives,1,drive. It continues to look for removable and fixed
+182,File,is written into it a file in the %ALLUSERSPROFILE%\Application Data directory,1,"malware is created, it is written into a file in"
+183,File,the malware creates a hidden .LNK file in the Startup directory,1,"after reboots, the malware creates a hidden .LNK file"
+184,File,The .LNKfile is created using with a COM object the IShellLinkA interface,1,following values: The .LNKfile is created using a COM object
+185,File,rundll32.exe is loaded the malware,1,IlqUenn. When the malware is loaded by rundll32.exe and the
+186,File,executes it,1,a file and finally executes it. The RSA-2048 public
+187,File,creating a copy of the Windows DLL cryptdll.dll,1,module is extracted by creating a copy of the
+188,File,This file is then stored in an Alternate Data Stream (ADS) in NTUSER.DAT in the %USERPROFILE% folder,1,after modifications. This file is then stored in an Alternate Data
+189,File,is automatically launched the installer component (0ae82fd94836815a1e8d284ccb75109d) alongside the GOM Player update,1,the installer component (0ae82fd94836815a1e8d284ccb75109d) is automatically launched alongside the GOM Player
+190,File,The installer deobfuscate the relevant loader DLL to the path ‘C:\Windows\temp\install.ocx’,1,or 64-bit) and then deobfuscate the relevant loader DLL
+191,File,The loader reads the main implant code,1,"author as 壳 (shell), reads and deobfuscates the main"
+192,File,The loader deobfuscates the main implant code,1,"壳 (shell), reads and deobfuscates the main implant code"
+193,File,added malicious JavaScript to legitimate code,1,JavaScript that had been added to legitimate code on
+194,File,These pages load scripts,1,hXXp://985.so/bUYf hXXp://58.64.178.77:80/0wnersh1p These pages load scripts that conduct profiling
+195,File,Pro-Democratic websites in Hong Kong placing malicious code on,1,involved in compromising and placing malicious code on Pro-Democratic
+196,File,BITTERBUG open recovery.txt,1,%APPDATA%\Microsoft\recovery.txt BITTERBUG then may open recovery.txt and check for
+197,File,BITTERBUG check for the presence of strings VBox or VMware,1,may open recovery.txt and check for the presence of
+198,File,is deleted the filename received from %APPDATA%\Microsoft<FILE_NAME_FROM_ C2>,1,"filename, the filename received is deleted from %APPDATA%\Microsoft<FILE_NAME_FROM_ C2>. The"
+199,File,this command delete older versions of BITTERBUG,1,"command might be to delete older versions of BITTERBUG,"
+200,File,BITTERBUG search for files with the following file extensions,1,each drive letter and search recursively for files with
+201,File,BITTERBUG creates a file list containing all documents (excluding those whose filename contains MediaUtils) to the following locations,1,.xlsx BITTERBUG then typically creates a file list containing
+202,File,BITTERBUG write a list of all running processes,1,%APPDATA%\Microsoft\tlang006.txt BITTERBUG may also write a list of all
+203,File,The malware create the following files,1,%USERPROFILE%\5rv3fgk6\VCAKSQl.TNT The malware may create the following files: •
+204,File,the shellcode writes this to disk,1,the shellcode decodes and writes this to disk. The
+205,File,is executed the script in the background,1,suspicion while the script is executed in the background. Unusual
+206,File,is launched the DLL using with regsrv32.exe the /s (silent) option,1,"DLL directly, the DLL is launched using regsrv32.exe with the"
+207,File,the malware deletes it from the server,1,new configuration file then deletes it from the server.
+208,File,They are executed in memory,1,"written to disk. They are executed in memory only, and"
+209,File,deleted these from in the share one go,1,these are downloaded and deleted from the share in
+210,File,The Driver hiding files,1,"Driver is capable of hiding processes (by PID, not"
+211,File,The Driver creates a symbolic link to using the device the same name but under the \DosDevices\ tree,1,samples). The Driver also creates a symbolic link to
+212,File,LoadEmbeddedImage copies the compressed embedded DLL into a newly allocated heap buffer,1,DWORD EncodingKey; }; LoadEmbeddedImage copies the compressed embedded DLL
+213,File,is copied file on the newly-infected host,1,is established and file is copied and run on the
+214,File,run file on the newly-infected host,1,file is copied and run on the newly-infected host.
+215,File,It includes file transfer,1,a service DLL. It includes functionality such as file
+216,File,It includes file time matching,1,a service DLL. It includes functionality such as file
+217,File,The listener perform arbitrary code execution,1,The listener can also perform arbitrary code execution and
+218,File,The listener execute commands on the command line,1,arbitrary code execution and execute commands on the command
+219,File,This proxy tool transfer files,1,"perform process listings, and transfer files. Destructive Hard Drive"
+220,File,being deleted specific files,1,"result includes specific files being deleted and practically irrecoverable, but"
+221,File,destroyed the targeted files,1,"with the targeted files destroyed until after reboot, in"
+222,File,The malware wiping files,1,remote systems to begin wiping files. Checking for existing
+223,File,changes the file-time to match that of the built-in file calc.exe,1,"the wiper file taskhostXX.exe, changes the file-time to match"
+224,File,was executed the dropper file,1,When the dropper file was executed it started a second
+225,File,The WinsSchMgmt service executed the file with -k as an argument,1,terminated. The WinsSchMgmt service executed the file with -k
+226,File,The -s instance executed igfxtrayex.exe,1,"-s instance dropped and executed igfxtrayex.exe, created net_ver.dat, and"
+227,File,The -s instance created net_ver.dat,1,"dropped and executed igfxtrayex.exe, created net_ver.dat, and began generating"
+228,File,the dropper created a log file,1,"is a log file created by the dropper, and"
+229,File,it creates a copy of itself,1,"with no parameters, it creates and starts a copy"
+230,File,it starts a copy of itself with the –i argument,1,"parameters, it creates and starts a copy of itself"
+231,File,the igfxtrayex.exe makes three copies of itself,1,"10 minutes, the igfxtrayex.exe makes three copies of itself"
+232,File,These copies are then executed,1,ASCII character). These copies are then executed each with a different
+233,File,The analyzed main module of Duqu 2.0 and also the old Duqu sample reads configuration information from a special file,1,the old Duqu sample reads configuration information from a
+234,File,a dropper contains the backdoor binary (the second component) and the distraction file,1,is a dropper which contains the backdoor binary (the
+235,File,dropper creates a temporary file C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log,1,"and Settings\User\Application Data\JAVA, then creates a temporary file C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log"
+236,File,dropper C:\Documents and Settings\User\Application Data\JAVA\JavaSvc.exe creates from the aforementioned BINARY resource,1,temporary file C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log then creates C:\Documents and Settings\User\Application Data\JAVA\JavaSvc.exe
+237,File,"Most Etumbot samples observed by ASERT drop decoy documents (PDFs, Word Documents, and Excel Spreadsheets) written in Traditional Chinese and usually pertaining to Cross-Strait or Taiwanese Government interests",1,"samples observed by ASERT drop decoy documents (PDFs, Word"
+238,File,C:\DOCUME~1\User\LOCALS~1\Temp\ kb71271.log contains the following registry file,1,kb71271.log is created and contains the following registry file
+239,File,is then deleted kb71271.log,1,modify the registry. kb71271.log is then deleted These temp files appear
+240,File,C:\DOCUME~1\User\LOCALS~1\Temp\ kb71271.log is created,1,"previous example, C:\DOCUME~1\User\LOCALS~1\Temp\ kb71271.log is created and contains the following"
+241,File,C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log is created,1,"naming scheme. Next, C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log is created filled with contents of"
+242,File,C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log filled with contents of the bait/distraction file,1,"Next, C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log is created, filled with contents of the"
+243,File,C:\DOCUME~1\User\LOCALS~1\Temp\~t3fcj1.doc C:\DOCUME~1\User\LOCALS~1\Temp\ka4281x3.log copied to,1,"bait/distraction file, and then copied to C:\DOCUME~1\User\LOCALS~1\Temp\~t3fcj1.doc, which is"
+244,File,The ka4281x3.log file deleted,1,ka4281x3.log file is then deleted Returning to the first
+245,File,it save them to a location,1,the user’s keystrokes and save them to a location
+246,File,are written both applications to a temporary directory,1,"When executed, both applications are written to a temporary directory"
+247,File,executed both applications,1,a temporary directory and executed This way it appears
+248,File,was also executed the malware,1,"executed, but the malware was also executed silently. OPERATION CLEAVER Résumé"
+249,File,are cached the results in a location the dropped malware can access,1,"is entered, the results are cached in a location the"
+250,File,executed the malware (TinyZbot),1,(TinyZbot) is dropped and executed This clever scheme makes
+251,File,is launched the main application,1,"after, the main application is launched 17: Unable to connect"
+252,File,This form stores the submitted information while the application is running,1,"the submission forms, only stores the submitted information while"
+253,File,Two similar applications automate the execution of Mimikatz,1,Operation Cleaver in order automate the execution of Mimikatz.
+254,File,zhMimikatz executes the correct version of Mimikatz for the current system,1,cached network credentials. zhMimikatz executes the correct version of
+255,File,MimikatzWrapper logs these results to in res.txt the executing directory,1,is that MimikatzWrapper also logs these results to res.txt
+256,File,tools like the PVZ tool chain and Csext execute with logged results,1,chain and Csext to execute with logged results: 22:
+257,File,it create a copy of itself with a modified configuration stored as a PE resource,1,"been achieved, it will create a copy of itself"
+258,File,it execute the copy utilizing PsExec,1,"resource, then send and execute the copy utilizing PsExec."
+259,File,be executed cmd.exe,1,line requests that cmd.exe be executed with the command ipconfig
+260,File,be deleted the file from the infected system,1,requests that the file be deleted from the infected system.
+261,File,they copied the malicious TinyZBot executable to the %AppData% directory,1,of the executable and copied the malicious TinyZBot executable
+262,File,they opened an image stored in the resource section of the executable,1,"TinyZBot were executed, they opened an image stored in"
+263,File,a new version allowed for self-deletion,1,version was compiled which allowed for self-deletion. On May
+264,File,If be started another TinyZBot instance no mutex and process pair was located,1,"another TinyZBot instance would be started and Control • 88.150.214.168,"
+265,File,are stored the results in a central location on disk that the PVZ tools utilize,1,"the server, the results are stored in a central location"
+266,File,Command functionality is limited to executing executables,1,"tools utilize. Command functionality is limited to executing supplied commands,"
+267,File,PVZ-In being invoked a command line utility,1,line utility capable of being invoked by PVZ-In. Targeting information
+268,File,Logger Module records them to a file,1,the user’s actions and records them to a file.
+269,File,The resulting log is written out,1,data. The resulting log is written out to a location where
+270,File,he command and control executing applications,1,"supports upgrading, downloading, and executing of applications, as well"
+271,File,he command and control executing batch scripts,1,"applications, as well as executing batch scripts. WndTest installs"
+272,File,This configuration executes zhCat,1,%% ## This configuration executes zhCat to connect back
+273,File,This zhCat instance is running cmd.exe,1,"443. This zhCat instance is running cmd.exe, effectively making it"
+274,File,the slideshow.zip file When writes several files opened,1,"opened, the slideshow.zip file writes and executes several files:"
+275,File,the slideshow.zip file When executes several files opened,1,slideshow.zip file writes and executes several files: C:\Users\Username\AppData\Local\Temp\IXP000.TMP\AdobeR1.exe C:\Users\
+276,File,When are deleted both AdobeR1.exe and pictures.exe the slideshow is closed,1,both AdobeR1.exe and pictures.exe are deleted The AdobeR1 file writes
+277,File,The AdobeR1 file writes a series of executable files,1,deleted. The AdobeR1 file writes a series of executable
+278,File,GooglUpd cleans up the program files if they exist,1,"then runs GooglUpd, which cleans up the program files if"
+279,File,AdbrRader writes the file vgadmysadm.tmp with the name of another registry key 2 with startup info,1,through registry key 2) writes the file vgadmysadm.tmp with
+280,File,rundl132 writes the external IP,1,Internet Files\Content.IE5\Q7B90TFG\raw1.txt Then rundl132 writes the external IP to:
+281,File,the attacker triggered the execution of a file on the victim’s system,1,the attacker has already triggered the execution of a
+282,File,an attacker Java code executing with the permissions of the host application,1,"application in unintended ways, executing Java code with the"
+283,File,a sample Javascript snippet execute shell command,1,sample Javascript snippet to execute shell command. 3 http://developer.android.com/reference/android/webkit/WebView.html#
+284,File,the attacker modify files that the host app can write to,1,"the victim’s device, or modify files that the host"
+285,File,an attacker load executables compiled from JNI code,1,"5, an attacker can load executables compiled from JNI"
+286,File,the RAT create a file mapping named &*SDKJfhksdf89*DIUKJDSF&*sdfsdf78sdfsdf,1,the RAT attempts to create a file mapping named
+287,File,the RAT load a binary representation of a date/time value from a file C:\RECYCLER\restore.dat,1,"running, the RAT will load a binary representation of"
+288,File,The malware execute this file via the WinExec API,1,"temporary directory, and then execute this file via the"
+289,File,the malware delete the content saved from the first request,1,"Finally, the malware will delete the content saved from"
+290,File,This dropper writing the payload to disk,1,an embedded resource before writing the payload to disk
+291,File,This dropper executing it,1,payload to disk and executing it. Several instances of
+292,File,Both the document and executable are written to disk,1,the document and executable are written to disk and the
+293,File,Both the document and executable executed via the ShellExecute             API (using the verb open),1,to disk and the executed via the ShellExecute API
+294,File,the dropper deletes itself via a batch file,1,"McUpdate. Finally, the dropper deletes itself via a batch"
+295,File,The attacker uses the Microsoft.XMLDOM ActiveX control to load a one-line XML string containing a file path to the EMET DLL,1,prevention (DEP) The attacker uses the Microsoft.XMLDOM ActiveX control
+296,File,The attacker overwrites the vftable pointer of a flash.Media.Sound() object in to memory point to the pivot,1,code. The attacker then overwrites the vftable pointer of
+297,File,the malware creates files sqlrenew.txt and stream.exe when the shellcode is executed,1,"is executed, the malware creates files sqlrenew.txt and stream.exe."
+298,File,"The tail of the image file is decoded, and written to these files",1,"of the image file is decoded, and written to these files. sqlrenew.txt"
+299,File,is then executed sqlrenew.txt with the LoadLibraryA Windows API call,1,to these files. sqlrenew.txt is then executed with the LoadLibraryA Windows
+300,File,The attackers delete all traces of their tools as soon as an attack was carried out successfully,1,very careful to immediately delete all traces of their
+301,File,he attackers deleted their iframe placement and backdoored executables from the hotel network,1,"was closed, the attackers deleted their iframe placement and"
+302,File,The attackers de- leted traces of their work from earlier attacks in another hotel,1,network. The attackers successfully deleted traces of their work
+303,File,"This component writes the retrieved values ondisk to a randomly named .tmp, file like ffffz07131101.tmp",1,component then encrypts and writes the retrieved values ondisk
+304,File,This keylogger module stores gathered data in a log file,1,keylogger module encrypts and stores gathered data in a
+305,File,word docs executed backdoors,1,backdoors or downloaded and executed backdoors from remote web
+306,File,WinRar SFX file starts the module from %APPDATA%\Microsoft\Crypto\DES64v7\msieckc.exe,1,file that drops and starts the module from %APPDATA%\Microsoft\Crypto\DES64v7\msieckc.exe.
+307,File,It removing some older components,1,"is also capable of removing some older components, the"
+308,File,a WinRar SFX file starts the module from %APPDATA%\Microsoft\Display\DmaUp3. exe,1,file that drops and starts the module from %APPDATA%\Microsoft\Display\DmaUp3.
+309,File,It runs it,1,component to disk and runs it. TLP: Green For
+310,File,the virus finds executable files,1,"disk number 20 (Z:\), finds executable files and infects"
+311,File,the virus infects them,1,finds executable files and infects them. The code simply
+312,File,the infector changes the entrypoint of executable files,1,"infection routine, the infector changes the entrypoint of executable"
+313,File,the infector creates an .rdat section,1,"entrypoint of executable files, creates an .rdat section, and"
+314,File,the infector inserts a small loader in the section,1,"an .rdat section, and inserts a small loader in"
+315,File,the infector puts its main payload in the overlay,1,"in the section, then puts its main payload in"
+316,File,They create archive files containing the content they want to exfiltrate,1,information theft. They generally create archive files containing the
+317,File,the exploit executing a file named svohost.exe in the temporary folder of the currently logged-in user,1,host by dropping and executing a file named in
+318,File,The binary drops a copy of itself in the Application Data folder of the currently logged-in user,1,the Troj/ReRol.A The binary drops a copy of itself
+319,File,It execute binaries,1,can also download and execute binaries. & The data
+320,File,is created a mutex called PittyTiger,1,a mutex called PittyTiger is created Persistence is achieved by
+321,File,The qmgrxp.exe binary is a simple copy of the original binary,1,our The qmgrxp.exe binary is a simple copy of
+322,File,The binary is also copied to the user’s Application Data directory,1,in our The binary is also copied to the user’s Application
+323,File,The shellcode contained in the Word file executes it,1,"the following file, and executes it: - C:\Documents and"
+324,File,This tmp file is then copied to C:\Windows\system32\Nwsapagentex.dll,1,our This tmp file is then copied to C:\Windows\system32\Nwsapagentex.dll and registered
+325,NoFile,Both backdoors were dropped from malicious documents built utilizing the Tran Duy Linh exploit kit,0,and WATERSPOUT. Both backdoors were dropped from malicious documents built
+326,NoFile,sent a spear phish email to a Taiwanese government ministry,0,a spear phish email sent to a Taiwanese government
+327,NoFile,APT12 deliver these exploit documents via phishing emails,0,CVE-2012-0158. FireEye observed APT12 deliver these exploit documents via
+328,NoFile,it HIGHTIDE drops,0,"file is opened, it drops HIGHTIDE in the form"
+329,NoFile,The RIPTIDE exploit document drops its executable file,0,The RIPTIDE exploit document drops its executable file into
+330,NoFile,the HIGHTIDE exploit document drops its executable file,0,the HIGHTIDE exploit document drops its executable file into
+331,NoFile,a different spear phish email sent from to lilywang823@gmail.com a technology company located in Taiwan,0,different spear phish email sent from lilywang823@gmail.com to a
+332,NoFile,this malicious document dropped a backdoor,0,"above, this malicious document dropped a backdoor to C:\DOCUMENTS"
+333,NoFile,This spear phish contained a malicious Word document that exploited CVE-2012-0158,0,Taiwan. This spear phish contained a malicious Word document
+334,NoFile,spear phishing emails targeting a high-technology company in Japan,0,of spear phishing emails targeting a high-technology company in
+335,NoFile,Attached to another malicious document this email,0,high-technology company in Japan. Attached to this email was
+336,NoFile,This malicious Word document dropped a backdoor,0,MD5 of 499bec15ac83f2c8998f03917b63652e and dropped a backdoor to C:\DOCUMENTS
+337,NoFile,The sample cb3dcde34fd9ff0e19381d99b02f9692 connected to documents.myPicture.info and www.documents.myPicture.info,0,cb3dcde34fd9ff0e19381d99b02f9692. The sample cb3dcde34fd9ff0e19381d99b02f9692 connected to documents.myPicture.info and www.documents.myPicture.info
+338,NoFile,that module started producing the following traffic,0,"it, and that module started producing the following traffic:"
+339,NoFile,it asks the server for a command,0,"command(s) Once acknowledged, it asks the server for a"
+340,NoFile,the server returns a new command to execute,0,"command, and the server returns a new command to"
+341,NoFile,it C&C The command receives from,0,2014 The command it receives from C&C above (swim.onlinewebshop.net)
+342,NoFile,the malware connects to the new C&C,0,"After that, the malware connects to the new C&C,"
+343,NoFile,the malware asking for another command,0,"to the new C&C, asking it for another command:"
+344,NoFile,it The command receives,0,"2014 The command it receives is called UpLoad, so"
+345,NoFile,it uploads all the collected logs to the server,0,"called UpLoad, so it uploads all the collected logs"
+346,NoFile,it The files uploads,0,Status:200 The files it uploads are stored inside its
+347,NoFile,Snake insert traffic destined to its C&C servers,0,allowing Snake to covertly insert traffic destined to its
+348,NoFile,it generate outbound requests,0,API in order to generate outbound requests. Whenever the
+349,NoFile,the driver C&C be delivered back to,0,to the driver to be delivered back to C&C. NDIS
+350,NoFile,it send data by using a private TCP/IP stack,0,"handler functions, it can send receive data by using"
+351,NoFile,it receive data by using a private TCP/IP stack,0,"functions, it can send/ receive data by using a"
+352,NoFile,the underlying miniport driver receives data from the network,0,"the underlying miniport driver receives data from the network,"
+353,NoFile,the driver respond with messages like HTTP/1.1 200 OK or HTTP/1.1 500 Server Error,0,HTTP the driver will respond with messages like HTTP/1.1
+354,NoFile,this Snake DLL module The remote commands received,0,communications. The remote commands received by this Snake DLL
+355,NoFile,the DLL post the data,0,"write_peer_nfo • read_peer_nfo To post the data, the DLL"
+356,NoFile,One of the Snake components been downloaded from a remote C&C server,0,components that could have been downloaded from a remote C&C
+357,NoFile,"This file is uploaded by to along with the usermode-centric Snake rootkit the C&C server other configuration files, such as mtmon.sdb, mtmon32.sdb, gstatsnd.bin, gstat.bin, gstat32.bin, and other log files found in the %windows%\$NtUninstallQrandom$ directory",0,Theory Library) algorithm and is uploaded by the usermode-centric Snake
+358,NoFile,The attacker deliver the generated shellcode back to to the reconnaissance tool be applied against the identified hosts by running the tool with the ‘exp_os’ switch,0,"Metasploit framework, and then deliver the generated shellcode back"
+359,NoFile,the tool delivers the payload,0,If the tool successfully delivers the payload and exploits
+360,NoFile,The first set of commands force the malware to behave as a simple downloader,0,first set of commands force the malware to behave
+361,NoFile,uploading files from the compromised system,0,executing arbitrary commands or uploading and downloading files from
+362,NoFile,downloading files from the compromised system,0,commands or uploading and downloading files from the compromised
+363,NoFile,The malware transfer to files the C&C server,0,"on the infected machine, transfer files to and from"
+364,NoFile,The malware transfer from files the C&C server,0,"on the infected machine, transfer files to and from"
+365,NoFile,It connects to www.dicemention.com,0,written in Delphi and connects to www.dicemention.com. Some samples
+366,NoFile,"DerusbiThread::DerusbiThread selects a port between 40,000 and 45,000 to use as a listening port",0,"PCC_SOCK object allocates, DerusbiThread::DerusbiThread selects a port between 40,000"
+367,NoFile,DerusbiThread::DerusbiThread opens the port as a listener,0,the specified port and opens the port as a
+368,NoFile,The device driver inspects incoming network traffic from any client connecting to the victim machine,0,later. The device driver inspects incoming network traffic from
+369,NoFile,reroute the network traffic,0,makes the decision to reroute the network traffic to
+370,NoFile,the driver redirect appropriate TCP sessions,0,instruct the driver to redirect appropriate TCP sessions to
+371,NoFile,"The Derusbi server variant listen an available, random port",0,"machine upon which to listen After selecting the port,"
+372,NoFile,the attacker upload files,0,"attacker the ability to upload download, enumerate, delete, search,"
+373,NoFile,the attacker download files,0,"the ability to upload, download enumerate, delete, search, and"
+374,NoFile,their implants send data out of using the network a victim network’s mail server,0,configuring their implants to send data out of the
+375,NoFile,The backdoor MIA email addresses ending with @mia.ge.gov communicate via,0,MIA mail server and communicate via MIA email addresses
+376,NoFile,APT28’s backdoor sent an email message using a subject line related to driver’s licenses (in Georgian),0,"mail server, APT28’s backdoor sent an email message using"
+377,NoFile,the SOURFACE downloader C2 communications used hard-coded IP addresses for,0,"2013, the SOURFACE downloader used hard-coded IP addresses for"
+378,NoFile,the future CORESHELL samples use domains,0,the future CORESHELL samples use domains. OF SOURFACE ECOSYSTEM
+379,NoFile,it uploads data,0,encrypts data that it uploads with an RSA public
+380,NoFile,EVILTOSS variants use he Simple Mail Transfer Protocol (SMTP) to send stolen data in an attachment named detaluri. dat,0,netui.dll. EVILTOSS variants may use the Simple Mail Transfer
+381,NoFile,sends out through it a victim’s mail server,0,a preformatted email and sends it out through a
+382,NoFile,The backdoor SMTP sent data via to nato_smtp@mail.ru,0,Figure 8. The backdoor sent data via SMTP to
+383,NoFile,The backdoor POP received its tasking via from nato_pop@mail.ru,0,SMTP to nato_smtp@mail.ru and received its tasking via POP
+384,NoFile,Email sent through a specified mail server,0,Appendix D. 2. Email sent through a specified mail
+385,NoFile,SMTP be sent this information via using a Georgian MIA mail server,0,information was intended to be sent via SMTP using a
+386,NoFile,It used one of four embedded sender email addresses (@mia.gov.ge) to send files via email to another email address on the same mail server,0,MIA mail server. It used one of four embedded
+387,NoFile,SOURFACE is a downloader,0,Cyber Espionage C: SOURFACE is a downloader that obtains
+388,NoFile,The first thread sends beacons that contain the process listing of the compromised host,0,server. The first thread sends beacons that contain the
+389,NoFile,The second thread downloading stage two payloads,0,thread is responsible for downloading and executing stage two
+390,NoFile,CHOPSTICK are uploaded the contents of edg6EF885E2.tmp,0,the contents of edg6EF885E2.tmp are uploaded CHOPSTICK deletes the file.
+391,NoFile,CHOPSTICK uploading edg6EF885E2.tmp,0,"activity log, edg6EF885E2.tmp. After uploading edg6EF885E2.tmp, CHOPSTICK continues to"
+392,NoFile,be used email to send out the collected credentials,0,email and HTTP can be used to send out the
+393,NoFile,a threat actor-controlled IP address dropped a Poison Ivy remote access tool (RAT) onto victims’ systems,0,actor-controlled IP address that dropped a Poison Ivy remote
+394,NoFile,these exploits downloaded a payload hosted at: hxxp://103.27.108.45/img/js.php,0,"In turn, these exploits downloaded and decoded a payload"
+395,NoFile,SOGU (aka Kaba) callback traffic sent to over assign.ddnsking.com port 443,0,(aka Kaba) callback traffic sent to assign.ddnsking.com over port
+396,NoFile,the malware begins calling home,0,"ID: Meanwhile, the malware begins calling home, whilst also"
+397,NoFile,it downloads files,0,"in its name (it downloads and then executes) files,"
+398,NoFile,ActionScript The shellcode is downloaded in as a GIF image,0,latest patches. The shellcode is downloaded in ActionScript as a
+399,NoFile,it downloads an executable via the InternetOpenURLA and InternetReadFile functions,0,"Windows’ VirtualProtect function, it downloads an executable via the"
+400,NoFile,this variant connected to a CnC server at windows.ddns.us,0,pattern of YFds*&^ff and connected to a CnC server
+401,NoFile,This Poison Ivy variant connected to a CnC server at ids.ns01.us,0,This Poison Ivy variant connected to a CnC server
+402,NoFile,the DLL file connect to hardcoded C&C URLs specified in the configuration data,0,below) and attempt to connect to hardcoded C&C URLs
+403,NoFile,the malware download and execute additional malicious components,0,may receive instructions to download and execute additional malicious components. It
+404,NoFile,the original backdoor process Some of these components being downloaded and executed,0,components have been observed being downloaded and executed by the original backdoor
+405,NoFile,it sending a network heartbeat package,0,"of its target, it sending a network heartbeat package"
+406,NoFile,APT-TOCS is downloading the script functionalities of Shellcode,0,core step of APT-TOCS is downloading the script functionalities of
+407,NoFile,the script functionalities of Shellcode downloads a field of data into memory,0,"functionalities of Shellcode, which downloads a field of data"
+408,NoFile,attack downloading files,0,"targeted systems, such as downloading and uploading files, executing"
+409,NoFile,attack uploading files,0,"such as downloading and uploading files, executing designated programs,"
+410,NoFile,This class file downloads and decodes an XOR 0xC8 encoded Windows PE executable payload from http://mfa.gov.af/content/images/icon35.png,0,jre7u61windows/x86/Update.class. This class file downloads and decodes an XOR 0xC8 encoded
+411,NoFile,This applet downloads an XOR 0xFF encoded payload executable from the URL https://amco- triton.co.jp/js/dl/in.jpg,0,"same class path, and downloads an XOR 0xFF encoded"
+412,NoFile,The XOR 0xC8 encoded payload downloaded from http://mfa.gov.af/content/images/icon35.png,0,XOR 0xC8 encoded payload downloaded from http://mfa.gov.af/content/images/icon35.png decodes into
+413,NoFile,This backdoor connects to the faux Oracle Java themed command and control (C2) domain oracle0876634.javaplug-in.com,0,by dbgeng.dll This backdoor connects to the faux Oracle
+414,NoFile,"This executable connect to tiger.gamma-international.de, a domain registered to Gamma International GmbH",0,"v3.00, and attempted to connect to tiger.gamma-international.de, a domain"
+415,NoFile,the spyware download additional modules from a command & control (C&C) server,0,"modular design, and can download additional modules from a"
+416,NoFile,The spyware sends them to the C&C server,0,"certain naming convention, then sends them to the C&C"
+417,NoFile,The samples communicated with 77.69.140.194,0,"C&C server: The samples communicated with 77.69.140.194, which belongs"
+418,NoFile,it connect to the Bahrain C&C server,0,and allowed it to connect to the Bahrain C&C
+419,NoFile,shellcode downloaded a second stage from ar-24.com,0,exploit loaded shellcode that downloaded a second stage UAE
+420,NoFile,a second stage downloaded spyware from ar-24.com,0,"ar-24.com, which in turn downloaded spyware from ar-24.com. We"
+421,NoFile,The document download a second stage from rcs-demo.hackingteam.it,0,exploit and attempted to download a second stage from
+422,NoFile,shell code download a second stage from faddeha.com,0,loading shell code to download a second stage from
+423,NoFile,The exploit downloaded a second stage,0,"on VirusTotal. The exploit downloaded a second stage, which"
+424,NoFile,a second stage downloaded a sam- ple of SpyNet from maile-s.com,0,"stage, which in turn downloaded a sam- ple of"
+425,NoFile,The attack downloaded an instance of SpyNet from isteeler.com,0,to posting. The attack downloaded an instance of SpyNet
+426,NoFile,some documents that differed in their hash downloaded the same pay- load,0,differed in their hash downloaded the same pay- load).
+427,NoFile,The exploits downloaded instances of SpyNet from upload.bz,0,load). The exploits primarily downloaded instances of SpyNet from
+428,NoFile,Two of the other CVE-2012-0158 exploits DarkComet down- loaded from www.getmedia.us and www.technopenta.com,0,the other CVE-2012-0158 exploits downloaded DarkComet from www.getmedia.us and
+429,NoFile,a piece of malware upload screenshots,0,"can report system information, upload screenshots, and drop and"
+430,NoFile,spear-phishing attacks drop a custom downloader,0,in spear-phishing attacks that drop a custom downloader used
+431,NoFile,The malware connects back to the exploit domain pic.nicklockluckydog.org the subdomain ssl.nicklockluckydog.org,0,16E5A27BD55E0B4E595C9743F4C75611 (ticrf.rat). The malware connects back to the exploit domain
+432,NoFile,the downloader download additional malware on the victim's system,0,the downloader is to download and execute additional malware
+433,NoFile,the downloader download an encrypted malicious payload,0,a compromised website to download an encrypted malicious payload
+434,NoFile,the downloader download additional malware on the victim's system,0,the downloader is to download and execute additional malware
+435,NoFile,the downloader download an encrypted malicious payload,0,a compromised website to download an encrypted malicious payload
+436,NoFile,BlackEnergy custom plugins DDoS attacks launching,0,BlackEnergy custom plugins for launching DDoS attacks. There are
+437,NoFile,main.dll is downloaded a configuration file from on the server an infected system,0,"analysis, a configuration file is downloaded from the server by"
+438,NoFile,Linux Hook main module communicated with the same CnC server,0,Linux Hook main module communicated with the same CnC
+439,NoFile,"Siemens ""ccprojectmgr.exe"" downloaded a handful of different payloads",0,"July 2014, Siemens ""ccprojectmgr.exe"" downloaded and executed a handful"
+440,NoFile,BE dropper installs its driver,0,2010. While BE dropper installs its driver under a
+441,NoFile,is used a WebDAV URL for connections,0,"a WebDAV URL which is used for connections, a username"
+442,NoFile,be uploaded data from the victim,0,from the victim should be uploaded The Cloud Atlas implants
+443,NoFile,the implant is downloaded data,0,"to the account, which is downloaded by the implant, decrypted"
+444,NoFile,the malware uploads the replies back to via the server the same mechanism,0,"In turn, the malware uploads the replies back to"
+445,NoFile,the malware The files stored in the randomly named folder were uploaded,0,the randomly named folder were uploaded by the malware and
+446,NoFile,The Chinese running a MITM attack,0,(UTC/GMT) The Chinese are running a MITM attack on
+447,NoFile,is carried out the MITM on the 2001:252::/32 network,0,"therefore that the MITM is carried out on the 2001:252::/32 network,"
+448,NoFile,is being conducted against a MITM attack traffic between China’s nationwide education and research network CERNET and www.google.com,0,that a MITM attack is being conducted against traffic between China’s
+449,NoFile,IP hijacking performing,0,is performed either by performing IP hijacking or by
+450,NoFile,reconfiguring a router to forward the HTTPS traffic to a transparent SSL proxy,0,hijacking or by simply reconfiguring a router to forward
+451,NoFile,Injected websites load a remote JavaScript into the victim's browser,0,publishing platform. Injected websites load a remote JavaScript into
+452,NoFile,Java exploits The payload dropped,0,various configurations. The payload dropped by these Java exploits
+453,NoFile,This drops the malicious file with the MD5 7731d42b043865559258464fe1c98513,0,an encrypted resource. This drops the malicious file with
+454,NoFile,an Epic backdoor connects to with the following C&Cs a generic internal ID of 1156fd22- 3443-4344-c4ffff,0,"an Epic backdoor which connects to the following C&Cs,"
+455,NoFile,The replies are sent back to through the C&C the same channel,0,and processes. The replies are sent back to the C&C
+456,NoFile,the backdoor During sends a pack with the victim's system information the first C&C call,0,"C&C call, the backdoor sends a pack with the"
+457,NoFile,All further information sent to the C&C,0,information. All further information sent to the C&C is
+458,NoFile,the attackers sent a large amount of commands to the victims,0,large amount of commands sent to the victims by
+459,NoFile,the attackers send a template of commands,0,"the server, the attackers send a template of commands:"
+460,NoFile,These top level packages deploy both updated Epic backdoors and Turla Carbon system backdoors to confirmed victims,0,These top level packages deploy both updated Epic backdoors
+461,NoFile,This acts as a dropper for the following modules,0,debug path inside: This acts as a dropper for
+462,NoFile,The majority of the samples we analyzed connect to intel-update.com and update-mirror.com,0,"the samples we analyzed connect to intel-update.com and update-mirror.com,"
+463,NoFile,a sample connected to both intel- update.com and ultrasms.ir,0,with a sample that connected to both intel- update.com
+464,NoFile,This sample connects to the aforementioned intel-update.com as well as plugin-adobe.com,0,a Stealer variant that connects to the aforementioned intel-update.com
+465,NoFile,the sample connecting to plugin- adobe.com,0,"Aside from the sample connecting to plugin- adobe.com, we"
+466,NoFile,CozyDuke downloaded droppers for DLL files reminiscent of OnionDuke,0,"has, in some instances, downloaded and executed droppers for"
+467,NoFile,a number of binaries receive instructions from a set of command and control (C2) servers,0,of binaries coded to receive instructions from a set
+468,NoFile,The KernelBot implants C2 servers hard-coded directly into the sample receive targeting instructions from,0,b5ac964a74091d54e091e68cecd5b532) The KernelBot implants receive targeting instructions from C2
+469,NoFile,a KernelBot variant connects to both www.sapporo-digital-photoclub.com and wakayamasatei.com,0,a KernelBot variant that connects to both www.sapporo-digital-photoclub.com and
+470,NoFile,the attackers pushed a configuration update to four controls servers,0,"and 24th, the attackers pushed a configuration update to"
+471,NoFile,This PlugX variant connected to a Google Code project at code.google.com/p/udom/,0,certificate. This PlugX variant connected to a Google Code
+472,NoFile,This sample C2 connected to for luxscena.com,0,detected as Backdoor.APT.Preshin and connected to luxscena.com for C2.
+473,NoFile,it C2 used hk.java-se.com for,0,as Backdoor.APT.PISCES and it used hk.java-se.com for C2. The
+474,NoFile,it connect to u.java-se.com,0,Backdoor.APT.PISCES and observed it connect to u.java-se.com. Both of
+475,NoFile,sent back the valuable information to the attacker,0,information is copied and sent back to the attacker. The
+476,NoFile,The simple attacks FTP upload through them,0,compress the files and upload them through FTP or
+477,NoFile,the attackers initiate communications with on compromised computers the border network,0,either the attackers can initiate communications with compromised computers
+478,NoFile,the compromised computers initiate communications with the attacker,0,the compromised computers can initiate communications with the attacker.
+479,NoFile,The module connects to autolace.twilightparadox.com (or automachine. servequake.com),0,manner. 1. The module connects to autolace.twilightparadox.com (or automachine.
+480,NoFile,the module send identical request using again a different HTTP path,0,module may try to send identical request again but
+481,NoFile,The result of this execution uploaded to the C&C server,0,the stolen data and uploaded to the C&C server.
+482,NoFile,it sending additional in- formation,0,keyword «minmei» it continues sending additional in- formation. «Minmei»
+483,NoFile,Igfxext.exe download a file,0,table above). Igfxext.exe can download a file and drop
+484,NoFile,a VBScript download the below payload,0,affected users’ system to download the below payload: function
+485,NoFile,the system downloads install.exe,0,"script executes, the system downloads install.exe, which has the"
+486,NoFile,the malware TCP port 1913 establishes a SOCKS5 connection to using 192.157.198.103,0,"executed, the malware first establishes a SOCKS5 connection to"
+487,NoFile,"The malware sends the SOCKS5 connection request ""05 01 00""",0,port 1913. The malware sends the SOCKS5 connection request
+488,NoFile,"The malware requests a connection to 192.184.60.229 on TCP port 81 using the command ""05 01 00 01 c0 b8 3c e5 00 51""",0,"00"". The malware then requests a connection to 192.184.60.229"
+489,NoFile,The deflated exe was a variant of the same downloader described above,0,attachment. The deflated exe was a variant of the
+490,NoFile,The deflated exe SOCKS5 proxy connected to over via 198.55.115.71 port 1913,0,downloader described above and connected to 198.55.115.71 over port
+491,NoFile,The secondary payload connected to the known APT3 domains,0,newnotepad.exe (MD5 8849538ef1c3471640230605c2623c67) and connected to the known APT3
+492,NoFile,a post exploitation tool download,0,"to infect other systems, download additional tools, remove log"
+493,NoFile,the sample connect to the C2 located at 1.9.5.38:443,0,will only attempt to connect directly using a raw
+494,NoFile,The malicious sample sends an initial beacon to the C2,0,sample. The malicious sample sends an initial beacon to
+495,NoFile,The beacon sent to the C2,0,defined key 0x1C and sent to the C2. The
+496,NoFile,the routine receiving incoming commands,0,"beacon, the routine loops receiving incoming commands and executes"
+497,NoFile,the routine sending the initial beacon,0,"I VE 6 After sending the initial beacon, the"
+498,NoFile,This inbound payload is received,0,header. This inbound payload is received unconditionally and regardless of
+499,NoFile,is initiated a connection to the C2 to the stati- cally defined IP address,0,connection to the C2 is initiated to the stati- cally
+500,NoFile,the sample sending the initial authentication packet,0,"in Appendix E. After sending the initial authentication packet,"
+501,NoFile,An example authentication packet sent to the C2,0,An example authentication packet sent to the C2 is
+502,NoFile,is sent an 8 byte key to the client,0,an 8 byte key is sent to the client which
+503,NoFile,The malware sends a heartbeat/keepalive packet every 2 minutes,0,the C2. The malware sends and receives a heartbeat/keepalive
+504,NoFile,The malware receives a heartbeat/keepalive packet every 2 minutes,0,The malware sends and receives a heartbeat/keepalive packet every
+505,NoFile,download files,0,"of implemented commands include download and upload files, installing"
+506,NoFile,upload files,0,"commands include download and upload files, installing new .NET"
+507,NoFile,downloading a list of C2 servers from an HTTP URL,0,the binary that allows downloading a list of C2
+508,NoFile,being sent 64 random bytes to the C2,0,of 64 random bytes being sent to the C2. The
+509,NoFile,receiving chunks of the response,0,"of POST payload and receiving chunks of the response,"
+510,NoFile,the malware sending compressed binary blobs via the channel of choice,0,the malware will start sending and receiving compressed binary
+511,NoFile,the malware receiving compressed binary blobs via the channel of choice,0,will start sending and receiving compressed binary blobs via
+512,NoFile,This handler class for command ID 8 upload arbitrary files,0,"C2 commands, thus enabling upload and download of arbitrary"
+513,NoFile,This handler class for command ID 8 download arbitrary files,0,thus enabling upload and download of arbitrary files. This
+514,NoFile,It listening for incoming connections,0,other hosts and also listening for incoming connections. The
+515,NoFile,The incoming connection contents are forwarded to the C2,0,The incoming connection contents are forwarded to the C2 and
+516,NoFile,is passed data from the C2 on to connections,0,data from the C2 is passed on to connections. It
+517,NoFile,The standard output channel of that command is provided back to the C2,0,channel of that command is provided back to the C2.
+518,NoFile,The malware used in these attacks exfiltrated data,0,"attacks sought out and exfiltrated data, based on keyword"
+519,NoFile,the malware exfiltrate certain types of data,0,"to search for and exfiltrate certain types of data,"
+520,NoFile,a third malware component downloaded an IRC RAT from various compromised websites,0,a third malware component downloaded an IRC RAT from
+521,NoFile,the dropper connect remote servers,0,"conime.exe to attempt to connect remote servers, upload and"
+522,NoFile,the dropper upload the bash script ~pr1.tmp,0,"to connect remote servers, upload and run the bash"
+523,NoFile,This information is then sent to the C&C server,0,of MiniDuke This information is then sent to the C&C server
+524,NoFile,The payload is downloaded in using the file named fdbywu the urlmon!URLDownloadToFileA API,0,given below: The payload is downloaded in the file named
+525,NoFile,the remote attacker HTTP send the results back to through the command-and-control (C&C) server,0,executing the commands to send the results back to
+526,NoFile,the main implant code TCP port 443 communicates with on the attacker-controlled server at testqweasd.tk (211.43.220.89),0,implant code which then communicates with the attacker-controlled server
+527,NoFile,Gh0st RAT delivering system-specific details back to the attacker,0,variant. In addition to delivering system-specific details back to
+528,NoFile,malicious Java Applets install malware,0,Java Applets designed to install malware on their systems.
+529,NoFile,Attackers upload new webshells or add simple China Chopper style modifications,0,certainty. Attackers will often upload new webshells or add
+530,NoFile,was being leveraged to the website target users with Flash Exploits,0,Lab reported the website was being leveraged to target users with
+531,NoFile,Java exploits install malware on the target system,0,Java exploits designed to install malware on the target
+532,NoFile,the exploits install either a 32-bit or 64-bit version of the malware,0,"successful, the exploits will install either a 32-bit or"
+533,NoFile,The PlugX sample connects to the blog,0,jduhf873jdu7.blog.163.com The PlugX sample connects to the blog and
+534,NoFile,This implant connected to a C2 node that overlapped with prennera.com,0,DTOPTOOLZ digitalsignature. This implant connected to a C2 node
+535,NoFile,BITTERBUG uploading files,0,"backdoor executable capable of uploading and downloading files, listing"
+536,NoFile,BITTERBUG downloading files,0,"capable of uploading and downloading files, listing running processes,"
+537,NoFile,BITTERBUG transferring selected files to its command and control (C2) server,0,"file listings, and automatically transferring selected files to its"
+538,NoFile,BITTERBUG beacon to by the C2 server sending the computer name and username of the compromised system,0,Next BITTERBUG typically will beacon to the C2 server
+539,NoFile,BITTERBUG download the files listed in Table 1,0,then may attempt to download the files listed in
+540,NoFile,The final two files are downloaded to the user’s Startup directory,0,The final two files are downloaded to the user’s Startup
+541,NoFile,"BITTERBUG uploads the running process list, document file list, and all documents to the following URI",0,"%APPDATA%\Microsoft\prc.dat Finally, BITTERBUG typically uploads the running process list,"
+542,NoFile,The malware TCP port 80 communicates on,0,• The malware typically communicates on TCP port 80:
+543,NoFile,code loaded a malicious Javascript file from a remote server,0,and include code that loaded a malicious Javascript file
+544,NoFile,Scanbox sending the information to the C&C server,0,something like this: Before sending the information to the
+545,NoFile,It sent all keystrokes to periodically the C&C,0,are being recorded and sent to the C&C periodically.
+546,NoFile,It send keystrokes when the user submits web forms that can potentially include passwords and other sensitive data,0,periodically. It will also send keystrokes when the user
+547,NoFile,the malware transfer files to using the command and control servers standard file IO commands,0,"established, the malware can transfer files to and from"
+548,NoFile,the malware transfer from files using the command and control servers standard file IO commands,0,"established, the malware can transfer files to and from"
+549,NoFile,The survey is then uploaded to in with the server a specified folder the generated name,0,as 664gher.TAR. The survey is then uploaded to the server in
+550,NoFile,Files being uploaded to the cloud server,0,AES cipher-block-chaining (CBC) before being uploaded to the cloud server.
+551,NoFile,the malware downloads the new configuration file,0,"the server, the malware downloads the new configuration file"
+552,NoFile,be downloaded they,0,are found they will be downloaded decrypted and used as
+553,NoFile,the malware downloaded another encrypted configuration file,0,file which the malware downloaded and decrypted. The configuration
+554,NoFile,All of this information is exfiltrated back via the same WebDAV connection,0,All of this information is exfiltrated back via the same
+555,NoFile,are downloaded these from in the share one go,0,"with other plugins, these are downloaded and deleted from the"
+556,NoFile,the binary retrieve the listening port to use for incoming connections,0,the configuration section and retrieve the listening port to
+557,NoFile,the malware connect to on the domain name the specified port,0,malware would attempt to connect to the domain name
+558,NoFile,four IP addresses connected to the proxy malware,0,four IP addresses that connected to the proxy malware:
+559,NoFile,This host use the router proxy to connect to webdav.cloudme.com,0,VPS service and would use the router proxy to
+560,NoFile,This host uploads new malware components,0,"user data, and also uploads new malware components. Health"
+561,NoFile,this IP connect to on our router the malware management port,0,we observed this IP connect to our router on
+562,NoFile,another IP be connected to the newly opened port,0,newly opened port would be connected to by another IP
+563,NoFile,this IP connect to the opened port,0,"Unlocker, this IP would connect to the opened port"
+564,NoFile,Recordings uploaded periodically to the attackers,0,"as *.mp4 files, and uploaded to the attackers periodically."
+565,NoFile,These data uploaded to an FTP account,0,data are encrypted and uploaded to an FTP account
+566,NoFile,Collected data be uploaded to a DynDNS domain currently hosted on a US webhosting service,0,SSID Collected data will be uploaded to a DynDNS domain
+567,NoFile,The encrypted files uploaded to the WebDAV shares,0,time. The encrypted files uploaded to the WebDAV shares
+568,NoFile,were uploaded the files themselves to the WebDAV share,0,after the files themselves were uploaded to the WebDAV share.
+569,NoFile,the malware downloaded something unexpected and wholly different from what we have discussed until now,0,"Inception framework, the malware downloaded something unexpected and wholly"
+570,NoFile,These files were downloaded as from encrypted *.bin files the accounts carter0648 and frogs6352,0,until now. These files were downloaded as encrypted *.bin files
+571,NoFile,The file command uploading files,0,"the current directory, and uploading and downloading files. connect"
+572,NoFile,The file command downloading files,0,"directory, and uploading and downloading files. connect The connect"
+573,NoFile,individual instances of Gen 2 DLL listen for on incoming connections local ports,0,of Gen 2 DLL listen for incoming connections on
+574,NoFile,Each Gen 2 infection support up to 10 listening ports,0,Gen 2 infection can support up to 10 listening
+575,NoFile,This SMB Worm Tool is equipped with a Listening Implant,0,"This SMB Worm Tool is equipped with a Listening Implant,"
+576,NoFile,It send log data back to command and control (C2) infrastructure,0,every five minutes to send log data back to
+577,NoFile,"this implant TCP port 195 (for ""sensvc.exe"" and ""msensvc.exe"") and TCP port 444 (for ""netcfg.dll"") listens for on connections",0,"League."" Additionally, this implant listens for connections on TCP"
+578,NoFile,Each message sent to this implant,0,"(for ""netcfg.dll""). Each message sent to and from this"
+579,NoFile,Each message sent from this implant,0,"(for ""netcfg.dll""). Each message sent to and from this"
+580,NoFile,"the victim sends the string, ""HTTP/1.1 GET /dns? \x00.""",0,"initial connection, the victim sends the string, ""HTTP/1.1 GET"
+581,NoFile,"The controller responds with the string ""200 www.yahoo.com!\x00"" (for ""sensvc.exe"" and ""msensvc.exe"") the string ""RESPONSE 200 OK!!"" (for ""netcfg.dll"")",0,"\x00."" The controller then responds with the string ""200"
+582,NoFile,"The controller sends the byte ""!"" (0x21) to end the network connection",0,"(for ""netcfg.dll""). The controller sends the byte ""!"" (0x21)"
+583,NoFile,This tool open ports in a victim host's firewall,0,tool includes functionality to open ports in a victim
+584,NoFile,Implants in this malware family TCP port 443 listen on,0,"service, then configured to listen on TCP port 443."
+585,NoFile,the malware upload a copy of the wiper,0,shares in order to upload a copy of the
+586,NoFile,the malware uploads a copy of the wiper file taskhostXX.exe,0,"Once successful, the malware uploads a copy of the"
+587,NoFile,the malware been uploaded the wiper,0,Once the wiper has been uploaded the malware reports its
+588,NoFile,This tool contains a listening implant,0,exploitation activities. This tool contains five components – a
+589,NoFile,This file starts a listener on localhost port 80,0,"This file, when executed, starts a listener on localhost"
+590,NoFile,Network connection attempts are made to in one of three hard-coded IP addresses a random order port 8080 or 8000,0,-w). Network connection attempts are made to one of three
+591,NoFile,it connect to until another of the three IP addresses connections to all three IP addresses have been attempted,0,"made, it attempts to connect to another of the"
+592,NoFile,it downloads some kind of data,0,we see that it downloads some kind of data
+593,NoFile,both families calling back to the same Command & Control servers,0,families have been observed calling back to the same Command
+594,NoFile,the dropper installs the Etumbot backdoor,0,"once the dropper (ff5a7a610746ab5492cc6ab284138852) installs the Etumbot backdoor (82d4850a02375a7447d2d0381b642a72),"
+595,NoFile,is sent an initial HTTP beacon to the Command & Control server that requests an RC4 encryption key,0,an initial HTTP beacon is sent to the Command &
+596,NoFile,"the bot sends a registration callback to the C&C /image/<encrypted data>.jpg containing the encrypted values of system information to include the NetBIOS name of the system, user name, IP address, if the system is using a proxy (Yes/No), and a numeric value which may be some type of campaign code",0,"encryption key, the bot sends a registration callback to"
+597,NoFile,the bot registered with the C&C,0,"Once the bot has registered with the C&C, it"
+598,NoFile,the bot send periodic pings,0,"the C&C, it will send periodic pings to ask"
+599,NoFile,is received a READFILE command from the C&C,0,"When a READFILE command is received from the C&C, the"
+600,NoFile,the bot makes an initial call to /manage/asp/item.asp?id=<encrypted computer name>&&mux=<encrypted total file size>,0,"the C&C, the bot makes an initial call to"
+601,NoFile,The bot expects a message of OK from after the C&C each response is sent,0,chunk data>. The bot expects a message of OK
+602,NoFile,send an error message to the C&C,0,terminate the upload and send an error message to
+603,NoFile,the shell client communicates with in order to get the external IP address of the current user,0,"initiated, the shell client communicates with freegeoip.net in order"
+604,NoFile,it send the copy utilizing PsExec,0,"a PE resource, then send and execute the copy"
+605,NoFile,them upload information,0,targets in order to upload information. This is a
+606,NoFile,infected computers download additional files from these FTP servers,0,were often instructed to download additional files from these
+607,NoFile,Early Cleaver operations SMTP abused in order to exfiltrate information,0,CLEAVER Early Cleaver operations abused SMTP in order to
+608,NoFile,"internally developed malware samples such as TinyZBot and Csext The sending is performed in order to exfiltrate information about the infected computer, as well as requested files and keystroke logging information",0,exfiltrate information. The sending is performed by internally developed malware
+609,NoFile,Messages were sent using with an open SMTP relay at BeyondSys.com the sender email address dyanachear(at)beyondsys.com,0,keystroke logging information. Messages were sent using an open SMTP
+610,NoFile,The files being exfiltrated are added to as the email attachments,0,The files being exfiltrated are added to the email as
+611,NoFile,TCP data sent from the TinyZBot infection,0,text represents TCP data sent from the TinyZBot infection
+612,NoFile,TCP data sent from the command and control server,0,text represents TCP data sent from the command and
+613,NoFile,be sent commands to all bots for a campaign,0,allows for commands to be sent to all bots for
+614,NoFile,The TinyZBot queries the server in order to enumerate all files currently available to it,0,individual control. The TinyZBot queries the server in order
+615,NoFile,the TinyZBot download the file,0,string><string>ALL__b93c-49a1-140915103610__00000000000000000000000000000000.tmu</string></ In order to download the file and parse
+616,NoFile,the TinyZBot request the file,0,"execute, the TinyZBot must request the file. The file"
+617,NoFile,Base64-encoded The file is downloaded inside of the SOAP response,0,the file. The file is downloaded Base64-encoded inside of the
+618,NoFile,SOAP is then uploaded this file over to the command and control server,0,requests that this file is then uploaded over SOAP to the
+619,NoFile,It sending emails,0,"to logging keystroke data, sending emails, and creating a"
+620,NoFile,Its method of exfiltrating the logged keystrokes relied upon a hardcoded email address stored in the binary,0,exfiltrating the logged keystrokes relied upon a hardcoded email
+621,NoFile,The email data exfiltration method underwent modification to be activated at a scheduled interval,0,data exfiltration method also underwent modification to be activated
+622,NoFile,TerafficAnalyzer(at)yahoo.com The exfiltration email address was also changed to,0,The exfiltration email address was also changed to TerafficAnalyzer(at)yahoo.com. On June
+623,NoFile,Its functionality breaks down into uploading files,0,be straightforward. Its functionality breaks down into three fairly standard
+624,NoFile,is received a command from the server,0,"benign. When a command is received from the server, the"
+625,NoFile,Command functionality is limited to executing supplied commands,0,"tools utilize. Command functionality is limited to executing supplied commands,"
+626,NoFile,Command functionality is limited to downloading,0,"tools utilize. Command functionality is limited to executing supplied commands,"
+627,NoFile,Command functionality is limited to self-updating,0,"tools utilize. Command functionality is limited to executing supplied commands,"
+628,NoFile,PVZ-Out uploading results of commands and keystroke logging data to a remote server,0,"and control channel, primarily uploading results of commands and"
+629,NoFile,he command and control upgrading applications,0,"and control still supports upgrading downloading, and executing of"
+630,NoFile,he command and control downloading applications,0,"control still supports upgrading, downloading and executing of applications,"
+631,NoFile,zhCat TCP port 443 XORed communication connect back to with using on srv01.microsoftwindowsupdate(dot)net (a deceptive domain owned by this group with falsified Whois data attributing to Microsoft Investor Relations) the HTTP protocol,0,configuration executes zhCat to connect back to srv01.microsoftwindowsupdate(dot)net (a
+632,NoFile,Csext has email functionality similar to TinyZBot,0,lose access. Csext also has email functionality similar to
+633,NoFile,This email functionality exfiltrate the results of commands from the command file which can also include requests like gathering user information,0,functionality is used to exfiltrate the results of commands
+634,NoFile,custom malware beaconed its IP address to an e-mail account under the attacker’s control,0,the victim’s computer and beaconed its IP address to
+635,NoFile,The custom malware used in this attack beacons home with the IP address of the victim’s computer,0,"the decoy slideshow, and beacons home with the IP"
+636,NoFile,the malware sends data captured by the malware to an e-mail address,0,"Further, because the malware sends data captured by the"
+637,NoFile,Data is transmitted by to e-mail an account presumably controlled by the attacker,0,protected file: C:\Users\Username\AppData\Local\Microsoft\Windows\win32.tmp\drv.sys\mxtd Data is transmitted by e-mail to an
+638,NoFile,The malware sends an e-mail to the same inbox,0,credentials. The malware then sends an e-mail to the
+639,NoFile,AdobeIns connects to at via using an account the online e-mail provider inbox.com smtp hardcoded credentials,0,by the attacker. AdobeIns connects to an account at
+640,NoFile,The malware sends an e-mail containing the victim’s IP address and miscellaneous system information,0,"remote access, but only sends an e-mail containing the"
+641,NoFile,The malware resends the information each time the computer is restarted,0,system information. The malware resends the information each time
+642,NoFile,Transmitting the malware via e-mail,0,a 10% detection rate. Transmitting the malware via e-mail
+643,NoFile,The malware transmits,0,"command-and-control server. The malware transmits autonomously, leaving the material"
+644,NoFile,The malware leaving the material in for an inbox the attacker to collect at a later time,0,"The malware transmits autonomously, leaving the material in an"
+645,NoFile,transmitting via data encrypted e-mail communications,0,"on a network, including transmitting data via encrypted e-mail"
+646,NoFile,the malware resend them to with each the attacker reboot,0,"address of target(s), and resend them to the attacker"
+647,NoFile,is sent data to an Internet e-mail address,0,"reboot. In addition, data is sent to an Internet e-mail"
+648,NoFile,was used e-mail to transmit data,0,"Syria in which e-mail was used to transmit data, and"
+649,NoFile,used hardcoded e-mail to exfiltrate,0,"observed in 2012, also used hardcoded e-mail to exfiltrate."
+650,NoFile,it drop a second stage from a compromised site,0,not only did it drop a second stage from
+651,NoFile,The malware beacons location,0,For example: The malware beacons location but does not
+652,NoFile,The malware exfiltrates to an online e-mail account,0,social engineering. The malware exfiltrates to an online e-mail
+653,NoFile,the attacker uploading local files,0,"Targeted Attack against including uploading local files, taking pictures,"
+654,NoFile,"been uploaded the victim’s installed app list, clipboard, a photo taken from the back camera, an audio clip, and a video clip",0,a video clip have been uploaded with the GPS location
+655,NoFile,the attacker upload private and sensitive files from the victim’s device,0,"access, the attacker can upload private and sensitive files"
+656,NoFile,use the JBOH shell to download exe- cutables,0,by JBOH is to use the JBOH shell (Listing
+657,NoFile,receiving data from the server,0,"C2 protocol, such as receiving data from the server,"
+658,NoFile,the RAT transmit some basic victim information to the C2 server along with a 256-byte hash of the hard-coded string HYF54&%9&jkMCXuiS,0,"case, the RAT will transmit some basic victim information"
+659,NoFile,An initial request is then made to the hard-coded C2 server and initial URI,0,access. An initial request is then made to the hard-coded C2
+660,NoFile,The malware download content from to the specified URL the filename within the user’s temporary directory,0,will then attempt to download content from the specified
+661,NoFile,be made a final C2 request to a URL using the same path as the initial request (and a similarly random parameter),0,final C2 request will be made – in this case
+662,NoFile,The malware connect to its configured C2 infrastructure (file.anyoffice.info),0,The malware will then connect to its configured C2
+663,NoFile,upload file,0,are supported: m2b ( upload file) and b2m (download
+664,NoFile,download file,0,file) and b2m ( download file). Slight variations on
+665,NoFile,the malicious Flash code downloads a file containing the dropped malware payload,0,the malicious Flash code downloads a file containing the
+666,NoFile,This particular variant called back to a command and control server located at newss.effers.com,0,operations. This particular variant called back to a command
+667,NoFile,Gh0stRat samples with the custom packet flag HTTPS calling back to book.flnet.org and icybin.flnet.org,0,custom packet flag HTTPS calling back to book.flnet.org and
+668,NoFile,another HTTPS Gh0st variant connecting to a related command and control server at me.scieron.com,0,another HTTPS Gh0st variant connecting to a related command
+669,NoFile,download more advanced stealing tools,0,leading to the selective download of more advanced stealing
+670,NoFile,exploited systems retrieved downloader executables from web servers,0,"of months, exploited systems retrieved downloader executables from web"
+671,NoFile,"The dropped downloader (d8137ded710d83e2339a97ee78494c34) delivered malcode similar to the Information Stealer component functionality summarized below, and detailed in Appendix D",0,The dropped downloader (d8137ded710d83e2339a97ee78494c34) delivered malcode similar to the
+672,NoFile,"one of these implants More advanced tools, like the keylogger decribed above are later downloaded to the victim system",0,"the keylogger decribed above, are later downloaded to the victim system"
+673,NoFile,word docs downloaded backdoors from remote web servers,0,dropped these backdoors or downloaded and executed backdoors from
+674,NoFile,These tools pull down the keylog- ger,0,"web servers. These tools pull down the keylog- ger, steal"
+675,NoFile,These tools download other tools,0,"from the system, or download other tools. • small"
+676,NoFile,The component sends it to the Darkhotel com- mand and control servers,0,gathers system information and sends it to the Darkhotel
+677,NoFile,the module Darkhotel command and control servers upload them to,0,lo- cal system and upload them to Darkhotel command
+678,NoFile,The Trojan Darkhotel command and control servers uploads that data to,0,"installed on it, and uploads that data to Darkhotel"
+679,NoFile,send it to as the C2 commanded,0,"about the comput- er, send it to the C2"
+680,NoFile,it download other Darkhotel components as commanded,0,to the C2 and download other Darkhotel components as
+681,NoFile,The malware initiates a communication to time.windows.com,0,in our The malware initiates a communication to time.windows.com
+682,NoFile,The malware communicates with at the c&c server mac.avstore.com.tw,0,"for connectivity, and then communicates with the c&c server"
+683,NoFile,The payload of this malware send it back to the c&c server,0,"newly infected host, and send it back to the"
+684,NoFile,It download binaries,0,server. It can also download and execute binaries. &
+685,NoFile,been transferred this data to the c&c server,0,"Once this data has been transferred to the c&c server,"
+686,NoFile,All the requests sent to the c&c,0,& All the requests sent to the c&c contains
+687,NoFile,the RAT sends a first login packet to its c&c,0,"After injection, the RAT sends a first login packet"
+688,NoFile,our sample communicates with sop.avstore.com.tw,0,"the configuration, our sample communicates with sop.avstore.com.tw, and contains"
+689,NoFile,It sends requests,0,"after injection, and immediately sends requests. First requests are"
+690,NoFile,A Hello packet is then sent,0,/httpdocs/update/update.ini). A Hello packet is then sent Public release Threat Intelligence
+691,NoFile,The bot retrieve remote commands,0,requests on /httpdocs/mm/<bot_id>/ComMand.sec to retrieve remote commands. The communication
+692,NoFile,the bot The following CGI files be requested,0,following CGI files can be requested by the bot: -
+693,NoFile,"Our sample uses mca.avstore.com.tw, star.yamn.net and bz.kimoo.com.tw as c&c servers",0,"the key. Our sample uses mca.avstore.com.tw, star.yamn.net and bz.kimoo.com.tw"
+694,NoFile,send commands to the c&c,0,authentication is required to send commands to the c&c
+695,NoFile,the built malware we found in the same folder connect to a local IP address,0,folder was configured to connect to a local IP
+696,NoFile,Six malware families communicating with subdomains of skypetm.com.tw,0,have been identified as communicating with subdomains of skypetm.com.tw:
+697,NoFile,4 malware families communicating to,0,"malware families in common, communicating to subdomains of both"
+698,NoFile,Older variants of this malware family generated the following POST request,0,of this malware family generated the following POST request:
+699,NoFile,Data sent via this POST request,0,POST /bbs/info.asp HTTP/1.1 Data sent via this POST request
+700,NoFile,The sample cb3dcde34fd9ff0e19381d99b02f9692 generated a POST request to /bbs/info.asp,0,www.documents.myPicture.info and as expected generated the a POST request
+701,NoFile,installed a kernel mode driver,0,a kernel mode driver installed and a usermode DLL
+702,NoFile,the driver injected a usermode DLL into the system processes,0,and a usermode DLL injected by the driver into
+703,NoFile,the Snake driver load the DLL module into the usermode processes,0,is mainly used to load the DLL module into
+704,NoFile,it drops a DLL into the %windows% directory,0,"userland/kernel communications. Next, it drops a DLL into the"
+705,NoFile,is dropped the DLL under a random name or a hard-coded name,0,"the variant, the DLL is dropped either under a random"
+706,NoFile,be injected into this DLL the user-mode processes,0,this DLL is to be injected into the user-mode processes.
+707,NoFile,DLL modules be installed as a service,0,"DLL modules that can be installed as a service, to"
+708,NoFile,DLL modules be run within taskhost.exe or services.exe processes,0,"as a service, to be run within taskhost.exe or services.exe"
+709,NoFile,the driver sets up the hooks for the following kernel-mode APIs,0,"processes. Next, the driver sets up the hooks for the"
+710,NoFile,it PsSetCreateProcessNotifyRoutine() calls,0,"ZwShutdownSystem After that, it calls PsSetCreateProcessNotifyRoutine() in order to"
+711,NoFile,be notified whenever it a new process is started,0,PsSetCreateProcessNotifyRoutine() in order to be notified whenever a new process
+712,NoFile,it Another set of hooks sets,0,set of hooks it sets is designed to hide
+713,NoFile,The driver watches for to all userland processes see if they load any web pages,0,ZwTerminateProcess The driver then watches for all userland processes
+714,NoFile,the driver injects into the malicious DLL module the process that initiated connection,0,event and then immediately injects the malicious DLL module
+715,NoFile,the driver injected a malicious DLL module in it,0,"requests, the driver immediately injected a malicious DLL module"
+716,NoFile,it fetches a file /D/pub.txt,0,"its C&C. Next, it fetches a file /D/pub.txt, and"
+717,NoFile,"it Windows Sockets 2 (Winsock) APIs, such as WSAStartup(), socket(), connect(), send(), etc uses",0,"the second mode, it uses Windows Sockets 2 (Winsock)"
+718,NoFile,it works in the ‘pipe server’ mode,0,"the third mode, it works in the ‘pipe server’"
+719,NoFile,it passes the web requests it is interested in (as a client) to the pipe server that runs within Windows Explorer (explorer.exe) and/or Internet Explorer (iexplore.exe) processes,0,"server’ mode, when it passes the web requests it"
+720,NoFile,"the malicious driver with the embedded DLL module injects that DLL into a system process, such as services.exe",0,the embedded DLL module injects that DLL into a
+721,NoFile,the DLL function in the ‘pipe server’ mode,0,"loaded, the DLL will function in the ‘pipe server’"
+722,NoFile,the driver detects a usermode process that goes online (e.g. a browser),0,soon as the driver detects a usermode process that
+723,NoFile,inject malicious DLL module into it,0,"a browser), it will inject malicious DLL module into"
+724,NoFile,the injected DLL start communicating with the pipe server,0,the injected DLL will start communicating with the pipe
+725,NoFile,the injected DLL sending messages into the established inter-process communication pipes,0,the pipe server by sending messages into the established
+726,NoFile,is delegated the task of communication with C&C to the pipe server,0,"of communication with C&C is delegated to the pipe server,"
+727,NoFile,is spawned a dedicated thread,0,"mode, a dedicated thread is spawned to listen for IPC"
+728,NoFile,IPC messages received through the pipes listen for,0,thread is spawned to listen for IPC messages received
+729,NoFile,the pipe server GET perform,0,the pipe server to perform other operations on their
+730,NoFile,the pipe server POST requests perform,0,the pipe server to perform other operations on their
+731,NoFile,the pipe clients (infected usermode processes) ask the pipe server,0,usermode processes) may also ask the pipe server to
+732,NoFile,the pipe server save configuration data into under the registry the aforementioned ShellCore value,0,"temporary file, copy/delete files, save configuration data into the"
+733,NoFile,write into registry,0,to be able to write into files/ registry. To
+734,NoFile,the clients send messages to using the pipe server the following task identification headers,0,"of tasks, the clients send messages to the pipe"
+735,NoFile,it IOCTL code of 0x222038 DeviceIoControl() API calls on with its handle,0,"device with CreateFile(\\.\vstor32), then calls DeviceIoControl() API on its"
+736,NoFile,The usermode DLLs are still injected into to the system processes perform high-level tasks,0,communications. The usermode DLLs are still injected into the system processes
+737,NoFile,The registration is ensured with creation of the following registry entries,0,as ~ROOT. The registration is ensured with creation of the
+738,NoFile,The rootkit places a number of the hooks,0,\BaseNamedObjects\shell.{F21EDC09-85D3-4eb9-915F-1AFA2FF28153} The rootkit then places a number of the
+739,NoFile,The driver flags the following events with the notification purposes,0,HKEY_LOCAL_MACHINE\System\CurrentControlSer\Services\Ultra3 The driver then flags the following events with
+740,NoFile,it IoCreateDevice() hooks,0,The first API it hooks is IoCreateDevice(). The installed
+741,NoFile,The installed hook handler calls the original API,0,The installed hook handler calls the original API and
+742,NoFile,the driver hooks the following APIs,0,"its components, the driver hooks the following APIs: •"
+743,NoFile,The ZwClose() hook handler inject the DLL module into the userland processes,0,handler is used to inject the DLL module into
+744,NoFile,The hook handler for ZwTerminateProcess() checks if the process being shut down is svchost.exe,0,hook handler for ZwTerminateProcess() checks if the process being
+745,NoFile,it unloads its usermode DLL,0,"system shutdown, so it unloads its usermode DLL and"
+746,NoFile,it deactivates its own network drivers,0,"its usermode DLL and deactivates its own network drivers,"
+747,NoFile,the driver sets a hook for another API,0,"virtual partitions, the driver sets a hook for another"
+748,NoFile,the rootkit hooks these APIs,0,"network drivers, the rootkit hooks these APIs: • ZwCreateThread"
+749,NoFile,the rootkit triggers an event named \BaseNamedObjects\wininet_activate,0,"that happens, the rootkit triggers an event named \BaseNamedObjects\wininet_activate."
+750,NoFile,Snake hooks the Transport Driver Interface (TDI) network routines by setting itself up as a TDI filter driver,0,"to WFP, Snake also hooks the Transport Driver Interface"
+751,NoFile,Snake TCP calls hooks,0,"the device stack, Snake hooks TCP calls. This way"
+752,NoFile,it FwpsStreamInjectAsync0() API invoke,0,"Server 2003), it will invoke FwpsStreamInjectAsync0() API in order"
+753,NoFile,the TDI driver Whenever ‘pulse’ the \BaseNamedObjects\wininet_activate event the client establishes connections,0,"TDI driver will also ‘pulse’ the \BaseNamedObjects\wininet_activate event, just"
+754,NoFile,the drivers hooks the following exports within ndis.sys,0,"After that, the drivers hooks the following exports within"
+755,NoFile,NDIS filter driver configuration is stored in the registry entry,0,NDIS filter driver configuration is stored in the registry entry:
+756,NoFile,the drivers hooks the following exports within ndis.sys (for NDIS 6.0),0,"After that, the drivers hooks the following exports within"
+757,NoFile,it Another set of exports hook in ndis.sys (for NDIS 6.0),0,exports it attempts to hook in ndis.sys (for NDIS
+758,NoFile,installed the hooks,0,NdisMPauseComplete With the hooks installed whenever the network adapter
+759,NoFile,the hook handlers Snake’s own MiniportXxx functions register with the NDIS library,0,the hook handlers will register Snake’s own MiniportXxx functions
+760,NoFile,NDIS Snake’s hook function invokes,0,"When that happens, NDIS invokes Snake’s hook function (ProtocolReceiveNetBufferLists)"
+761,NoFile,it invoking a data receive indication function NdisMIndicateReceiveNetBufferLists(),0,it calls NDIS by invoking a data receive indication
+762,NoFile,the protocol driver NdisSendNetBufferLists() calling,0,"them to NDIS by calling NdisSendNetBufferLists(). NDIS, in turn,"
+763,NoFile,NDIS calls the miniport driver’s MiniportSendNetBufferLists() function,0,"NdisSendNetBufferLists(). NDIS, in turn, calls the miniport driver’s MiniportSendNetBufferLists()"
+764,NoFile,Snake registered as on a TDI driver the device stack,0,on Windows 7. Being registered as a TDI driver
+765,NoFile,NdisIMRegisterLayeredMiniport() API The driver is registered with,0,e.g. TCP/IP). The driver is registered with NdisIMRegisterLayeredMiniport() API. After
+766,NoFile,NdisFRegisterFilterDriver() API The driver is registered with,0,entry: HKLM\SYSTEM\CurrentControlSet\Control\Network\{4d36e974-e325-11ce-bfc1-08002be10318} The driver is registered with NdisFRegisterFilterDriver() API. BAE
+767,NoFile,The Snake rootkit Network Driver Interface Specification (NDIS) protocol driver registers itself as,0,PROTOCOL The Snake rootkit registers itself as Network Driver
+768,NoFile,the driver writes log data into the pipe \Device\NamedPipe\isapi_log,0,"its activity, the driver writes log data into the"
+769,NoFile,it send traffic data into a memory pipe \Device\NamedPipe\isapi_http,0,traffic arrival it may send traffic data into a
+770,NoFile,it send a received peer-2-peer command message write_peer_nfo=IP_ADDRESS:PORT0frag_no_scrambling=Y0 into another memory pipe called \Device\NamedPipe\isapi_dg,0,"pipe \Device\NamedPipe\isapi_http, and then, send a received peer-2-peer command"
+771,NoFile,used the named pipes for communications,0,of the named pipes used for communications is provided
+772,NoFile,Messages submitted into the pipes,0,\Device\NamedPipe\isapi_dg • \Device\NamedPipe\services_control Messages submitted into the pipes are
+773,NoFile,received the data from the pipes,0,domc.np • frag.np Once received from the pipes and
+774,NoFile,the pipe server identify the messages,0,"infected userland module, to identify the messages first and"
+775,NoFile,The driver creates virtual file volumes for encrypted storage of its files and configuration data,0,2014 FILE The driver creates virtual file volumes for
+776,NoFile,The volumes are mounted from the virtual file systems RawDisk1 and RawDisk2,0,• \\.\Hd2 The volumes are mounted from the virtual file
+777,NoFile,The first partition is created with the following steps,0,RawDisk2. The first partition is created with the following steps:
+778,NoFile,the rootkit IofCallDriver() API The hook installed on,0,as \\.\Hd1 The hook installed by the rootkit on
+779,NoFile,FAT volumes Both volumes be set up as,0,Both volumes appear to be set up as FAT volumes. An
+780,NoFile,the Snake driver uses virtual volumes,0,that the Snake driver uses virtual volumes to store
+781,NoFile,it load its unsigned 64-bit driver on a 64-bit version of Windows XP,0,and it can successfully load its unsigned 64-bit driver
+782,NoFile,The dropper registers itself as a service,0,%windows%\$NtUninstallQ817473$\fdisk_mon.exe The dropper then registers itself as a service
+783,NoFile,is registered the dropper itself,0,is not registered; what is registered instead is the dropper
+784,NoFile,be loaded the unsigned 64-bit driver,0,unsigned 64-bit driver can be loaded This variable is used
+785,NoFile,is loaded the 64-bit unsigned driver,0,the 64-bit unsigned driver is loaded This explains why Snake
+786,NoFile,Snake dropper registers itself as a service,0,explains why Snake dropper registers itself as a service
+787,NoFile,Snake dropper load the driver,0,"API call, and finally, load the driver. In order"
+788,NoFile,be injected libraries into usermode processes,0,the libraries that will be injected into usermode processes. BAE
+789,NoFile,a tool NTFS file systems creating,0,"driver, a tool for creating NTFS file systems, and"
+790,NoFile,the kernel-mode driver The usermode DLLs injected into the userland system process,0,2014 The usermode DLLs injected by the kernel-mode driver
+791,NoFile,The rkctl_Win32.dll/rkctl_x64.dll module uses the following hard-coded named pipe for communications,0,inj_snake_x64.dll The rkctl_Win32.dll/rkctl_x64.dll module uses the following hard-coded named
+792,NoFile,the DLL activates,0,reports When the DLL activates it reads configuration parameters
+793,NoFile,the DLL use the pipe name(s) for its communications,0,that the DLL should use for its communications. The
+794,NoFile,Request type POST be,0,"it uses can either be POST of GET, and"
+795,NoFile,Request type GET be,0,"it uses can either be POST of GET, and"
+796,NoFile,associated a list of interface identifiers with the named pipes,0,list of interface identifiers associated with the named pipes.
+797,NoFile,It write a message to the associated named pipes,0,uses these identifiers to write a message to and
+798,NoFile,It read a message from the associated named pipes,0,a message to and read a message from the
+799,NoFile,OrcaRAT sends an HTTP POST message to the command and control server,0,"message is received, OrcaRAT sends an HTTP POST message"
+800,NoFile,The Korplug RAT use this side-loading trick,0,RAT is known to use this side-loading trick by
+801,NoFile,it monitors network shares by listening to DBT_DEVICEARRIVAL events,0,"drives, it also continually monitors any attached removable media"
+802,NoFile,it monitors attached removable media by listening to DBT_DEVICEARRIVAL events,0,"drives, it also continually monitors any attached removable media"
+803,NoFile,being loading the Korplug trojan into memory,0,to the Korplug trojan being loading into memory. exe –
+804,NoFile,the malware creates the following registry key,0,"infected machine, the malware creates the following registry key:"
+805,NoFile,is loaded the shdocvw.tlp library into all processes,0,"machine, the shdocvw.tlp library is loaded into all processes. If"
+806,NoFile,load the library into each and every process executed on the infected system,0,The purpose is to load the library into each
+807,NoFile,this library will load the other library called credprov.tlb,0,"is explorer.exe, this library will load the other library called"
+808,NoFile,named pipe The communication between the processes is performed,0,communication between the processes is performed by named pipe. Two
+809,NoFile,The command and control server information is stored in the registry,0,"and control server information is stored in the registry, not"
+810,NoFile,The malware is loaded into each and every process of the infected machine,0,and cleverer. The malware is loaded into each and every
+811,NoFile,the malware communicates to by the browser named pipe,0,traffic and the malware communicates to the browser by
+812,NoFile,loaded into via the server variant memory a LoadLibrary or equivalent function call,0,the DllEntryPoint function. When loaded into memory via a
+813,NoFile,The binary spawns a new thread,0,name. The binary then spawns a new thread that
+814,NoFile,The server variant determine if it has suitable access rights,0,variant then attempts to determine if it has suitable
+815,NoFile,The malware creates a Run key in the current user's hive,0,exploitation and instead just creates a Run key in
+816,NoFile,the backdoor HTML comments returned from the C2 look for encrypted commands within,0,analysis the backdoor will look for encrypted commands within HTML
+817,NoFile,it spawning malicious threads,0,LoadLibrary it will begin spawning malicious threads. A PDB
+818,NoFile,"The binary communicate to on using ""www.microsoftservices.proxydns.com"" port 80 standard HTTP POST and GET requests",0,"binary is configured to communicate to ""www.microsoftservices.proxydns.com"" on port"
+819,NoFile,The first stage act as loaders for a second stage,0,stage are drivers which act as loaders for a second
+820,NoFile,this stage Stage 2 loads and executes,0,"started, this stage simply loads and executes Stage 2. The Regin"
+821,NoFile,The Regin loaders Microsoft drivers are disguised as,0,The Regin loaders that are disguised as Microsoft drivers with names
+822,NoFile,the loaders Microsoft drivers Mimicking,0,cdaudio.sys atdisk.sys parclass.sys usbclass.sys Mimicking Microsoft drivers allows the
+823,NoFile,it enumerate network resources,0,"file system and registry, enumerate network resources, create processes,"
+824,NoFile,it create processes,0,"registry, enumerate network resources, create processes, log keystrokes, access"
+825,NoFile,a Directory Observer module The monitoring for new files of interest is performed,0,new files of interest is performed by a Directory Observer
+826,NoFile,HTTP POST requests Messages are sent using,0,stage two payloads. Messages are sent using HTTP POST requests
+827,NoFile,HTTP responses to the POST requests Commands are sent from to in the C2 server the CORESHELL backdoor,0,Russia’s Cyber Espionage Commands are sent from the C2 server
+828,NoFile,it encrypt and store configuration data in the Registry key HKU\S-1-5-19_Classes\Software\Microsoft\MediaPlayer\{E6696105-E63E-4EF1-939E- 15DDD83B669A}\chnnl,0,"is executed, it may encrypt and store configuration data in the"
+829,NoFile,CHOPSTICK creates a Windows mailslot with the name check_mes_v5555,0,for temporary storage and creates a Windows mailslot with
+830,NoFile,external binaries write data to the check_mes_v5555 mailslot,0,allow external binaries to write data to the check_mes_v5555
+831,NoFile,It creates a thread,0,from other malware. It creates a thread that records
+832,NoFile,The thread writes user activity log messages to in the check_mes_v5555 mailslot plain text,0,HTML-like format. The thread writes user activity log messages
+833,NoFile,CHOPSTICK reads messages from the mailslot,0,"in plain text. CHOPSTICK reads messages from the mailslot,"
+834,NoFile,it sending an initial HTTP GET request,0,servers over HTTP. After sending an initial HTTP GET
+835,NoFile,it HTTP POST requests uploads the file contents of edg6EF885E2. tmp to using the C2 server,0,HTTP GET request it uploads the file contents of
+836,NoFile,an HTTP POST request uploading a segment from edg6EF885E2.tmp,0,an HTTP POST request uploading a segment from edg6EF885E2.tmp.
+837,NoFile,The message body of the POST request is also Base64 encoded,0,of the POST request is also Base64 encoded This encoded string is
+838,NoFile,CHOPSTICK HTTP GET requests query its C2 servers for using commands,0,"edg6EF885E2.tmp, CHOPSTICK continues to query its C2 servers for"
+839,NoFile,"it load external modules that export the following functions: SendRawPacket, GetRawPacket, InitializeExp, DestroyExp, IsActiveChannel, GetChannelInfo, SetChannelInfo, Run, GetModuleInfo, GiveMessage, and TakeMessage",0,which allows it to load or memory-map external modules
+840,NoFile,"it memory-map external modules that export the following functions: SendRawPacket, GetRawPacket, InitializeExp, DestroyExp, IsActiveChannel, GetChannelInfo, SetChannelInfo, Run, GetModuleInfo, GiveMessage, and TakeMessage",0,it to load or memory-map external modules that export
+841,NoFile,The modules that are included in an instance of CHOPSTICK be reported to as the C2 server part of POST messages,0,instance of CHOPSTICK may be reported to the C2 server
+842,NoFile,add scheduled tasks,0,"crondel serve respectively to add list, and remove scheduled"
+843,NoFile,"it spawns a dedicated process with the command line '""regsvr32.exe"" /s /n /i ""%APPDATA%\%DLLNAME%""'",0,To achieve this it spawns a dedicated process with
+844,NoFile,it Windows regsvr32.exe load the DLL using,0,it goes on to load the DLL using Windows
+845,NoFile,the dropper spawning a cmd.exe process,0,"separate command line through spawning a cmd.exe process, which"
+846,NoFile,Babar's implant injects itself to running processes,0,"C++, which upon start injects itself to running processes"
+847,NoFile,Babar's implant invades desktop applications by applying a global Windows hooks,0,to running processes and invades desktop applications by applying
+848,NoFile,Babar injecting its DLL to a maximum of three desktop processes,0,"through multiple instances, by injecting its DLL to a"
+849,NoFile,a userland rootkit component applies global Windows hooks to invade all processes on its desktop,0,userland rootkit component which applies global Windows hooks to
+850,NoFile,Babar Windows Detours technique API hooks for various APIs install via,0,This way Babar can install API hooks for various
+851,NoFile,The startup routine of the Babar implant create a registry key under to 'HKU\..\CurrentVersion\Run' assure persistence,0,the Babar implant will create a registry key under
+852,NoFile,the regsvr32.exe process At load the Babar DLL system boot time,0,"regsvr32.exe process will start, load the Babar DLL and"
+853,NoFile,The function stub LoadLibraryA load the Babar DLL through,0,then go on to load the Babar DLL through
+854,NoFile,The function stub execute one of its exports,0,"DLL through LoadLibraryA and execute one of its exports,"
+855,NoFile,Babar For uses named pipes inter process communication,0,inter process communication Babar uses named pipes. The main
+856,NoFile,the main instance creates six named pipes using the very same GUID,0,"time, the main instance creates six named pipes using"
+857,NoFile,The Babar implant applies global Windows hooks,0,PROCESSES The Babar implant applies global Windows hooks to
+858,NoFile,The Babar implant load its DLL into the process space of other processes,0,global Windows hooks to load its DLL into the
+859,NoFile,A global Windows hook installed into the Windows event chain,0,global Windows hook is installed into the Windows event
+860,NoFile,the malware hook specific APIs of interest,0,malware goes on to hook specific APIs of interest.
+861,NoFile,this part writing to process powershell.exe,0,"getting module 1, then writing to process powershell.exe, and"
+862,NoFile,backdoor program Cookie fields GET request send to heartbeat packages by designated addresses,0,backdoor program that can send GET request to designated
+863,NoFile,Malicious DLL loads into the above dllhost.exe,0,"(dbgeng.dll) Malicious DLL that loads into the above dllhost.exe,"
+864,NoFile,Malicious DLL using a similar DLL sideloading technique to that most commonly associated with the PlugX backdoor,0,"into the above dllhost.exe, using a similar DLL sideloading"
+865,NoFile,The spyware probes this folder for files that match a certain naming convention,0,The spyware period- ically probes this folder for files
+866,NoFile,the RCS sample sent to Ahmed adds a Run registry key,0,"sample sent to Ahmed adds a Run registry key,"
+867,NoFile,the spyware OS processes injects itself into as they start,0,"fore the OS, and injects itself into OS processes"
+868,NoFile,IMAP ac- cesses to using his GMail account,0,subsequently noted several suspicious accesses to his GMail account
+869,NoFile,the accesses Even after continued he changed his password,0,"his password, the accesses continued While corresponding with Ahmed"
+870,NoFile,they used to even after a secondary password access his account he changed his main password,0,password that they apparently used to access his account
+871,NoFile,a version of FinSpy uses a protocol based on HTTP POST requests for communication with the C&C server,0,"FinSpy handshake, but instead uses a protocol based on"
+872,NoFile,this malware enumerates libraries’ export address table (EAT),0,"hashed values, this malware enumerates libraries’ export address table"
+873,NoFile,Cmstar HTTP requests create to communicate with its C2 server,0,requests that Cmstar will create to communicate with its
+874,NoFile,a 752-byte piece of shellcode HTTP POST requests sending to the following URL,0,"C2 server, specifically by sending HTTP POST requests to"
+875,NoFile,The Cmstar sample associated with the MNKIT delivery document creates the following registry key to automatically execute at system startup,0,the MNKIT delivery document creates the following registry key
+876,NoFile,LMS.exe load any DLL file name dbghelp.dll that is found in the same path,0,2EE25DE7BD6A2705F3F8DDE0DD681E96 (dbghelp.dll). LMS.exe will load any DLL file name
+877,NoFile,The malicious DLL loads a backdoor binary blob MD5,0,"turn, The malicious DLL loads a backdoor binary blob"
+878,NoFile,the downloader connect to a compromised website,0,downloader will attempt to connect to a compromised website
+879,NoFile,the same loader load it in memory,0,"the embedded, encrypted solution, load it in memory and"
+880,NoFile,the same loader execute it,0,it in memory and execute it. The Duke group
+881,NoFile,the downloader connect to a compromised website,0,downloader will attempt to connect to a compromised website
+882,NoFile,the same loader load it in memory,0,"the embedded, encrypted solution, load it in memory and"
+883,NoFile,the same loader execute it,0,it in memory and execute it. The Duke group
+884,NoFile,The VBS adds a registry key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\,0,loader The VBS also adds a registry key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\
+885,NoFile,"The VBS setting the key ""bookstore"" to the value ""regsvr32 %path%\ctfmonrn.dll /s""",0,"a registry key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\ setting the key ""bookstore"" to"
+886,NoFile,"It is registered as through a service (named ""Windowsupdata"") a Windows Batch file named ""DOT.BAT""",0,"Size 37,888 bytes It is registered as a service (named"
+887,NoFile,a special loader inject into the final Epic backdoor payload explorer.exe,0,loader that attempts to inject the final Epic backdoor
+888,NoFile,The communication protocol uses requests in the C&C replies,0,requests. The communication protocol uses requests in the C&C
+889,NoFile,The backdoor identify the following processes,0,"The backdoor attempts to identify the following processes and,"
+890,NoFile,code HTTP POST exfiltrate data over,0,There is code to exfiltrate data over HTTP POST
+891,NoFile,IntelRS.exe loads a Delphi component called DelphiNative.DLL,0,from installed cookies IntelRS.exe loads a Delphi component called
+892,NoFile,it loads vaultcli.DLL,0,"data. For instance, it loads vaultcli.DLL and uses various"
+893,NoFile,the dropper use the copy of rundll32.exe to load and execute the CozyDuke main component,0,"Finally, the dropper will use the copy of rundll32.exe"
+894,NoFile,the CozyDuke dropper The main component executed using a copy of rundll32.exe,0,The main component is executed by the CozyDuke dropper
+895,NoFile,CozyDuke adding a registry value to be executed at system startup,0,at system startup by adding a registry value under
+896,NoFile,CozyDuke register itself as a Windows service,0,component. CozyDuke may also register itself as a Windows
+897,NoFile,CozyDuke register as itself scheduled task,0,component. CozyDuke may also register itself as a Windows
+898,NoFile,CozyDuke hijack the registry entries for the COM object SharedTaskScheduler,0,"achieve this, CozyDuke will hijack the registry entries for"
+899,NoFile,CozyDuke modify the registry entries that will ensure CozyDuke stays active on the victim host,0,object SharedTaskScheduler. CozyDuke will modify the registry entries in
+900,NoFile,CozyDuke communicating with using its command and control server either HTTP or HTTPS,0,CozyDuke’s main method of communicating with its command and
+901,NoFile,CozyDuke’s primary purpose is the execution of tasks,0,Tasks CozyDuke’s primary purpose is the execution of tasks.
+902,NoFile,the backdoor obtain a list of running tasks,0,instructed the backdoor to obtain a list of running
+903,NoFile,it spread through network shares,0,"Besides this, it also spread through network shares, a"
+904,NoFile,The dropper component registering a service called TrkSvr,0,"files on the system, registering a service called TrkSvr"
+905,NoFile,It copy itself to accessible network shares,0,It also attempts to copy itself to accessible network
+906,NoFile,The reporter component sending back to a HTTP GET request the C&C server,0,component is responsible for sending back a HTTP GET
+907,NoFile,a malicious Downloader clbcatq.dll Windows load the malicious code in,0,weakness in order to load the malicious code in
+908,NoFile,the back door create a registry run key,0,the back door would create a registry run key
+909,NoFile,The simple attacks upload through them a HTTP POST request to a remote drop server,0,compress the files and upload them through FTP or
+910,NoFile,"Stage 0 setting up various extended attributes and/or registry keys and values that hold encoded versions of stages 2, 3, and potentially stages 4 and onwards",0,0 is responsible for setting up various extended attributes and/or
+911,NoFile,Stage 1 is the initial load point for the threat,0,exploit code. Stage 1 is the initial load point
+912,NoFile,kernel drivers Stage 2 load and execute,0,are kernel drivers that load and execute Stage 2. These kernel
+913,NoFile,kernel drivers load the driver,0,associated registry key to load the driver while the
+914,NoFile,Stage 1 Stage 2 reads and executes from a set of NTFS extended attributes,0,up. Stage 1 simply reads and executes Stage 2 from a
+915,NoFile,Stage 2 is executed from a set of registry keys,0,"are found, Stage 2 is executed from a set of"
+916,NoFile,"Stage 2 Stage 3 extracts, installs and runs",0,"kernel driver that simply extracts, installs and runs Stage 3. Stage 2"
+917,NoFile,Stage 2 finds and loads an encrypted version of Stage 3 from either NTFS extended attributes or a registry key blob,0,"previous stages, Stage 2 finds and loads an encrypted version of"
+918,NoFile,Stage 3 Stage 4 loading and executing,0,"2. In addition to loading and executing Stage 4, Stage 3"
+919,NoFile,Stage 3 The files for Stage 4 are loaded,0,"for Stage 4, which are loaded by Stage 3, consist"
+920,NoFile,Stage 4 The files for Stage 5 are injected into services.exe,0,files for Stage 5 are injected into services.exe by Stage
+921,NoFile,a file retrieve binary data over pipes,0,file that aims to retrieve binary data over pipes
+922,NoFile,a file retrieve over sockets,0,file that aims to retrieve binary data over pipes
+923,NoFile,It CPU name and identifier gets from the registry at HKLM\HARDWARE\DESCRIPTION\ System\CentralProcessor\0,0,in virtual environment. It gets CPU name and identifier
+924,NoFile,The module issues a HTTP GET request with hardcoded User­Agent string,0,(or automachine. servequake.com) and issues a HTTP GET request
+925,NoFile,this module checks if «bdagent.exe» process is running on current system,0,very beginning this module checks if «bdagent.exe» process is
+926,NoFile,The code starts a thread that simulates keystrokes of ESC keyboard key and then shows a system modal message box,0,evasion technique. The code starts a thread that simulates
+927,NoFile,is terminated keystroke generation thread,0,that keystroke generation thread is terminated and the module continues
+928,NoFile,The module POST request uploads all collected information to via one of the following URLs,0,C&C server. The module uploads all collected information to
+929,NoFile,The data is uploaded as in a POST request binary the following format,0,PC 6.0) The data is uploaded as a POST request
+930,NoFile,The trojan iterates through running processes,0,00:21:48 6.0 The trojan iterates through running processes and
+931,NoFile,the process VM is detected If terminates,0,detected the process instantly terminates Next the malware submits
+932,NoFile,"the malware HTTP GET request and the following URL format: http://<C2DOMAIN>/bin/read_i.php ?a1=%STEPID%&a2=%HOSTID%&a3=%SYSINFO%&a4=% AVSOFTID%, where %C2DOMAIN% is one of the following C&C domains submits collected information to using the C&C server",0,terminates. Next the malware submits collected information to the
+933,NoFile,This component infiltrate into via other computers network shares,0,is used to selectively infiltrate into other computers via
+934,NoFile,It spawns an- other suspended process with its own igfxext.exe image,0,disk and run. It spawns an- other suspended process
+935,NoFile,It is installed as a system kernel driver Ndiskpro service,0,Microsoft system device. It is installed as a system kernel
+936,NoFile,the NDISKPRO.SYS driver hooks both INT 0x01 and INT 0xff,0,"loaded, the NDISKPRO.SYS driver hooks both INT 0x01 and"
+937,NoFile,loaded the NDISKPRO.SYS driver,0,please contact intelreports@kaspersky.com When loaded the NDISKPRO.SYS driver hooks
+938,NoFile,the original dropper maintains persistence across with reboots a simple addition to the HKCU run key,0,"the original dropper, which maintains persistence across reboots with"
+939,NoFile,It registers its only export _LowLevelKeyboardProc@12 as a hook procedure for low-level keyboard input events (WH_KEYBOARD_LL hook),0,hidden console window and registers its only export _LowLevelKeyboardProc@12
+940,NoFile,The module HTTP POST requests issuing to the server,0,Wininet API functions for issuing HTTP POST requests to
+941,NoFile,installed a Dynamic Link Library (DLL) as a service,0,Dynamic Link Library (DLL) installed as a service. The
+942,NoFile,The third sample utilized a kernel mode driver,0,"for other infected hosts, utilized a kernel mode driver"
+943,NoFile,The dropper invokes the SHGetSpecialFolderPath() API,0,= ‘G’; The dropper invokes the SHGetSpecialFolderPath() API supplying
+944,NoFile,The sample resolves several library functions provided by Microsoft using the LoadLibrary() and GetProcAddress() Application Programming Interfaces (APIs),0,reader. The sample first resolves several library functions provided
+945,NoFile,the dropper load the dropped DLL into its own process space,0,dropper performs is to load the dropped DLL into
+946,NoFile,is mapped it into the process space of its dropped file,0,is instantiated when it is mapped into the process space
+947,NoFile,the malware install itself as a service with that same name,0,the malware tries to install itself as a service
+948,NoFile,the sample writes settings directly to the Windows Registry,0,"a precaution, the sample writes settings directly to the"
+949,NoFile,The registry change creates the following key,0,fails. The registry change creates the following key: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\msupdate\\Parameters
+950,NoFile,the subroutine set the value of the ‘ServiceDLL’ to the module handle of the DLL,0,"this, the subroutine will set the value of the"
+951,NoFile,The next key be changed,0,"The next key to be changed is: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Svchost, which"
+952,NoFile,set the ‘msupdate’ key to ‘msupdate’,0,have the ‘msupdate’ key set to ‘msupdate’. The export
+953,NoFile,The export ‘CollectW3PerfData’ is registered as the main function of the DLL,0,‘msupdate’. The export ‘CollectW3PerfData’ is registered as the main function
+954,NoFile,the sample starts the new service,0,"successful, the sample then starts the new service and"
+955,NoFile,the sample spawns a new process using rundll32.exe,0,"installation fails, the sample spawns a new process using"
+956,NoFile,the sample connect using a raw socket,0,will only attempt to connect directly using a raw
+957,NoFile,is created a temporary new user _DomainUser_ with password Dom4!nU- serP4ss,0,with password Dom4!nU- serP4ss is created and added to the
+958,NoFile,added a temporary new user _DomainUser_ with password Dom4!nU- serP4ss to the local Administrators group,0,serP4ss is created and added to the local Administrators
+959,NoFile,is deleted the user,0,account and the user is deleted It would appear this
+960,NoFile,calling methods on those assemblies,0,"installing new .NET assemblies, calling methods on those assemblies,"
+961,NoFile,be registered a DLL as a service,0,a DLL which can be registered as a service and
+962,NoFile,HKEY_LOCAL_ MACHINE\\SYSTEM\\CurrentControlSet\\Services\\<service> Adds itself as from under a service name the backdoor's configuration,0,changed to 2005. 3. Adds itself as a service
+963,NoFile,Adds itself to using list of services started by ‘netsvc’ the service name ‘helpsvc’,0,binary's default configuration. 4. Adds itself to list of
+964,NoFile,schedules the copy to using be deleted on reboot the well documented MoveFileExA API,0,named Update.exe and then schedules the copy to be
+965,NoFile,is loaded it using the ZwLoadDriver() API,0,"driver to disk, it is loaded using the ZwLoadDriver() API."
+966,NoFile,the backdoor LoadLibrary loads the original service’s DLL into with the address space,0,"Windows, the backdoor then loads the original service’s DLL"
+967,NoFile,sending chunks of POST payload,0,"used for bi-directional communications, sending chunks of POST payload"
+968,NoFile,The GET request serves as a down-stream channel,0,/Catelog/login1.cgi. The GET request serves as a down-stream channel
+969,NoFile,the POST request serves as a upstream channel,0,while the POST request serves as a upstream channel.
+970,NoFile,the malware contains a custom DNS client implementation,0,"protocol. Additionally, the malware contains a custom DNS client"
+971,NoFile,a custom DNS client implementation use the system's configured DNS server,0,client implementation that will use the system's configured DNS
+972,NoFile,a custom DNS client implementation C2 traffic tunnel over legitimate DNS,0,configured DNS server to tunnel C2 traffic over legitimate
+973,NoFile,This handler class for command ID 8 FindFirstFileW() and FindNextFileW() APIs implements generic directory and file browsing using,0,for command ID 8 implements generic directory and file
+974,NoFile,This handler class start system services,0,"manage system components including start stop/ delete system services,"
+975,NoFile,This handler class stop system services,0,"system components including start/ stop delete system services, enumerate/alter"
+976,NoFile,This handler class delete system services,0,"system components including start/stop/ delete system services, enumerate/alter registry"
+977,NoFile,This handler class enumerate registry keys,0,"start/stop/ delete system services, enumerate alter registry keys, and"
+978,NoFile,This handler class alter registry keys,0,"delete system services, enumerate/ alter registry keys, and manage"
+979,NoFile,This handler class manage running processes,0,"enumerate/alter registry keys, and manage running processes. This class"
+980,NoFile,the DLL terminating the backdoor process,0,DLL deleting itself and terminating the backdoor process. Driver
+981,NoFile,The driver opening a named event in using with the BaseNamedObjects object directory the Windows API ZwOpenEvent() the name {8CB2ff21-0166-4cf1-BD8F-E190BC7902DC},0,The driver begins by opening a named event in
+982,NoFile,the driver creates it using the Windows API ZwCreateEvent(),0,"exist, the driver then creates it using the Windows"
+983,NoFile,The second component of the entry point calling the function KdDisableDebugger(),0,"performs an anti-debugging technique, calling the function KdDisableDebugger(), which"
+984,NoFile,The final step of the entry point hooking the system,0,"point is to begin hooking the system, which is"
+985,NoFile,one hook the system call table,0,"one is designed to hook the system call table,"
+986,NoFile,the other hooks the network stack,0,"table, while the other hooks the network stack. Stack"
+987,NoFile,the driver Major Function 14 the IRP_MJ_DEVICE_CONTROL hooks,0,by using IoGetDeviceObjectPointer() and hooks Major Function 14 the
+988,NoFile,"The hooking is performed by creating a new completion routine associated with any IRP_MJ_DEVICE_CONTROL IRP that matches the IOCTL, attaching to the target process, performing several memory copies to hide the entry, and detaching",0,and 45000. The hooking is performed by creating a new
+989,NoFile,The TCP hook IOCTL 0x120003 (IOCTL_ TCP_QUERY_INFORMATION_EX) hooking,0,"NSI hook, though instead hooking IOCTL 0x120003 (IOCTL_ TCP_QUERY_INFORMATION_EX)."
+990,NoFile,The unpacked kernel driver sample hooks these functions by reading the second DWORD at each of these exported functions,0,unpacked kernel driver sample hooks these functions by reading
+991,NoFile,"The system call hook is then performed by first allocating a Memory Descriptor List (MDL) using the Windows API IoAllocateMdl(), and associating the MDL to a non-paged buffer using MmBuildMdlForNonPagedPool()",0,The system call hook is then performed by first allocating a
+992,NoFile,the driver applying a Detours-style hook directly in the code,0,"by the table, and applying a Detours-style hook directly"
+993,NoFile,It checks for the values of the ServiceDll and Security keys,0,at \\REGISTRY\\MACHINE\\SYSTEM\\ControlSet001\\Services\\. It then checks for the values of
+994,NoFile,it applies an XOR on with the data the value 127,0,the latter case it applies an XOR on the
+995,NoFile,ObReferenceObjectByHandle() In is made a call to the registry hooking code of the driver,0,"the driver, a call is made to ObReferenceObjectByHandle(). This allows"
+996,NoFile,used the various network hooking techniques in the kernel driver,0,various network hooking techniques used in the kernel driver
+997,NoFile,MDLs perform system call hooking through,0,and cr0 (bbs.pediy. com/showthread.php?t=77467 perform system call hooking through
+998,NoFile,a cached rootkit performing similar hooks on the same 3 registry related APIs,0,has a cached rootkit performing similar hooks on the
+999,NoFile,This kernel mode rootkit implements several hooking techniques,0,This kernel mode rootkit implements several hooking techniques that
+1000,NoFile,This kernel mode rootkit implements several hooking techniques,0,This kernel mode rootkit implements several hooking techniques that
+1001,NoFile,The malware AhnLab and Hauri AV antivirus products disable,0,The malware attempted to disable AhnLab and Hauri AV
+1002,NoFile,The wiper kill the processes pasvc.exe and clisvc.exe,0,Windows utility 'taskkill' to kill the processes pasvc.exe and
+1003,NoFile,"The bash script wipe the /kernel, /usr /etc and /home directories",0,"and then attempts to wipe the /kernel, /usr /etc"
+1004,NoFile,it stop the following processes,0,"it first attempts to stop the following processes, presumably"
+1005,NoFile,It enumerates all physical drives,0,from Hauri It then enumerates all physical drives and
+1006,NoFile,It locates the root directory on these drives,0,"removable and fixed drives, locates the root directory on"
+1007,NoFile,It is shut down and rebooted the affected computer,0,"Finally, the affected computer is shut down and rebooted although if the wiping"
+1008,NoFile,is subsequently loaded by the payload calling kernel32!LoadLibraryA,0,file named a.l which is subsequently loaded by calling kernel32!LoadLibraryA. An
+1009,NoFile,is registered this DLL as the Open command when a drive is open,0,folder. Finally this DLL is registered as the Open command
+1010,NoFile,The installer adding entries to in the registry the following locations,0,"the malware persistence mechanism, adding entries to the registry"
+1011,NoFile,BITTERBUG listing running processes,0,"uploading and downloading files, listing running processes, generating file"
+1012,NoFile,BITTERBUG perform an HTTP GET request for the following URI,0,OPERATION BITTERBUG then may perform an HTTP GET request
+1013,NoFile,BITTERBUG scan through each drive letter,0,"the Next, BITTERBUG may scan through each drive letter"
+1014,NoFile,The Scanbox framework collects a small amount of information about the victim that is visiting the compromised website,0,it will use and collects a small amount of
+1015,NoFile,the framework extract different information from the victim,0,contains several plugins to extract different information from the
+1016,NoFile,the framework Javascript Implements a keylogger functionality trough,0,Java versions Pluginid 21: Implements a keylogger functionality trough
+1017,NoFile,The VBScript sets a startup key in the HKCU\Software\Microsoft\Windows\CurrentVersion\Run registry path,0,versions. The VBScript then sets a startup key in
+1018,NoFile,load it from memory,0,"original dll (95Num3p3gm.dll, presumably), load it from memory and"
+1019,NoFile,a call to a subfunction loads the PE image into memory,0,to a subfunction that loads the PE image into
+1020,NoFile,a call free the PE image allocation from memory,0,by a call to free the PE image allocation
+1021,NoFile,This configuration information load the encrypted file into memory,0,information is used to load the encrypted file into
+1022,NoFile,is freed the memory once they have completed,0,have completed the memory is freed This makes these modules
+1023,NoFile,921.bin retrieves a list of running processes with all loaded modules in each,0,is being used. 921.bin retrieves several datapoints about the
+1024,NoFile,it hooks a minimum number of kernel API functions in order to hide different pieces of information,0,static analysis and it hooks a minimum number of
+1025,NoFile,The Driver hiding directories,0,"Driver is capable of hiding processes (by PID, not"
+1026,NoFile,the Driver In order to hooks various Windows Kernel API calls hide these items,0,"these items, the Driver hooks various Windows Kernel API"
+1027,NoFile,the Driver hooks the API function,0,function that the Driver hooks Item API Function Hooked
+1028,NoFile,the Driver access the memory of the services.exe process,0,"services, the Driver will access the memory of the"
+1029,NoFile,the Driver remove the service entry that the Driver wishes to hide,0,list of services and remove the service entry that
+1030,NoFile,"the Driver IoCreateDevice calling with the name \Device\agony (for Gen 2.0 Beta samples), \Device\HTTPS (for Gen 2.1 samples), \Device\advcachemgr (for Gen 2.2 samples) or \Device\diskdump (for Gen 2.3 samples)",0,expose its interface by calling IoCreateDevice with the name
+1031,NoFile,an attacker is install the DLL as at a service some point prior to activation,0,"service, requiring an attacker is install the DLL as a"
+1032,NoFile,both exports generate a new thread of the same function (mainThread),0,"DllRegisterServer. Ultimately, both exports generate a new thread of"
+1033,NoFile,DllRegisterServer calling without the u parameter,0,to DllEntryPoint or by calling DllRegisterServer without the u
+1034,NoFile,the DLL generating a new thread (HikitThreadFunc) which will service any request coming from the new channel,0,runtime data structure before generating a new thread (HikitThreadFunc)
+1035,NoFile,Gen 2 In order for uses a loader application the DLL to load,0,(starting with Gen 2.1) uses a loader application (referred
+1036,NoFile,both variants of the Loader load the embedded DLL in the exact same way,0,variants of the Loader load the embedded DLL in
+1037,NoFile,Both versions of the Loader loading the embedded DLL from the Loader’s resource,0,the Loader begin by loading the embedded DLL from
+1038,NoFile,Both versions of the Loader loading the DLL into using memory a custom loading routine,0,"into memory, then manually loading the DLL into memory"
+1039,NoFile,LoadEmbeddedImage calls the function decodeBuffer (using the EncodingKey value) to decrypt the embedded DLL,0,heap buffer and then calls the function decodeBuffer (using
+1040,NoFile,LoadEmbeddedImage ImageLoaderData::LoadDll calls,0,"a heap buffer, LoadEmbeddedImage calls ImageLoaderData::LoadDll to manually load"
+1041,NoFile,ImageLoaderData::LoadDll load the DLL into memory,0,calls ImageLoaderData::LoadDll to manually load the DLL into memory.
+1042,NoFile,ImageLoaderData::LoadDll calls the DllMain (DLL’s entry point) function,0,"necessary relocation operations, and calls the DllMain (DLL’s entry"
+1043,NoFile,the Loader loading the embedded DLL image into memory,0,entry point) function. After loading the embedded DLL image
+1044,NoFile,ImageLoaderData::LoadDll loads the image into the appropriate memory configuration,0,"of the DLL image, loads the image into the"
+1045,NoFile,the Loader call the DLL’s StartServer or MatrixMain function,0,the Loader will either call the DLL’s StartServer or
+1046,NoFile,The standalone Loaders use the MatrixMain function,0,Loader. The standalone Loaders use the MatrixMain function while
+1047,NoFile,the DLL Loaders call the StartServer function,0,the DLL Loaders will call the StartServer function. The
+1048,NoFile,The Loaders call upon the StopServer function in order to unloading shut down the embedded DLL,0,"Loaders, upon unloading, will call the StopServer function in"
+1049,NoFile,MatrixMain and StartServer generate a new thread using instead of the POSIX API function beginthreadex the more common CreateThread,0,and StartServer both ultimately generate a new thread (using
+1050,NoFile,the DLL install itself as on a service the victim’s machine,0,"given, the DLL will install itself as a service"
+1051,NoFile,The DLL create a new service,0,machine. The DLL will create a new service (e.g.
+1052,NoFile,the RAT functionality code creates a service with the driver in the %TEMP% directory as the executable for the service,0,the RAT functionality code creates a service with the
+1053,NoFile,The RAT functionality code activates the service,0,RAT functionality code then activates the service and opens
+1054,NoFile,the RAT functionality code deletes the service in order to reduce the visible footprint of the new driver,0,the RAT functionality code deletes the service in order
+1055,NoFile,Gen 2 samples produce up to three named events,0,"perspective, Gen 2 samples produce up to three named"
+1056,NoFile,This worm Windows SMB shares propagate via,0,force authentication attack to propagate via Windows SMB shares.
+1057,NoFile,is established a file share,0,"guessed, a file share is established and file is copied"
+1058,NoFile,installed a dropper as a service,0,"loaded via a dropper installed as a service, then"
+1059,NoFile,The malware propagate throughout via the target network built-in Windows shares,0,has the ability to propagate throughout the target network
+1060,NoFile,the malware access remote network shares,0,"systems, the malware will access remote network shares in"
+1061,NoFile,The malware access shares on the remote systems,0,uses several methods to access shares on the remote
+1062,NoFile,"create a new share cmd.exe /q /c net share shared$=%SystemRoot% /GRANT:everyone, FULL",0,\\hostname\admin$\system32 and \\hostname\shared$\system32 or create a new share cmd.exe
+1063,NoFile,Checking for via existing shares \\hostname\admin$\system32 and \\hostname\shared$\system32,0,to begin wiping files. Checking for existing shares via
+1064,NoFile,is removed via the remote network share cmd.exe /q /c net share shared$ /delete,0,the remote network share is removed via cmd.exe /q /c
+1065,NoFile,it started a second instance of itself with -i as an argument,0,"file was executed, it started a second instance of"
+1066,NoFile,it terminated,0,"an argument, and then terminated The second instance of"
+1067,NoFile,The second instance of the dropper file started the service,0,"a command line argument, started the service, and then"
+1068,NoFile,The second instance of the dropper file terminated,0,"the service, and then terminated The WinsSchMgmt service executed"
+1069,NoFile,The WinsSchMgmt service started another instance of the file using -s as an argument,0,"as an argument, which started another instance of the"
+1070,NoFile,A 120-minute (2 hour) sleep command is issued,0,(2 hour) sleep command is issued after which the computer
+1071,NoFile,is shut down and rebooted the computer,0,after which the computer is shut down and rebooted Name: iissvr.exe Size: 114688
+1072,NoFile,this malware Internet Explorer adding to several registry keys,0,line tool cmd.exe for adding several registry keys to
+1073,NoFile,it launch an instance of Internet Explorer,0,of the COM to launch an instance of Internet
+1074,NoFile,it creates several registry entries with the help of the command line tool,0,"functionality. Once again, it creates several registry entries with"
+1075,NoFile,it creates an instance of the Internet Explorer,0,command line tool and creates an instance of the
+1076,NoFile,"dropper loads up a resource named ""BINARY"" from the resource section",0,"When executed, the dropper loads up a resource named ""BINARY"""
+1077,NoFile,dropper creates the directory C:\Documents and Settings\User\Application Data\JAVA,0,the resource section then creates the directory C:\Documents and
+1078,NoFile,dropper calls regedit with kb71271.log as a parameter to modify the registry,0,"Data\\JAVA\\JavaSvc.exe"" The dropper then calls regedit with kb71271.log as"
+1079,NoFile,is delivered the RC4 key to the bot,0,then the RC4 key is delivered to the bot in
+1080,NoFile,Etumbot discovers the proxy settings of the local machine,0,Threat Intelligence Brief Etumbot discovers the proxy settings of
+1081,NoFile,Etumbot load strings into memory that has been called byte strings and also string stacking,0,uses a technique to load strings into memory that
+1082,NoFile,Customized private tools with functions include process enumeration,0,"tools with functions that include ARP poisoning, encryption, credential"
+1083,NoFile,connect outbound via anonymous FTP,0,"options;declare%20@b2%20varchar(8000);set%20@b2=%20xp_ cmdshell;%20EXEC%20master.dbo.sp_configure%20@b1,%201;RECONFIGURE;EXEC%20master.dbo. sp_configure%20@b2,%201;RECONFIGURE;--%20 Then connect outbound via anonymous FTP:"
+1084,NoFile,it display a window to input proxy information,0,"the Internet, it will display a window to input"
+1085,NoFile,the résumé submitter When does a GET request to in order to the victim hits submit microsoft.com make it seem like it is submitting something,0,"submit, the résumé submitter does a GET request to"
+1086,NoFile,Cleaver Operations FTP servers utilized with in order to anonymous access enabled pilfer large quantities of information,0,observed in 2013 mainly utilized FTP servers with anonymous
+1087,NoFile,These FTP servers were also observed during the infection process,0,"detected. These FTP servers were also observed during the infection process,"
+1088,NoFile,FTP servers were used in the infection of targets,0,hosted FTP servers that were used in the infection of
+1089,NoFile,FTP servers were used in the exfiltration of information,0,hosted FTP servers that were used in the infection of
+1090,NoFile,we see the following HTTP POST request,0,"this transfer, we can see the following HTTP POST"
+1091,NoFile,we see the following HTTP POST request,0,"network traffic again, we see the following HTTP POST"
+1092,NoFile,FTP upload support was added with hardcoded credentials of ano:1,0,locations. FTP upload support was added with hardcoded credentials of
+1093,NoFile,These versions install as a service,0,have the capability to install as a service. On
+1094,NoFile,These versions include a new method of installing as a service,0,These versions began to include a new method of
+1095,NoFile,supplemental tools enumerating every process,0,keep TinyZBot running by enumerating every process and checking
+1096,NoFile,a publicly available project executes an executable as a service,0,publicly available project which executes an executable as a
+1097,NoFile,POST data is supplied for file data,0,"file data, POST data is supplied OPERATION CLEAVER Data uploaded"
+1098,NoFile,WndTest installs as a service,0,executing batch scripts. WndTest installs as a service and
+1099,NoFile,Csext runs as a service,0,developed in C# which runs as a service. Its
+1100,NoFile,taskkill This command is killed a 00:35,0,"in the morning, and is killed by taskkill at 00:35."
+1101,NoFile,The malware modifying commonplace registry entries,0,"is in plain view, modifying commonplace registry entries, such"
+1102,NoFile,the program nvidrv adds itself to autorun,0,"First, the program nvidrv adds itself to autorun: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
+1103,NoFile,It creates a series of registry keys that the individual programs use to communicate,0,name UpdAdbreader It also creates a series of registry
+1104,NoFile,left in markers the registry,0,and communicating via markers left in the registry. Programs
+1105,NoFile,programs using them,0,Registry keys and programs using them: rundl132.exe: DefaultKeyboard\User\F124-5KK83-F2IV9-FDN293\JIPC7-K2ODP-OFnD3-FJCC3\J1K6F-DKV8J-FKVJI- GVKBU\6nvisdvr.exe:
+1106,NoFile,It GooglUpd runs,0,"e.g. 0x3110x611 It then runs GooglUpd, which cleans up"
+1107,NoFile,It AdbrRader runs,0,"if they exist, and runs AdbrRader. AdbrRader (communicating through"
+1108,NoFile,nvidrv runs svhosts,0,"to: C:\Users\Username\AppData\Local\Microsoft\Windows\win32.tmp\v2cgplst.tmp Finally, nvidrv runs svhosts, which tests Internet"
+1109,NoFile,svhosts doing a DNS query for windowsupdate.microsoft.com,0,tests Internet connectivity by doing a DNS query for
+1110,NoFile,It runs rundl132 if it has not before,0,for windowsupdate.microsoft.com. It then runs rundl132 if it has
+1111,NoFile,It checking whether registry key name 6 is present,0,"has not before, by checking whether registry key name"
+1112,NoFile,It sets the key to 0,0,6 is present. It sets the key to 0
+1113,NoFile,It runs it,0,"key to 0 and runs it. Next, rundl132.exe performs"
+1114,NoFile,rundl132.exe performs an HTTP GET request to myexternalip.com,0,"runs it. Next, rundl132.exe performs an HTTP GET request"
+1115,NoFile,rundl132.exe collects the external IP of the infected machine,0,request to myexternalip.com and collects the external IP of
+1116,NoFile,rundl132 AdobeIns runs,0,"to: C:\Users\Username\AppData\Local\Microsoft\Windows\win32.tmp\vgosysaext.tmp Finally, rundl132 runs AdobeIns, which zips the"
+1117,NoFile,dropped markers in the Registry,0,each communicating via markers dropped in the Registry. The
+1118,NoFile,Android apps with these two permissions authenticate themselves with the user’s Google account,0,these two permissions can authenticate themselves with the user’s
+1119,NoFile,Android pro- cesses use them to authenticate to these services,0,from the AccountManager and use them to authenticate to
+1120,NoFile,the C2 protocol GET using,0,"RAT is HTTP based, using both GET and POST"
+1121,NoFile,the C2 protocol POST requests using,0,"RAT is HTTP based, using both GET and POST"
+1122,NoFile,HTTP POST request to a URI of the form /microsoft/errorpost/ default.aspx?ID= Output data produced by tasking instructions sent back to via the C2 server,0,it was decrypted and sent back to the C2
+1123,NoFile,is started a shell process with input/output redirected over the C2 channel,0,"Otherwise, a shell process is started (i.e., cmd.exe), with input/output"
+1124,NoFile,The executable is also installed into with the ASEP registry key HKCU\Software\Microsoft\Windows\ CurrentVersion\Run a value named McUpdate,0,verb open). The executable is also installed into the ASEP registry
+1125,NoFile,"The dropped executable (MD5 hash 38a2a6782e1af29ca8cb691cf0d29a0d) inject the specified DLL (McUpdate.dll, MD5 hash 08c7b5501df060ccfc3aa5c8c41b452f) into a process that would normally be accessing the network",0,"38a2a6782e1af29ca8cb691cf0d29a0d) primarily aims to inject the specified DLL (McUpdate.dll,"
+1126,NoFile,the malware terminate processes corresponding to two components of Sophos Anti-Virus (SAVAdminService.exe and SavService.exe),0,malware will attempt to terminate processes corresponding to two
+1127,NoFile,the attacker modify one byte of memory at an arbitrary address,0,allows the attacker to modify one byte of memory
+1128,NoFile,attackers modify memory to an arbitrary address,0,vulnerability allows attackers to modify memory to an arbitrary
+1129,NoFile,the code Once searches through by the attacker’s code has full memory access through the corrupted Flash Vector object loaded libraries gadgets machine code,0,"Vector object, the code searches through loaded libraries gadgets"
+1130,NoFile,It is installed as a system kernel driver Ndiskpro service,0,Microsoft system device. It is installed as a system kernel
+1131,NoFile,the NDISKPRO.SYS driver hooks both INT 0x01 and INT 0xff,0,"loaded, the NDISKPRO.SYS driver hooks both INT 0x01 and"
+1132,NoFile,the original dropper maintains persistence across with reboots a simple addition to the HKCU run key,0,"the original dropper, which maintains persistence across reboots with"
+1133,NoFile,The module adds autorun registry settings to enable an automatic start during system boot,0,the malware. The module adds autorun registry settings to
+1134,NoFile,This module Windows with the system de- fault codepage set to Korean terminate itself on,0,module is designed to terminate itself on Windows with
+1135,NoFile,This component infiltrate into via other comput- ers network shares,0,is used to selectively infiltrate into other comput- ers
+1136,NoFile,the virus retrieves all available disks,0,"shares. First, the virus retrieves all available disks and"
+1137,NoFile,The code brute forces the list of mapped removable drives,0,them. The code simply brute forces the list of mapped
+1138,NoFile,The persistence mechanism is the creation of a registry key named Shell containing the path to the malware on the infected system,0,used by the malware is the creation of a
+1139,NoFile,The data sent in the POST request,0,binaries. & The data sent in the POST request
+1140,NoFile,it shows running services,0,for an attacker: it shows all software installed on
+1141,NoFile,Persistence is achieved by adding the path to the binary to the WinlogonUserInit key,0,PittyTiger is created. Persistence is achieved by adding the path
+1142,NoFile,It injects it in explorer.exe,0,"drops the packet64.dll, and injects it in explorer.exe. When"
+1143,NoFile,The ieupdate.exe inject the DLL into explorer.exe,0,a simple binary to inject the DLL into explorer.exe.
+1144,NoFile,Persistence is achieved via the following registry key,0,DLL into explorer.exe. Persistence is achieved via the following registry
+1145,NoFile,The binary injects the release.tmp file in explorer.exe,0,"Application Data directory, and injects the release.tmp file in"
+1146,NoFile,Persistence is achieved by adding the path to the binary to the Winlogon Shell key,0,file in explorer.exe. Persistence is achieved by adding the path
+1147,NoFile,are used requests to check for updates (GET request on /httpdocs/update/update.ini),0,sends requests. First requests are used to check for updates
+1148,NoFile,The bot GET requests sends on /httpdocs/mm/<bot_id>/ComMand.sec,0,The bot then repeatedly sends GET requests on /httpdocs/mm/<bot_id>/ComMand.sec
+1149,NoFile,GET requests are used to receive data from the c&c,0,quite simple: GET requests are used to receive data from
+1150,NoFile,POST requests send data,0,"and POST requests to send data. In POST commands,"
+1151,NoFile,the CGI name POST commands In represents the command,0,"commands, the CGI name represents the command. The following"
+1152,NoFile,This tmp file registered as a service called Nwsapagent,0,copied to C:\Windows\system32\Nwsapagentex.dll and registered as a service called
+1153,NoFile,a file named user.txt brute-force a shared folder access,0,user.txt to try to brute-force a shared folder access:

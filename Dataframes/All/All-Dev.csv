@@ -1,0 +1,128 @@
+,text-rel,token,ActionName,Capability
+0,Carbanak designed for espionage,designed,-,Other
+1,Carbanak designed for data exfiltration,designed,-,Other
+2,Carbanak designed to provide remote access to infected machines,designed,-,Other
+3,They install additional software such as the Ammyy Remote Administration Tool,install,-,Other
+4,They SSH servers compromise,compromise,-,Other
+5,The videos sent to the C2 server,sent,Network,Other
+6,made video recordings of the activities of bank employees,made,-,Other
+7,Carbanak copies itself into %system32%\com,copies,File,-
+8,the malware creates a new service,creates,Other,-
+9,Carbanak determines if either the avp.exe or avpui.exe processes (components of Kaspersky Internet Security) is running,determines,Other,Other
+10,Carbanak creates a file with a random name and a .bin extension in %COMMON_APPDATA%\Mozilla,creates,File,-
+11,the malware gets the proxy configuration from the registry entry,gets,-,Other
+12,The malware saves files in,saves,File,Other
+13,The malware sent to files the C2 server,sent,Network,command_and_control
+14,Carbanak obtain proxy configuration information from headers sent through an application via SOCKS or HTTP,obtain,-,Other
+15,Carbanak injects its code into svchost.exe,injects,File,-
+16,Carbanak downloads the file kldconfig.plug from its C2 server,downloads,Network,command_and_control
+17,Carbanak logs keystrokes,logs,-,Other
+18,Carbanak takes screenshots every 20 seconds,takes,-,Other
+19,Carbanak Auto Termservice service execution mode sets to,sets,Other,-
+20,Carbanak enable connections to the infected computer using the Remote Desktop Protocol (RDP),enable,-,Other
+21,it sends a special notification to its C2 server,sends,-,command_and_control
+22,Carbanak detects the banking application BLIZKO (funds transfer software) in the infected computer,detects,-,Other
+23,It receives commands,receives,-,command_and_control
+24,Carbanak sends its collected monitoring data to its C2 server,sends,Network,command_and_control
+25,the attackers recompiled the machine’s SSH daemon with so a backdoor they could gain direct access,recompiled,-,Other
+26,used to a Secure Shell (SSH) backdoor communicate with the C2 server,used,-,command_and_control
+27,the program MBR Eraser remove traces,remove,File,Other
+28,the program MBR Eraser to crack servers,to crack,-,infection_propagation
+29,the program MBR Eraser Windows computers to crack,to crack,-,Other
+30,hackers got access to e-mail servers,got,-,Other
+31,hackers control all internal communications,control,-,Other
+32,download arbitrary exe- cutable files from the management server,download,Network,Other
+33,the attacker gets remote access to the user computer,gets,-,Other
+34,the attackers SSH backdoor use,use,-,Other
+35,SSH backdoor transmits the login/password data used to access the servers to the malicious server,transmits,Network,Other
+36,SSH backdoor provides attackers remote access to the servers,provides,-,Other
+37,"the at- tackers modify rules for firewalls Microsoft TMG, CISCO, etc",modify,-,Other
+38,the attackers downloaded mali- cious scripts and changed denominations of issued banknotes in the ATM operating system registry,downloaded,Network,Other
+39,this file changed registry keys in the registry branch HKEY_LOCAL_MACHINE\ SOFTWARE\Wincor Nixdorf\ProTopas\Current- Version\LYNXPAR\CASH_DISPENSER that are responsible for cassette denominations in an ATM,changed,Other,-
+40,The Gozi/ISFB based malware drop additional components on interesting systems,drop,Network,Other
+41,run them,run,File,-
+42,the malware execute commands as administrator,execute,Other,-
+43,the dropper add persistence in the registry,add,-,Other
+44,the dropper drop a second file,drop,File,-
+45,the attackers compromising the update site for several industrial control system (ICS) software producers,compromising,-,Other
+46,They Backdoor.Oldrea bundle with a legitimate update of the affected software,bundle,-,infection_propagation
+47,The Dragonfly attackers used hacked websites to host command-and-control (C&C) software,used,-,command_and_control
+48,Remote Access Tool (RAT) type malware provide the attackers with access and control of compromised computers,provide,-,Other
+49,extract data,extract,-,Other
+50,install further malware,install,-,Other
+51,selected executives and senior employees in target companies receive emails containing a malicious PDF attachment,receive,-,infection_propagation
+52,Oldrea or Karagany drop on the victim’s computer,drop,Network,infection_propagation
+53,a persistent component C&C servers interacts with,interacts,-,command_and_control
+54,download payloads,download,Network,command_and_control
+55,execute payloads,execute,File,-
+56,performing a GET request,performing,Other,-
+57,reaching out to the C&C server,reaching out,-,command_and_control
+58,The components are downloaded,are downloaded,Network,Other
+59,"Backdoor.Oldrea OS, user name, computer name, country, language, nation, Internet adapter configuration information, available drives, default browser, running processes, desktop file list, My Documents, Internet history, program files, and root of available drives collect system information such as",collect,-,Other
+60,This data collected,collected,-,Other
+61,This data written to in a temporary file an encrypted form,written,File,Other
+62,POST’ed it to a remote C&C server,POST’ed,Other,command_and_control
+63,It download additional files,download,Network,-
+64,It install additional files,install,-,Other
+65,It exfiltrate data,exfiltrate,-,Other
+66,Trojan.Karagany copies itself with hidden and system attributes where it was first executed,copies,File,-
+67,Trojan.Karagany checks for by a live Internet connection visiting Microsoft or Adobe websites,checks,-,Other
+68,It reach out to its C&C server,reach out,-,command_and_control
+69,These campaigns relied on spear phishing with malicious documents that dropped malware (mostly PlugX) along with Vietnamese- language decoy documents,relied,-,infection_propagation
+70,Dyreza intercept logins by acquiring the HTTP POST data from under banking SSL sessions,intercept,-,Other
+71,These macros download first-stage loaders,download,Network,-
+72,first-stage loaders install the Dridex payload onto the victim machine,install,-,Other
+73,This copy of Kaptoxa scanned volatile memory of infected systems for patterns that looked like credit card numbers,scanned,-,Other
+74,This copy of Kaptoxa logged them to a file,logged,File,Other
+75,This copy of Kaptoxa transferred a file to an internal network share,transferred,Network,Other
+76,transferred the data to external FTP servers,transferred,Network,Other
+77,The malware scans memory for both Track 1 and Track 2 credit card data,scans,-,Other
+78,The malware HTTP requests exfiltrates its findings to over control servers,exfiltrates,Other,Other
+79,This campaign leveraged fake websites to serve malware that poses as software updates for legitimate applications trick users into entering credentials,leveraged,-,infection_propagation
+80,This tool log keystrokes on infected systems,log,-,Other
+81,This tool log screenshots on infected systems,log,-,Other
+82,This tool log other user activity on infected systems,log,-,Other
+83,This tool exfiltrates this data to an attacker-controlled server,exfiltrates,-,Other
+84,it extracts a backdoor Trojan a configuration file optionally a decoy (an image or a legitimate executable),extracts,File,-
+85,it deploys a backdoor Trojan,deploys,-,Other
+86,conducting reconnaissance of victim machines,conducting,-,Other
+87,deleting files,deleting,File,-
+88,downloading files,downloading,Network,-
+89,exfiltrating data,exfiltrating,-,Other
+90,It log keystrokes,log,-,Other
+91,It copy files,copy,File,-
+92,It modify files,modify,File,-
+93,capture screenshots video of user activity,capture,-,Other
+94,It perform administrative tasks,perform,Other,-
+95,terminating processes,terminating,Other,-
+96,rebooting victim machines,rebooting,Other,-
+97,logging off users,logging off,-,Other
+98,A full command shell provided,provided,-,Other
+99,sends output to over for the PlugX instance named pipes onward relay to the attacker’s Command-and-Control (C2) servers,sends,Other,command_and_control
+100,PlugX delivered to via targets a spear phishing attack containing a malicious RTF or Word document leveraging exploit code for the popular CVE-2012-0158 vulnerability,delivered,-,infection_propagation
+101,dropped three files,dropped,File,-
+102,ZxShell connected to a C2 at newss.effers.com,connected,-,command_and_control
+103,Win64.exe invoke other programs with elevated privileges,invoke,-,Other
+104,Win64.exe elevate its privileges to those of the SYSTEM user,elevate,-,Other
+105,Win64.exe create a new process with to these access rights run the command that was passed as an argument,create,Other,Other
+106,deleted it,deleted,-,Other
+107,executed any command passed to the executable with elevated privileges,executed,-,Other
+108,combined malicious executable a decoy document with a malicious CVE-2014-1761 document,combined,-,Other
+109,"malware connecting to a known TEMPER PANDA C2 address, www. verizon.proxydns.com",connecting,-,command_and_control
+110,this adversary gain legitimate credentials to move laterally,gain,-,Other
+111,this adversary RDP sessions establish to achieve their objectives,establish,-,Other
+112,this provides the equivalent functionality of a RAT for adversary control of webservers,provides,-,Other
+113,they deploy privilege-escalation tools,deploy,-,Other
+114,PlugX C2 servers used the following IP addresses as,used,-,command_and_control
+115,"they seek legitimate credentials via tools such as Windows Credential Viewer, Windows Credential Editor, or Mimikatz",seek,-,Other
+116,HURRICANE PANDA RDP rely on,rely on,-,Other
+117,presented with an administrative command shell,presented,-,-
+118,RAR compressed using files of interest,compressed,-,Other
+119,RAR password protected using files of interest,password protected,-,Other
+120,they stage the files at a convenient location,stage,-,Other
+121,they FTP exfiltrate the files from via the network,exfiltrate,-,Other
+122,Pirpi provides the adversary with a traditional set of RAT features,provides,-,Other
+123,the adversary exfiltrate files,exfiltrate,-,Other
+124,the adversary deploy files,deploy,File,-
+125,sophisticated Windows-based rootkit leverage an encrypted Virtual File System (VFS) as a staging area for tools to deploy and data prepared for exfiltration,leverage,-,Other
+126,Their main implant is a sophisticated RAT that exhibits a modular architecture and a multi-year development history,is,-,Other

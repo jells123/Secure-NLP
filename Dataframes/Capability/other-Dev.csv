@@ -1,0 +1,103 @@
+,label,text-rel,label_num,text-neigh
+0,no-other,The malware sent to files the C2 server,0,that will later be sent to the C2 server
+1,no-other,Carbanak downloads the file kldconfig.plug from its C2 server,0,within this process. Carbanak downloads the file kldconfig.plug from
+2,no-other,it sends a special notification to its C2 server,0,"the infected computer, it sends a special notification to"
+3,no-other,It receives commands,0,C2 server. It also receives commands. The commands are
+4,no-other,Carbanak sends its collected monitoring data to its C2 server,0,typical Carbanak request: Carbanak sends its collected monitoring data
+5,no-other,used to a Secure Shell (SSH) backdoor communicate with the C2 server,0,Shell (SSH) backdoor was used to communicate with the
+6,no-other,The Dragonfly attackers used hacked websites to host command-and-control (C&C) software,0,compromised. The Dragonfly attackers used hacked websites to host
+7,no-other,a persistent component C&C servers interacts with,0,a persistent component that interacts with C&C servers to
+8,no-other,download payloads,0,with C&C servers to download and execute payloads. The
+9,no-other,reaching out to the C&C server,0,components are downloaded by reaching out to the C&C server
+10,no-other,POST’ed it to a remote C&C server,0,form before it is POST’ed to a remote C&C
+11,no-other,It reach out to its C&C server,0,websites. It will only reach out to its C&C server
+12,no-other,sends output to over for the PlugX instance named pipes onward relay to the attacker’s Command-and-Control (C2) servers,0,"a cmd.exe process, which sends output to the PlugX"
+13,no-other,ZxShell connected to a C2 at newss.effers.com,0,"RAT called ZxShell, which connected to a C2 at"
+14,no-other,"malware connecting to a known TEMPER PANDA C2 address, www. verizon.proxydns.com",0,Notable Activity dropped malware connecting to a known TEMPER
+15,no-other,PlugX C2 servers used the following IP addresses as,0,following IP addresses are used as PlugX C2 servers:
+16,no-other,the program MBR Eraser to crack servers,0,to remove traces and to crack Windows computers and servers.
+17,no-other,They Backdoor.Oldrea bundle with a legitimate update of the affected software,0,software producers. They then bundle Backdoor.Oldrea with a legitimate
+18,no-other,selected executives and senior employees in target companies receive emails containing a malicious PDF attachment,0,employees in target companies receive emails containing a malicious
+19,no-other,Oldrea or Karagany drop on the victim’s computer,0,Explorer in order to drop Oldrea or Karagany on
+20,no-other,These campaigns relied on spear phishing with malicious documents that dropped malware (mostly PlugX) along with Vietnamese- language decoy documents,0,China Sea. These campaigns relied primarily on spear phishing
+21,no-other,This campaign leveraged fake websites to serve malware that poses as software updates for legitimate applications trick users into entering credentials,0,United States. This campaign leveraged fake websites to trick
+22,no-other,PlugX delivered to via targets a spear phishing attack containing a malicious RTF or Word document leveraging exploit code for the popular CVE-2012-0158 vulnerability,0,PlugX is most frequently delivered to targets via a
+23,other,Carbanak designed for espionage,1,"(initially based on Carberp), designed for espionage, data exfiltration"
+24,other,Carbanak designed for data exfiltration,1,"(initially based on Carberp), designed for espionage, data exfiltration"
+25,other,Carbanak designed to provide remote access to infected machines,1,"(initially based on Carberp), designed for espionage, data exfiltration"
+26,other,They install additional software such as the Ammyy Remote Administration Tool,1,victim´s infrastructure. They then install additional software such as
+27,other,They SSH servers compromise,1,"Administration Tool, or even compromise SSH servers. Notably, some"
+28,other,The videos sent to the C2 server,1,made. The videos were sent to the C2 server.
+29,other,made video recordings of the activities of bank employees,1,"particularly system administrators, were made The videos were sent"
+30,other,Carbanak determines if either the avp.exe or avpui.exe processes (components of Kaspersky Internet Security) is running,1,"the malicious service, Carbanak determines if either the avp.exe"
+31,other,the malware gets the proxy configuration from the registry entry,1,executed. Then the malware gets the proxy configuration from
+32,other,The malware saves files in,1,..\All users\%AppData%\Mozilla\ The malware saves files in this location
+33,other,Carbanak obtain proxy configuration information from headers sent through an application via SOCKS or HTTP,1,"Appendixes. Additionally, Carbanak can obtain proxy configuration information from"
+34,other,Carbanak logs keystrokes,1,"system is infected, Carbanak logs keystrokes and takes screenshots"
+35,other,Carbanak takes screenshots every 20 seconds,1,Carbanak logs keystrokes and takes screenshots every 20 seconds.
+36,other,Carbanak enable connections to the infected computer using the Remote Desktop Protocol (RDP),1,contact intelreports@kaspersky.com 9 To enable connections to the infected
+37,other,Carbanak detects the banking application BLIZKO (funds transfer software) in the infected computer,1,and winlogon.exe. If Carbanak detects the banking application BLIZKO
+38,other,the attackers recompiled the machine’s SSH daemon with so a backdoor they could gain direct access,1,"server, and the attackers recompiled the machine’s SSH daemon"
+39,other,the program MBR Eraser remove traces,1,program MBR Eraser to remove traces and to crack
+40,other,the program MBR Eraser Windows computers to crack,1,to remove traces and to crack Windows computers and servers.
+41,other,hackers got access to e-mail servers,1,"and payment systems, hackers got access to e-mail servers"
+42,other,hackers control all internal communications,1,to e-mail servers to control all internal communications. This
+43,other,download arbitrary exe- cutable files from the management server,1,is the ability to download arbitrary exe- cutable files
+44,other,the attacker gets remote access to the user computer,1,"a result, the attacker gets remote access to the"
+45,other,the attackers SSH backdoor use,1,the Linux family they use SSH backdoor that transmits
+46,other,SSH backdoor transmits the login/password data used to access the servers to the malicious server,1,use SSH backdoor that transmits to the malicious server
+47,other,SSH backdoor provides attackers remote access to the servers,1,access the servers and provides attackers remote access to
+48,other,"the at- tackers modify rules for firewalls Microsoft TMG, CISCO, etc",1,at- tackers may appropriately modify rules for firewalls Microsoft
+49,other,the attackers downloaded mali- cious scripts and changed denominations of issued banknotes in the ATM operating system registry,1,"Having access, the attackers downloaded mali- cious scripts and"
+50,other,The Gozi/ISFB based malware drop additional components on interesting systems,1,malware was used to drop additional components on interesting
+51,other,the dropper add persistence in the registry,1,by the dropper to add persistence in the registry
+52,other,the attackers compromising the update site for several industrial control system (ICS) software producers,1,by the attackers involves compromising the update site for
+53,other,Remote Access Tool (RAT) type malware provide the attackers with access and control of compromised computers,1,(RAT) type malware which provide the attackers with access
+54,other,extract data,1,"computer, allowing them to extract data and install further"
+55,other,install further malware,1,to extract data and install further malware. Oldrea appears
+56,other,The components are downloaded,1,execute payloads. The components are downloaded by reaching out to
+57,other,"Backdoor.Oldrea OS, user name, computer name, country, language, nation, Internet adapter configuration information, available drives, default browser, running processes, desktop file list, My Documents, Internet history, program files, and root of available drives collect system information such as",1,Backdoor.Oldrea will attempt to collect system information such as
+58,other,This data collected,1,files. This data is collected and written to a
+59,other,This data written to in a temporary file an encrypted form,1,data is collected and written to a temporary file
+60,other,It install additional files,1,designed to download and install additional files and exfiltrate
+61,other,It exfiltrate data,1,install additional files and exfiltrate data. Samples sometimes use
+62,other,Trojan.Karagany checks for by a live Internet connection visiting Microsoft or Adobe websites,1,system restarts. Trojan.Karagany first checks for a live Internet
+63,other,Dyreza intercept logins by acquiring the HTTP POST data from under banking SSL sessions,1,"banking fraud, acting to intercept logins and perform malicious"
+64,other,first-stage loaders install the Dridex payload onto the victim machine,1,loaders that will then install the Dridex payload onto
+65,other,This copy of Kaptoxa scanned volatile memory of infected systems for patterns that looked like credit card numbers,1,copy of Kaptoxa continuously scanned volatile memory of infected
+66,other,This copy of Kaptoxa logged them to a file,1,credit card numbers and logged them to a file
+67,other,This copy of Kaptoxa transferred a file to an internal network share,1,a file that was transferred to an internal network
+68,other,transferred the data to external FTP servers,1,which the data was transferred to external FTP servers.
+69,other,The malware scans memory for both Track 1 and Track 2 credit card data,1,criminal forums. The malware scans memory for both Track
+70,other,The malware HTTP requests exfiltrates its findings to over control servers,1,credit card data and exfiltrates its findings back to
+71,other,This tool log keystrokes on infected systems,1,"tool is used to log keystrokes, screenshots, and other"
+72,other,This tool log screenshots on infected systems,1,"tool is used to log keystrokes, screenshots, and other"
+73,other,This tool log other user activity on infected systems,1,"tool is used to log keystrokes, screenshots, and other"
+74,other,This tool exfiltrates this data to an attacker-controlled server,1,on infected systems and exfiltrates this data to an
+75,other,it deploys a backdoor Trojan,1,"executed, it extracts and deploys a backdoor Trojan, a"
+76,other,conducting reconnaissance of victim machines,1,"command set capable of conducting reconnaissance of victim machines,"
+77,other,exfiltrating data,1,"files, downloading files, and exfiltrating data. A number of"
+78,other,It log keystrokes,1,including the ability to log keystrokes; modify and copy
+79,other,capture screenshots video of user activity,1,modify and copy files; capture screenshots or video of
+80,other,logging off users,1,"Activity as terminating processes, logging off users, and rebooting victim"
+81,other,A full command shell provided,1,command shell is also provided through access to a
+82,other,Win64.exe invoke other programs with elevated privileges,1,that was used to invoke other programs with elevated
+83,other,Win64.exe elevate its privileges to those of the SYSTEM user,1,previously unknown vulnerability to elevate its privileges to those
+84,other,Win64.exe create a new process with to these access rights run the command that was passed as an argument,1,SYSTEM user and then create a new process with
+85,other,deleted it,1,"operations, and it was deleted immediately after use. A"
+86,other,executed any command passed to the executable with elevated privileges,1,to the executable was executed with elevated privileges. The
+87,other,combined malicious executable a decoy document with a malicious CVE-2014-1761 document,1,malicious executable to be combined with a malicious CVE-2014-1761
+88,other,this adversary gain legitimate credentials to move laterally,1,this adversary seeks to gain legitimate credentials to move
+89,other,this adversary RDP sessions establish to achieve their objectives,1,to move laterally and establish RDP sessions to achieve
+90,other,this provides the equivalent functionality of a RAT for adversary control of webservers,1,of Chopper webshell; this provides the equivalent functionality of
+91,other,they deploy privilege-escalation tools,1,"from which they can deploy privilege-escalation tools, move laterally,"
+92,other,"they seek legitimate credentials via tools such as Windows Credential Viewer, Windows Credential Editor, or Mimikatz",1,"victim’s network, they then seek legitimate credentials via tools"
+93,other,HURRICANE PANDA RDP rely on,1,"HURRICANE PANDA will often rely on RDP. First, they will"
+94,other,RAR compressed using files of interest,1,files of interest are compressed and password protected using
+95,other,RAR password protected using files of interest,1,"interest are compressed and password protected using RAR. Next, they"
+96,other,they stage the files at a convenient location,1,"using RAR. Next, they stage the files at a"
+97,other,they FTP exfiltrate the files from via the network,1,"convenient location. Finally, they exfiltrate the files from the"
+98,other,Pirpi provides the adversary with a traditional set of RAT features,1,use since 2009. Pirpi provides the adversary with a
+99,other,the adversary exfiltrate files,1,"allow the adversary to exfiltrate and deploy files, along"
+100,other,sophisticated Windows-based rootkit leverage an encrypted Virtual File System (VFS) as a staging area for tools to deploy and data prepared for exfiltration,1,Windows-based rootkit that can leverage an encrypted Virtual File
+101,other,Their main implant is a sophisticated RAT that exhibits a modular architecture and a multi-year development history,1,"main implant, called X-Agent, is a sophisticated RAT that"

@@ -1,0 +1,47 @@
+,label,text-neigh,label_num,text-rel
+0,NoOther,of Carbanak’s capabilities. Carbanak copies itself into %system32%\com with,0,Carbanak copies itself into %system32%\com
+1,NoOther,the victim´s defenses. Carbanak creates a file with a,0,Carbanak creates a file with a random name and a .bin extension in %COMMON_APPDATA%\Mozilla
+2,NoOther,..\All users\%AppData%\Mozilla\ The malware saves files in this location,0,The malware saves files in
+3,NoOther,SOCKS or HTTP. Carbanak injects its code into svchost.exe.,0,Carbanak injects its code into svchost.exe
+4,NoOther,program MBR Eraser to remove traces and to crack,0,the program MBR Eraser remove traces
+5,NoOther,the management server and run them. One of these,0,run them
+6,NoOther,the registry and to drop a second file (as,0,the dropper drop a second file
+7,NoOther,servers to download and execute payloads. The components are,0,execute payloads
+8,NoOther,data is collected and written to a temporary file,0,This data written to in a temporary file an encrypted form
+9,NoOther,Attacks Against Energy Trojan.Karagany copies itself with hidden and,0,Trojan.Karagany copies itself with hidden and system attributes where it was first executed
+10,NoOther,credit card numbers and logged them to a file,0,This copy of Kaptoxa logged them to a file
+11,NoOther,"executable. When executed, it extracts and deploys a backdoor",0,it extracts a backdoor Trojan a configuration file optionally a decoy (an image or a legitimate executable)
+12,NoOther,"reconnaissance of victim machines, deleting files, downloading files, and",0,deleting files
+13,NoOther,log keystrokes; modify and copy files; capture screenshots or,0,It copy files
+14,NoOther,ability to log keystrokes; modify and copy files; capture,0,It modify files
+15,NoOther,typically three files are dropped on the file system,0,dropped three files
+16,NoOther,"adversary to exfiltrate and deploy files, along with remote",0,the adversary deploy files
+17,NoOther,made. The videos were sent to the C2 server.,0,The videos sent to the C2 server
+18,NoOther,that will later be sent to the C2 server,0,The malware sent to files the C2 server
+19,NoOther,within this process. Carbanak downloads the file kldconfig.plug from,0,Carbanak downloads the file kldconfig.plug from its C2 server
+20,NoOther,typical Carbanak request: Carbanak sends its collected monitoring data,0,Carbanak sends its collected monitoring data to its C2 server
+21,NoOther,is the ability to download arbitrary exe- cutable files,0,download arbitrary exe- cutable files from the management server
+22,NoOther,use SSH backdoor that transmits to the malicious server,0,SSH backdoor transmits the login/password data used to access the servers to the malicious server
+23,NoOther,"Having access, the attackers downloaded mali- cious scripts and",0,the attackers downloaded mali- cious scripts and changed denominations of issued banknotes in the ATM operating system registry
+24,NoOther,malware was used to drop additional components on interesting,0,The Gozi/ISFB based malware drop additional components on interesting systems
+25,NoOther,Explorer in order to drop Oldrea or Karagany on,0,Oldrea or Karagany drop on the victim’s computer
+26,NoOther,with C&C servers to download and execute payloads. The,0,download payloads
+27,NoOther,execute payloads. The components are downloaded by reaching out to,0,The components are downloaded
+28,NoOther,It is designed to download and install additional files,0,It download additional files
+29,NoOther,will reach out and download first-stage loaders that will,0,These macros download first-stage loaders
+30,NoOther,a file that was transferred to an internal network,0,This copy of Kaptoxa transferred a file to an internal network share
+31,NoOther,which the data was transferred to external FTP servers.,0,transferred the data to external FTP servers
+32,NoOther,"victim machines, deleting files, downloading files, and exfiltrating data.",0,downloading files
+33,Other,autorun privileges the malware creates a new service. The,1,the malware creates a new service
+34,Other,"the malicious service, Carbanak determines if either the avp.exe",1,Carbanak determines if either the avp.exe or avpui.exe processes (components of Kaspersky Internet Security) is running
+35,Other,"Desktop Protocol (RDP), Carbanak sets Termservice service execution mode",1,Carbanak Auto Termservice service execution mode sets to
+36,Other,Execution of this file changed registry keys in the,1,this file changed registry keys in the registry branch HKEY_LOCAL_MACHINE\ SOFTWARE\Wincor Nixdorf\ProTopas\Current- Version\LYNXPAR\CASH_DISPENSER that are responsible for cassette denominations in an ATM
+37,Other,runas in order to execute commands as administrator. This,1,the malware execute commands as administrator
+38,Other,the C&C server and performing a GET request which,1,performing a GET request
+39,Other,form before it is POST’ed to a remote C&C,1,POST’ed it to a remote C&C server
+40,Other,credit card data and exfiltrates its findings back to,1,The malware HTTP requests exfiltrates its findings to over control servers
+41,Other,of user activity; and perform administrative tasks such 22,1,It perform administrative tasks
+42,Other,"Report Notable Activity as terminating processes, logging off users,",1,terminating processes
+43,Other,"logging off users, and rebooting victim machines. A full",1,rebooting victim machines
+44,Other,"a cmd.exe process, which sends output to the PlugX",1,sends output to over for the PlugX instance named pipes onward relay to the attacker’s Command-and-Control (C2) servers
+45,Other,SYSTEM user and then create a new process with,1,Win64.exe create a new process with to these access rights run the command that was passed as an argument

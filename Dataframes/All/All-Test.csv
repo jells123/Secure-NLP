@@ -1,0 +1,111 @@
+,text-rel,token,ActionName,Capability
+0,The attackers obtaining access to specific systems of interest in all of the compromised organizations,obtaining,-,Other
+1,they eavesdropped on email conversations,eavesdropped,-,Other
+2,they insert fraudulent emails,insert,-,Other
+3,used a command-and-control (C&C) server in an attack,used,-,command_and_control
+4,Bda9.tmp executed,executed,File,-
+5,Bda9.tmp create a variant of Backdoor.Jiripbot with the file name LiveUpdate.exe,create,-,command_and_control
+6,spread through a network,spread,-,infection_propagation
+7,create a back door on a newly infected system,create,-,Other
+8,create copies of Backdoor.Jiripbot on the compromised computers,create,File,-
+9,shred.exe remove the infections,remove,-,Other
+10,It hides activity,hides,-,Other
+11,It editing events logs,editing,File,-
+12,It dumping passwords,dumping,File,-
+13,It deleting files,deleting,File,-
+14,The tool end processes,end,Other,-
+15,The tool perform a secure self-delete,perform,File,Other
+16,Hacktool.Eventlog dumping out ones of interest,dumping out,File,-
+17,Hacktool.Eventlog parse event logs,parse,File,-
+18,Hacktool.Eventlog delete entries,delete,File,-
+19,Hacktool.Proxy.A route traffic through onto an intermediary node their destination node,route,-,Other
+20,modified event logs to remove any evidence of the attackers’ activity,modified,File,Other
+21,the attackers remove infections from computers that are of no interest,remove,-,Other
+22,It looks for certain process names of running processes,looks for,Other,-
+23,It checks that the hashed value of the registry subkey HKEY_LOCAL_MACHINE\Microsoft\WindowsNT\ CurrentVersion\ProductId is not equal to a number of hashed values,checks,Other,-
+24,It provide an effective (almost invisible) persistence mechanism hidden storage malicious command execution inside the Windows operating system,provide,-,Other
+25,GrayFish hijacks the OS loading mechanisms,hijacks,-,Other
+26,GrayFish injecting its code into the boot record,injecting,File,Other
+27,the entire GrayFish platform If self-destructs an error happens during launch,self-destructs,-,Other
+28,GrayFish To implements its own encrypted Virtual File System (VFS) inside store stolen information the Windows registry,implements,-,Other
+29,The GrayFish implementation make to it invisible antivirus products,make,-,Other
+30,stored all the modules as well as the stolen data in encrypted form in the registry,stored,-,Other
+31,sent the data to the C&C,sent,-,Other
+32,it collect basic system information,collect,-,Other
+33,save it onto the hidden area of the stick,save,File,Other
+34,they save these commands in the hidden area of the USB stick,save,-,command_and_control
+35,an installer escalate privileges using two known EQUATION group exploits,escalate,-,Other
+36,it run the group’s DOUBLEFANTASY implant,run,File,-
+37,install it onto the victim’s machine,install,-,Other
+38,infect the hard drive firmware,infect,-,Other
+39,The plugin reprogramming the HDD firmware with a custom payload from the EQUATION group,reprogramming,-,Other
+40,The plugin providing an API into a set of hidden sectors (or data storage) of the hard drive,providing,-,Other
+41,attacked a Kaspersky Lab user browsing an online forum with an exploit from one of the Equation group’s exploitation servers,attacked,-,infection_propagation
+42,a specific PHP script exploited only authenticated visitors,exploited,-,infection_propagation
+43,the attackers infect only very specific targets on these forums,infect,-,infection_propagation
+44,GRAYFISH uses the registry to store all malware-related modules and data in encrypted format,uses,Other,Other
+45,EQUATIONDRUG include perhaps the most sophisticated persistence mechanism we’ve ever seen,include,-,Other
+46,The GRAYFISH bootkit loads the operating system,loads,-,Other
+47,The GRAYFISH bootkit hijacks the loading of the first driver in the kernel,hijacks,-,Other
+48,The compromised devices steal unencrypted network traffic,steal,-,Other
+49,HTTP Cookies steal on popular social network sites,steal,-,Other
+50,infect other devices,infect,-,infection_propagation
+51,find other devices,find,-,infection_propagation
+52,Moose kill the processes of other malware families competing for the limited resources offered by the infected embedded system,kill,Other,-
+53,Linux/Moose communicate with a set of command and control servers (C&C) that are hardcoded into the malware itself,communicate,-,command_and_control
+54,the configuration C&C server provide configuration information that will affect the behavior of the malware,provide,-,command_and_control
+55,the bot HTTP cookies from popular social networks steal,steal,-,Other
+56,the malware checks whether the file /home/hik/start.sh exists on disk,checks,File,-
+57,inject malware in downloaded files,inject,-,Other
+58,rogue DNS servers point legitimate sites to phishing sites,point,-,infection_propagation
+59,rogue DNS servers perform man-in-the-middle attacks,perform,-,Other
+60,The obfuscation applied to the strings sent through the network,applied,-,Other
+61,created three sets of threads,created,Other,-
+62,it TCP port 10073 connect on,connect,Other,-
+63,it considers that the host is already infected,considers,-,infection_propagation
+64,report it to the report C&C server,report,-,command_and_control
+65,It bruteforce the login prompt with a username and password combination list it received from the configuration C&C server,bruteforce,-,Other
+66,it report the intrusion to the report C&C server,report,-,command_and_control
+67,Moose executing commands on the victim device,executing,-,Other
+68,It send a message to with the report C&C server what it has learned so far about the target victim,send,-,command_and_control
+69,The report C&C server responds with obfuscated commands to execute on the victim,responds,-,command_and_control
+70,it reach the configuration C&C server,reach,-,-
+71,it obtain its configuration parameters,obtain,-,command_and_control
+72,"redirected traffic intended for a certain specified address to another, entirely unrelated address",redirected,-,Other
+73,the configuration C&C server returns the public IP address it saw when it was contacted by the infected router,returns,-,command_and_control
+74,the worm Local Area Networks (LANs) that are not normally accessible from the Internet due to the use of firewalls and network address translation (NAT) spread inside,spread,-,infection_propagation
+75,This bypass firewalls on the perimeter,bypass,-,Other
+76,Linux/Moose TCP port 10073 listening on for incoming connections,listening,Network,-
+77,the bot used this server to assess whether a system is infected,used,-,infection_propagation
+78,it result in without a TCP handshake a data payload,result,Other,-
+79,sent traffic between the client of the infected service and the specified host,sent,-,Other
+80,Linux/Moose eavesdrop on traffic going through affected devices,eavesdrop,-,Other
+81,It creates a raw socket,creates,Other,-
+82,"sent the whole packet including its Ethernet, IP, TCP headers and payload to the report C&C server",sent,-,command_and_control
+83,it send a kill signal to any process that matches any of the blacklisted strings,send,Other,-
+84,the C&C sent all of the data,sent,-,command_and_control
+85,they update variables in the client,update,-,command_and_control
+86,The server replies with the configuration for the malware,replies,-,command_and_control
+87,the payload work as an information stealer,work,-,Other
+88,the payload work as reconnaissance tool,work,-,Other
+89,visiting a website using the infected bot,visiting,Other,-
+90,download a command a library,download,Network,Other
+91,execute a command a library,execute,File,Other
+92,update,update,-,Other
+93,uninstall,uninstall,-,Other
+94,the botnet won’t work in a virtual machine,won’t work,-,Other
+95,the malware author To checks if the following directories and the one file exist detect whether the malware is running in a virtual machine,checks,-,Other
+96,The malware persistence uses a registry key in order to be executed automatically in case the system is rebooted,uses,Other,Other
+97,This feature installing further malware on the affected PC,installing,-,Other
+98,Sakula malware variants were signed with stolen certificates,were signed,-,Other
+99,it open a URL,open,-,Other
+100,it using the ShellExecute() API,using,-,Other
+101,Sakula malware utilized the Dynamic Link Library (DLL) side-loading technique,utilized,-,Other
+102,droppers masquerading as installers,masquerading,-,Other
+103,MediaSoft.exe loaded a file named msi.dll,loaded,-,Other
+104,file named msi.dll load the Sakula executable,load,-,Other
+105,"the droppers directed victims to login pages for services specific to the target organization like webmail, document sharing, or corporate VPN",directed,Network,Other
+106,the droppers were directed victims to legitimate login pages,were directed,Network,Other
+107,redirecting victims to these login pages,redirecting,Network,Other
+108,the droppers were sent victims to a login page hosted on a domain that spoofed that of the legitimate one,were sent,Network,Other
+109,It dropped the side-loaded Sakula malware,dropped,Network,Other

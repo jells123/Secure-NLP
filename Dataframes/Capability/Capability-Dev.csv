@@ -1,0 +1,128 @@
+,label,text-rel,label_num,token,text-neigh
+0,Capability,The malware sent to files the C2 server,1,designed,that will later be sent to the C2 server
+1,Capability,Carbanak downloads the file kldconfig.plug from its C2 server,1,designed,within this process. Carbanak downloads the file kldconfig.plug from
+2,Capability,it sends a special notification to its C2 server,1,designed,"the infected computer, it sends a special notification to"
+3,Capability,It receives commands,1,install,C2 server. It also receives commands. The commands are
+4,Capability,Carbanak sends its collected monitoring data to its C2 server,1,compromise,typical Carbanak request: Carbanak sends its collected monitoring data
+5,Capability,used to a Secure Shell (SSH) backdoor communicate with the C2 server,1,sent,Shell (SSH) backdoor was used to communicate with the
+6,Capability,The Dragonfly attackers used hacked websites to host command-and-control (C&C) software,1,made,compromised. The Dragonfly attackers used hacked websites to host
+7,Capability,a persistent component C&C servers interacts with,1,copies,a persistent component that interacts with C&C servers to
+8,Capability,download payloads,1,creates,with C&C servers to download and execute payloads. The
+9,Capability,reaching out to the C&C server,1,determines,components are downloaded by reaching out to the C&C server
+10,Capability,POST’ed it to a remote C&C server,1,creates,form before it is POST’ed to a remote C&C
+11,Capability,It reach out to its C&C server,1,gets,websites. It will only reach out to its C&C server
+12,Capability,sends output to over for the PlugX instance named pipes onward relay to the attacker’s Command-and-Control (C2) servers,1,saves,"a cmd.exe process, which sends output to the PlugX"
+13,Capability,ZxShell connected to a C2 at newss.effers.com,1,sent,"RAT called ZxShell, which connected to a C2 at"
+14,Capability,"malware connecting to a known TEMPER PANDA C2 address, www. verizon.proxydns.com",1,obtain,Notable Activity dropped malware connecting to a known TEMPER
+15,Capability,PlugX C2 servers used the following IP addresses as,1,injects,following IP addresses are used as PlugX C2 servers:
+16,Capability,the program MBR Eraser to crack servers,1,downloads,to remove traces and to crack Windows computers and servers.
+17,Capability,They Backdoor.Oldrea bundle with a legitimate update of the affected software,1,logs,software producers. They then bundle Backdoor.Oldrea with a legitimate
+18,Capability,selected executives and senior employees in target companies receive emails containing a malicious PDF attachment,1,takes,employees in target companies receive emails containing a malicious
+19,Capability,Oldrea or Karagany drop on the victim’s computer,1,sets,Explorer in order to drop Oldrea or Karagany on
+20,Capability,These campaigns relied on spear phishing with malicious documents that dropped malware (mostly PlugX) along with Vietnamese- language decoy documents,1,enable,China Sea. These campaigns relied primarily on spear phishing
+21,Capability,This campaign leveraged fake websites to serve malware that poses as software updates for legitimate applications trick users into entering credentials,1,sends,United States. This campaign leveraged fake websites to trick
+22,Capability,PlugX delivered to via targets a spear phishing attack containing a malicious RTF or Word document leveraging exploit code for the popular CVE-2012-0158 vulnerability,1,detects,PlugX is most frequently delivered to targets via a
+23,Capability,Carbanak designed for espionage,1,receives,"(initially based on Carberp), designed for espionage, data exfiltration"
+24,Capability,Carbanak designed for data exfiltration,1,sends,"(initially based on Carberp), designed for espionage, data exfiltration"
+25,Capability,Carbanak designed to provide remote access to infected machines,1,recompiled,"(initially based on Carberp), designed for espionage, data exfiltration"
+26,Capability,They install additional software such as the Ammyy Remote Administration Tool,1,used,victim´s infrastructure. They then install additional software such as
+27,Capability,They SSH servers compromise,1,remove,"Administration Tool, or even compromise SSH servers. Notably, some"
+28,Capability,The videos sent to the C2 server,1,to crack,made. The videos were sent to the C2 server.
+29,Capability,made video recordings of the activities of bank employees,1,to crack,"particularly system administrators, were made The videos were sent"
+30,Capability,Carbanak determines if either the avp.exe or avpui.exe processes (components of Kaspersky Internet Security) is running,1,got,"the malicious service, Carbanak determines if either the avp.exe"
+31,Capability,the malware gets the proxy configuration from the registry entry,1,control,executed. Then the malware gets the proxy configuration from
+32,Capability,The malware saves files in,1,download,..\All users\%AppData%\Mozilla\ The malware saves files in this location
+33,Capability,Carbanak obtain proxy configuration information from headers sent through an application via SOCKS or HTTP,1,gets,"Appendixes. Additionally, Carbanak can obtain proxy configuration information from"
+34,Capability,Carbanak logs keystrokes,1,use,"system is infected, Carbanak logs keystrokes and takes screenshots"
+35,Capability,Carbanak takes screenshots every 20 seconds,1,transmits,Carbanak logs keystrokes and takes screenshots every 20 seconds.
+36,Capability,Carbanak enable connections to the infected computer using the Remote Desktop Protocol (RDP),1,provides,contact intelreports@kaspersky.com 9 To enable connections to the infected
+37,Capability,Carbanak detects the banking application BLIZKO (funds transfer software) in the infected computer,1,modify,and winlogon.exe. If Carbanak detects the banking application BLIZKO
+38,Capability,the attackers recompiled the machine’s SSH daemon with so a backdoor they could gain direct access,1,downloaded,"server, and the attackers recompiled the machine’s SSH daemon"
+39,Capability,the program MBR Eraser remove traces,1,changed,program MBR Eraser to remove traces and to crack
+40,Capability,the program MBR Eraser Windows computers to crack,1,drop,to remove traces and to crack Windows computers and servers.
+41,Capability,hackers got access to e-mail servers,1,run,"and payment systems, hackers got access to e-mail servers"
+42,Capability,hackers control all internal communications,1,execute,to e-mail servers to control all internal communications. This
+43,Capability,download arbitrary exe- cutable files from the management server,1,add,is the ability to download arbitrary exe- cutable files
+44,Capability,the attacker gets remote access to the user computer,1,drop,"a result, the attacker gets remote access to the"
+45,Capability,the attackers SSH backdoor use,1,compromising,the Linux family they use SSH backdoor that transmits
+46,Capability,SSH backdoor transmits the login/password data used to access the servers to the malicious server,1,bundle,use SSH backdoor that transmits to the malicious server
+47,Capability,SSH backdoor provides attackers remote access to the servers,1,used,access the servers and provides attackers remote access to
+48,Capability,"the at- tackers modify rules for firewalls Microsoft TMG, CISCO, etc",1,provide,at- tackers may appropriately modify rules for firewalls Microsoft
+49,Capability,the attackers downloaded mali- cious scripts and changed denominations of issued banknotes in the ATM operating system registry,1,extract,"Having access, the attackers downloaded mali- cious scripts and"
+50,Capability,The Gozi/ISFB based malware drop additional components on interesting systems,1,install,malware was used to drop additional components on interesting
+51,Capability,the dropper add persistence in the registry,1,receive,by the dropper to add persistence in the registry
+52,Capability,the attackers compromising the update site for several industrial control system (ICS) software producers,1,drop,by the attackers involves compromising the update site for
+53,Capability,Remote Access Tool (RAT) type malware provide the attackers with access and control of compromised computers,1,interacts,(RAT) type malware which provide the attackers with access
+54,Capability,extract data,1,download,"computer, allowing them to extract data and install further"
+55,Capability,install further malware,1,execute,to extract data and install further malware. Oldrea appears
+56,Capability,The components are downloaded,1,performing,execute payloads. The components are downloaded by reaching out to
+57,Capability,"Backdoor.Oldrea OS, user name, computer name, country, language, nation, Internet adapter configuration information, available drives, default browser, running processes, desktop file list, My Documents, Internet history, program files, and root of available drives collect system information such as",1,reaching out,Backdoor.Oldrea will attempt to collect system information such as
+58,Capability,This data collected,1,are downloaded,files. This data is collected and written to a
+59,Capability,This data written to in a temporary file an encrypted form,1,collect,data is collected and written to a temporary file
+60,Capability,It install additional files,1,collected,designed to download and install additional files and exfiltrate
+61,Capability,It exfiltrate data,1,written,install additional files and exfiltrate data. Samples sometimes use
+62,Capability,Trojan.Karagany checks for by a live Internet connection visiting Microsoft or Adobe websites,1,POST’ed,system restarts. Trojan.Karagany first checks for a live Internet
+63,Capability,Dyreza intercept logins by acquiring the HTTP POST data from under banking SSL sessions,1,download,"banking fraud, acting to intercept logins and perform malicious"
+64,Capability,first-stage loaders install the Dridex payload onto the victim machine,1,install,loaders that will then install the Dridex payload onto
+65,Capability,This copy of Kaptoxa scanned volatile memory of infected systems for patterns that looked like credit card numbers,1,exfiltrate,copy of Kaptoxa continuously scanned volatile memory of infected
+66,Capability,This copy of Kaptoxa logged them to a file,1,copies,credit card numbers and logged them to a file
+67,Capability,This copy of Kaptoxa transferred a file to an internal network share,1,checks,a file that was transferred to an internal network
+68,Capability,transferred the data to external FTP servers,1,reach out,which the data was transferred to external FTP servers.
+69,Capability,The malware scans memory for both Track 1 and Track 2 credit card data,1,relied,criminal forums. The malware scans memory for both Track
+70,Capability,The malware HTTP requests exfiltrates its findings to over control servers,1,intercept,credit card data and exfiltrates its findings back to
+71,Capability,This tool log keystrokes on infected systems,1,download,"tool is used to log keystrokes, screenshots, and other"
+72,Capability,This tool log screenshots on infected systems,1,install,"tool is used to log keystrokes, screenshots, and other"
+73,Capability,This tool log other user activity on infected systems,1,scanned,"tool is used to log keystrokes, screenshots, and other"
+74,Capability,This tool exfiltrates this data to an attacker-controlled server,1,logged,on infected systems and exfiltrates this data to an
+75,Capability,it deploys a backdoor Trojan,1,transferred,"executed, it extracts and deploys a backdoor Trojan, a"
+76,Capability,conducting reconnaissance of victim machines,1,transferred,"command set capable of conducting reconnaissance of victim machines,"
+77,Capability,exfiltrating data,1,scans,"files, downloading files, and exfiltrating data. A number of"
+78,Capability,It log keystrokes,1,exfiltrates,including the ability to log keystrokes; modify and copy
+79,Capability,capture screenshots video of user activity,1,leveraged,modify and copy files; capture screenshots or video of
+80,Capability,logging off users,1,log,"Activity as terminating processes, logging off users, and rebooting victim"
+81,Capability,A full command shell provided,1,log,command shell is also provided through access to a
+82,Capability,Win64.exe invoke other programs with elevated privileges,1,log,that was used to invoke other programs with elevated
+83,Capability,Win64.exe elevate its privileges to those of the SYSTEM user,1,exfiltrates,previously unknown vulnerability to elevate its privileges to those
+84,Capability,Win64.exe create a new process with to these access rights run the command that was passed as an argument,1,extracts,SYSTEM user and then create a new process with
+85,Capability,deleted it,1,deploys,"operations, and it was deleted immediately after use. A"
+86,Capability,executed any command passed to the executable with elevated privileges,1,conducting,to the executable was executed with elevated privileges. The
+87,Capability,combined malicious executable a decoy document with a malicious CVE-2014-1761 document,1,deleting,malicious executable to be combined with a malicious CVE-2014-1761
+88,Capability,this adversary gain legitimate credentials to move laterally,1,downloading,this adversary seeks to gain legitimate credentials to move
+89,Capability,this adversary RDP sessions establish to achieve their objectives,1,exfiltrating,to move laterally and establish RDP sessions to achieve
+90,Capability,this provides the equivalent functionality of a RAT for adversary control of webservers,1,log,of Chopper webshell; this provides the equivalent functionality of
+91,Capability,they deploy privilege-escalation tools,1,copy,"from which they can deploy privilege-escalation tools, move laterally,"
+92,Capability,"they seek legitimate credentials via tools such as Windows Credential Viewer, Windows Credential Editor, or Mimikatz",1,modify,"victim’s network, they then seek legitimate credentials via tools"
+93,Capability,HURRICANE PANDA RDP rely on,1,capture,"HURRICANE PANDA will often rely on RDP. First, they will"
+94,Capability,RAR compressed using files of interest,1,perform,files of interest are compressed and password protected using
+95,Capability,RAR password protected using files of interest,1,terminating,"interest are compressed and password protected using RAR. Next, they"
+96,Capability,they stage the files at a convenient location,1,rebooting,"using RAR. Next, they stage the files at a"
+97,Capability,they FTP exfiltrate the files from via the network,1,logging off,"convenient location. Finally, they exfiltrate the files from the"
+98,Capability,Pirpi provides the adversary with a traditional set of RAT features,1,provided,use since 2009. Pirpi provides the adversary with a
+99,Capability,the adversary exfiltrate files,1,sends,"allow the adversary to exfiltrate and deploy files, along"
+100,Capability,sophisticated Windows-based rootkit leverage an encrypted Virtual File System (VFS) as a staging area for tools to deploy and data prepared for exfiltration,1,delivered,Windows-based rootkit that can leverage an encrypted Virtual File
+101,Capability,Their main implant is a sophisticated RAT that exhibits a modular architecture and a multi-year development history,1,dropped,"main implant, called X-Agent, is a sophisticated RAT that"
+102,NoCapability,Carbanak copies itself into %system32%\com,0,connected,of Carbanak’s capabilities. Carbanak copies itself into %system32%\com with
+103,NoCapability,the malware creates a new service,0,invoke,autorun privileges the malware creates a new service. The
+104,NoCapability,Carbanak creates a file with a random name and a .bin extension in %COMMON_APPDATA%\Mozilla,0,elevate,the victim´s defenses. Carbanak creates a file with a
+105,NoCapability,Carbanak injects its code into svchost.exe,0,create,SOCKS or HTTP. Carbanak injects its code into svchost.exe.
+106,NoCapability,Carbanak Auto Termservice service execution mode sets to,0,deleted,"Desktop Protocol (RDP), Carbanak sets Termservice service execution mode"
+107,NoCapability,this file changed registry keys in the registry branch HKEY_LOCAL_MACHINE\ SOFTWARE\Wincor Nixdorf\ProTopas\Current- Version\LYNXPAR\CASH_DISPENSER that are responsible for cassette denominations in an ATM,0,executed,Execution of this file changed registry keys in the
+108,NoCapability,run them,0,combined,the management server and run them. One of these
+109,NoCapability,the malware execute commands as administrator,0,connecting,runas in order to execute commands as administrator. This
+110,NoCapability,the dropper drop a second file,0,gain,the registry and to drop a second file (as
+111,NoCapability,execute payloads,0,establish,servers to download and execute payloads. The components are
+112,NoCapability,performing a GET request,0,provides,the C&C server and performing a GET request which
+113,NoCapability,It download additional files,0,deploy,It is designed to download and install additional files
+114,NoCapability,Trojan.Karagany copies itself with hidden and system attributes where it was first executed,0,used,Attacks Against Energy Trojan.Karagany copies itself with hidden and
+115,NoCapability,These macros download first-stage loaders,0,seek,will reach out and download first-stage loaders that will
+116,NoCapability,it extracts a backdoor Trojan a configuration file optionally a decoy (an image or a legitimate executable),0,rely on,"executable. When executed, it extracts and deploys a backdoor"
+117,NoCapability,deleting files,0,presented,"reconnaissance of victim machines, deleting files, downloading files, and"
+118,NoCapability,downloading files,0,compressed,"victim machines, deleting files, downloading files, and exfiltrating data."
+119,NoCapability,It copy files,0,password protected,log keystrokes; modify and copy files; capture screenshots or
+120,NoCapability,It modify files,0,stage,ability to log keystrokes; modify and copy files; capture
+121,NoCapability,It perform administrative tasks,0,exfiltrate,of user activity; and perform administrative tasks such 22
+122,NoCapability,terminating processes,0,provides,"Report Notable Activity as terminating processes, logging off users,"
+123,NoCapability,rebooting victim machines,0,exfiltrate,"logging off users, and rebooting victim machines. A full"
+124,NoCapability,dropped three files,0,deploy,typically three files are dropped on the file system
+125,NoCapability,presented with an administrative command shell,0,leverage,keys mechanism and be presented with an administrative command
+126,NoCapability,the adversary deploy files,0,is,"adversary to exfiltrate and deploy files, along with remote"

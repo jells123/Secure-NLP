@@ -1,0 +1,89 @@
+,label,text-neigh,label_num,text-rel
+0,no-infection/propagation,"a command-and-control (C&C) server used in an attack, the",0,used a command-and-control (C&C) server in an attack
+1,no-infection/propagation,and went on to create a variant of Backdoor.Jiripbot,0,Bda9.tmp create a variant of Backdoor.Jiripbot with the file name LiveUpdate.exe
+2,no-infection/propagation,"air-gapped networks, they can save these commands in the",0,they save these commands in the hidden area of the USB stick
+3,no-infection/propagation,overview Linux/Moose will periodically communicate with a set of,0,Linux/Moose communicate with a set of command and control servers (C&C) that are hardcoded into the malware itself
+4,no-infection/propagation,"configuration C&C server, will provide configuration information that will",0,the configuration C&C server provide configuration information that will affect the behavior of the malware
+5,no-infection/propagation,already infected and will report it as such to,0,report it to the report C&C server
+6,no-infection/propagation,"successful guess, it will report the intrusion to the",0,it report the intrusion to the report C&C server
+7,no-infection/propagation,victim. It will then send a message to the,0,It send a message to with the report C&C server what it has learned so far about the target victim
+8,no-infection/propagation,The report C&C server responds with obfuscated commands to,0,The report C&C server responds with obfuscated commands to execute on the victim
+9,no-infection/propagation,"the configuration C&C server, obtain its configuration parameters, and",0,it obtain its configuration parameters
+10,no-infection/propagation,the configuration C&C server returns the public IP address,0,the configuration C&C server returns the public IP address it saw when it was contacted by the infected router
+11,no-infection/propagation,"headers and payload is sent obfuscated, to the report",0,"sent the whole packet including its Ethernet, IP, TCP headers and payload to the report C&C server"
+12,no-infection/propagation,the data is still sent by the C&C. The,0,the C&C sent all of the data
+13,no-infection/propagation,exchanges is that they update different variables in the,0,they update variables in the client
+14,no-infection/propagation,v31. }; The server replies with the configuration for,0,The server replies with the configuration for the malware
+15,infection/propagation,of internal systems to spread through a network once,1,spread through a network
+16,infection/propagation,an online forum was attacked with an exploit from,1,attacked a Kaspersky Lab user browsing an online forum with an exploit from one of the Equation group’s exploitation servers
+17,infection/propagation,specific PHP script that exploited only authenticated visitors. We,1,a specific PHP script exploited only authenticated visitors
+18,infection/propagation,taking great care to infect only very specific targets,1,the attackers infect only very specific targets on these forums
+19,infection/propagation,to attempt find and infect other devices automatically. The,1,infect other devices
+20,infection/propagation,are used to attempt find and infect other devices,1,find other devices
+21,infection/propagation,rogue DNS servers can point legitimate sites to phishing,1,rogue DNS servers point legitimate sites to phishing sites
+22,infection/propagation,disconnect right away and considers that the host is,1,it considers that the host is already infected
+23,infection/propagation,enables the worm to spread inside Local Area Networks,1,the worm Local Area Networks (LANs) that are not normally accessible from the Internet due to the use of firewalls and network address translation (NAT) spread inside
+24,infection/propagation,"discussed, this server is used by the bot to",1,the bot used this server to assess whether a system is infected
+25,no-infection/propagation,The attackers focused on obtaining access to specific systems,0,The attackers obtaining access to specific systems of interest in all of the compromised organizations
+26,no-infection/propagation,"access, they presumably then eavesdropped on email conversations and",0,they eavesdropped on email conversations
+27,no-infection/propagation,a position to potentially insert fraudulent emails as well.,0,they insert fraudulent emails
+28,no-infection/propagation,profile management application to create a back door on,0,create a back door on a newly infected system
+29,no-infection/propagation,used shred.exe to securely remove the infections. The Butterfly,0,shred.exe remove the infections
+30,no-infection/propagation,through a network. It hides activity by editing events,0,It hides activity
+31,no-infection/propagation,also end processes and perform a secure self-delete. The,0,The tool perform a secure self-delete
+32,no-infection/propagation,that allows attackers to route traffic through an intermediary,0,Hacktool.Proxy.A route traffic through onto an intermediary node their destination node
+33,no-infection/propagation,"Similarly, event logs are modified to remove any evidence",0,modified event logs to remove any evidence of the attackers’ activity
+34,no-infection/propagation,the attackers can securely remove infections from computers that,0,the attackers remove infections from computers that are of no interest
+35,no-infection/propagation,It is designed to provide an effective (almost invisible),0,It provide an effective (almost invisible) persistence mechanism hidden storage malicious command execution inside the Windows operating system
+36,no-infection/propagation,"the computer starts, GrayFish hijacks the OS loading mechanisms",0,GrayFish hijacks the OS loading mechanisms
+37,no-infection/propagation,OS loading mechanisms by injecting its code into the,0,GrayFish injecting its code into the boot record
+38,no-infection/propagation,the entire GrayFish platform self-destructs TLP: White For any,0,the entire GrayFish platform If self-destructs an error happens during launch
+39,no-infection/propagation,"own auxiliary information, GrayFish implements its own encrypted Virtual",0,GrayFish To implements its own encrypted Virtual File System (VFS) inside store stolen information the Windows registry
+40,no-infection/propagation,have been designed to make it invisible to antivirus,0,The GrayFish implementation make to it invisible antivirus products
+41,no-infection/propagation,the stolen data are stored in encrypted form in,0,stored all the modules as well as the stolen data in encrypted form in the registry
+42,no-infection/propagation,the hidden area and sent to the C&C. If,0,sent the data to the C&C
+43,no-infection/propagation,"internet connection, it will collect basic system information and",0,it collect basic system information
+44,no-infection/propagation,basic system information and save it onto the hidden,0,save it onto the hidden area of the stick
+45,no-infection/propagation,began by attempting to escalate privileges using two known,0,an installer escalate privileges using two known EQUATION group exploits
+46,no-infection/propagation,group’s DOUBLEFANTASY implant and install it onto the victim’s,0,install it onto the victim’s machine
+47,no-infection/propagation,is the ability to infect the hard drive firmware.,0,infect the hard drive firmware
+48,no-infection/propagation,supports two main functions: reprogramming the HDD firmware with,0,The plugin reprogramming the HDD firmware with a custom payload from the EQUATION group
+49,no-infection/propagation,"the EQUATION group, and providing an API into a",0,The plugin providing an API into a set of hidden sectors (or data storage) of the hard drive
+50,no-infection/propagation,"in GRAYFISH, which exclusively uses the registry to store",0,GRAYFISH uses the registry to store all malware-related modules and data in encrypted format
+51,no-infection/propagation,"features, GRAYFISH and EQUATIONDRUG include perhaps the most sophisticated",0,EQUATIONDRUG include perhaps the most sophisticated persistence mechanism we’ve ever seen
+52,no-infection/propagation,"starts from the VBR, loads the operating system and",0,The GRAYFISH bootkit loads the operating system
+53,no-infection/propagation,the operating system and hijacks the loading of the,0,The GRAYFISH bootkit hijacks the loading of the first driver in the kernel
+54,no-infection/propagation,devices are used to steal unencrypted network traffic and,0,The compromised devices steal unencrypted network traffic
+55,no-infection/propagation,capabilities are used to steal HTTP Cookies on popular,0,HTTP Cookies steal on popular social network sites
+56,no-infection/propagation,bot is trying to steal is HTTP cookies from,0,the bot HTTP cookies from popular social networks steal
+57,no-infection/propagation,"sites to phishing sites, inject malware in downloaded files,",0,inject malware in downloaded files
+58,no-infection/propagation,"in downloaded files, or perform man-in-the-middle attacks that would",0,rogue DNS servers perform man-in-the-middle attacks
+59,no-infection/propagation,The obfuscation that is applied to the strings sent,0,The obfuscation applied to the strings sent through the network
+60,no-infection/propagation,It will attempt to bruteforce the login prompt (if,0,It bruteforce the login prompt with a username and password combination list it received from the configuration C&C server
+61,no-infection/propagation,"Moose continues with infection, executing commands on the victim",0,Moose executing commands on the victim device
+62,no-infection/propagation,"specified address may be redirected to another, entirely unrelated",0,"redirected traffic intended for a certain specified address to another, entirely unrelated address"
+63,no-infection/propagation,IP. This can effectively bypass firewalls on the perimeter,0,This bypass firewalls on the perimeter
+64,no-infection/propagation,"initial handshake, traffic is sent transparently back and forth",0,sent traffic between the client of the infected service and the specified host
+65,no-infection/propagation,Linux/Moose is able to eavesdrop on traffic going through,0,Linux/Moose eavesdrop on traffic going through affected devices
+66,no-infection/propagation,used was designed to work as an information stealer,0,the payload work as an information stealer
+67,no-infection/propagation,used was designed to work as an information stealer,0,the payload work as reconnaissance tool
+68,no-infection/propagation,"using the infected bot, download and execute a command",0,download a command a library
+69,no-infection/propagation,"infected bot, download and execute a command or a",0,execute a command a library
+70,no-infection/propagation,"command or a library, update and uninstall) the plugins",0,update
+71,no-infection/propagation,"a library, update and uninstall the plugins one can",0,uninstall
+72,no-infection/propagation,explains that the botnet won’t work in a virtual machine.,0,the botnet won’t work in a virtual machine
+73,no-infection/propagation,"machine, the malware author checks if the following directories",0,the malware author To checks if the following directories and the one file exist detect whether the malware is running in a virtual machine
+74,no-infection/propagation,persistence The malware persistence uses a registry key in,0,The malware persistence uses a registry key in order to be executed automatically in case the system is rebooted
+75,no-infection/propagation,Step This feature allows installing further malware on the,0,This feature installing further malware on the affected PC
+76,no-infection/propagation,Sakula malware variants that were signed with stolen certificates. Investigation,0,Sakula malware variants were signed with stolen certificates
+77,no-infection/propagation,the ShellExecute() API to open a URL. The site’s,0,it open a URL
+78,no-infection/propagation,view a website by using the ShellExecute() API to,0,it using the ShellExecute() API
+79,no-infection/propagation,malware in this campaign utilized the Dynamic Link Library,0,Sakula malware utilized the Dynamic Link Library (DLL) side-loading technique
+80,no-infection/propagation,they utilized malicious droppers masquerading as installers for legitimate,0,droppers masquerading as installers
+81,no-infection/propagation,MediaSoft.exe (MD5 hash: d00b3169f45e74bb22a1cd684341b14a) loaded a file named msi.dll,0,MediaSoft.exe loaded a file named msi.dll
+82,no-infection/propagation,"turn, was used to load the Sakula executable (MD5",0,file named msi.dll load the Sakula executable
+83,no-infection/propagation,"addition, the droppers all directed victims to login pages",0,"the droppers directed victims to login pages for services specific to the target organization like webmail, document sharing, or corporate VPN"
+84,no-infection/propagation,"except one, the victims were directed to legitimate login pages.",0,the droppers were directed victims to legitimate login pages
+85,no-infection/propagation,It is unclear whether redirecting victims to these login,0,redirecting victims to these login pages
+86,no-infection/propagation,case in which victims were sent to a login page,0,the droppers were sent victims to a login page hosted on a domain that spoofed that of the legitimate one
+87,no-infection/propagation,Microsoft ActiveX software. It dropped the side-loaded Sakula malware,0,It dropped the side-loaded Sakula malware

@@ -1,0 +1,35 @@
+,label,text-rel,label_num,text-neigh
+0,no-Other,Bda9.tmp executed,0,Explorer. Bda9.tmp was then executed and went on to
+1,no-Other,create copies of Backdoor.Jiripbot on the compromised computers,0,application was used to create copies of Backdoor.Jiripbot on
+2,no-Other,It editing events logs,0,"It hides activity by editing events logs, dumping passwords,"
+3,no-Other,It dumping passwords,0,"by editing events logs, dumping passwords, securely deleting files,"
+4,no-Other,It deleting files,0,"logs, dumping passwords, securely deleting files, encrypting files, and"
+5,no-Other,The tool perform a secure self-delete,0,also end processes and perform a secure self-delete. The
+6,no-Other,Hacktool.Eventlog dumping out ones of interest,0,"to parse event logs, dumping out ones of interest, and"
+7,no-Other,Hacktool.Eventlog parse event logs,0,"primary functionality is to parse event logs, dumping out"
+8,no-Other,Hacktool.Eventlog delete entries,0,"of interest, and to delete entries. The tool will"
+9,no-Other,modified event logs to remove any evidence of the attackers’ activity,0,"Similarly, event logs are modified to remove any evidence"
+10,no-Other,GrayFish injecting its code into the boot record,0,OS loading mechanisms by injecting its code into the
+11,no-Other,save it onto the hidden area of the stick,0,basic system information and save it onto the hidden
+12,no-Other,it run the group’s DOUBLEFANTASY implant,0,"Next, it attempted to run the group’s DOUBLEFANTASY implant"
+13,no-Other,the malware checks whether the file /home/hik/start.sh exists on disk,0,"upon launch, the malware checks whether the file /home/hik/start.sh"
+14,no-Other,execute a command a library,0,"infected bot, download and execute a command or a"
+15,no-Other,Linux/Moose TCP port 10073 listening on for incoming connections,0,does is to start listening on TCP port 10073
+16,no-Other,download a command a library,0,"using the infected bot, download and execute a command"
+17,no-Other,"the droppers directed victims to login pages for services specific to the target organization like webmail, document sharing, or corporate VPN",0,"addition, the droppers all directed victims to login pages"
+18,no-Other,the droppers were directed victims to legitimate login pages,0,"except one, the victims were directed to legitimate login pages."
+19,no-Other,redirecting victims to these login pages,0,It is unclear whether redirecting victims to these login
+20,no-Other,the droppers were sent victims to a login page hosted on a domain that spoofed that of the legitimate one,0,case in which victims were sent to a login page
+21,no-Other,It dropped the side-loaded Sakula malware,0,Microsoft ActiveX software. It dropped the side-loaded Sakula malware
+22,Other,The tool end processes,1,The tool will also end processes and perform a
+23,Other,It looks for certain process names of running processes,1,was created. It also looks for certain process names of
+24,Other,It checks that the hashed value of the registry subkey HKEY_LOCAL_MACHINE\Microsoft\WindowsNT\ CurrentVersion\ProductId is not equal to a number of hashed values,1,is looking for. It checks that the hashed value
+25,Other,GRAYFISH uses the registry to store all malware-related modules and data in encrypted format,1,"in GRAYFISH, which exclusively uses the registry to store"
+26,Other,Moose kill the processes of other malware families competing for the limited resources offered by the infected embedded system,1,hijacking capabilities and will kill the processes of other
+27,Other,created three sets of threads,1,sets of threads are created that are related to
+28,Other,it TCP port 10073 connect on,1,see if it can connect on TCP port 10073.
+29,Other,it result in without a TCP handshake a data payload,1,"10073 port, it will result in a TCP handshake"
+30,Other,It creates a raw socket,1,"is rather simple. It creates a raw socket, sets"
+31,Other,it send a kill signal to any process that matches any of the blacklisted strings,1,"this list, it will send a kill signal to"
+32,Other,visiting a website using the infected bot,1,"(classic ones, such as visiting a website using the"
+33,Other,The malware persistence uses a registry key in order to be executed automatically in case the system is rebooted,1,persistence The malware persistence uses a registry key in

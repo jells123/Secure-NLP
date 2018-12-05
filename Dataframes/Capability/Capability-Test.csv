@@ -1,0 +1,111 @@
+,label,text-neigh,label_num,text-rel,token
+0,Capability,"a command-and-control (C&C) server used in an attack, the",1,used a command-and-control (C&C) server in an attack,obtaining
+1,Capability,and went on to create a variant of Backdoor.Jiripbot,1,Bda9.tmp create a variant of Backdoor.Jiripbot with the file name LiveUpdate.exe,eavesdropped
+2,Capability,"air-gapped networks, they can save these commands in the",1,they save these commands in the hidden area of the USB stick,insert
+3,Capability,overview Linux/Moose will periodically communicate with a set of,1,Linux/Moose communicate with a set of command and control servers (C&C) that are hardcoded into the malware itself,used
+4,Capability,"configuration C&C server, will provide configuration information that will",1,the configuration C&C server provide configuration information that will affect the behavior of the malware,executed
+5,Capability,already infected and will report it as such to,1,report it to the report C&C server,create
+6,Capability,"successful guess, it will report the intrusion to the",1,it report the intrusion to the report C&C server,spread
+7,Capability,victim. It will then send a message to the,1,It send a message to with the report C&C server what it has learned so far about the target victim,create
+8,Capability,The report C&C server responds with obfuscated commands to,1,The report C&C server responds with obfuscated commands to execute on the victim,create
+9,Capability,"the configuration C&C server, obtain its configuration parameters, and",1,it obtain its configuration parameters,remove
+10,Capability,the configuration C&C server returns the public IP address,1,the configuration C&C server returns the public IP address it saw when it was contacted by the infected router,hides
+11,Capability,"headers and payload is sent obfuscated, to the report",1,"sent the whole packet including its Ethernet, IP, TCP headers and payload to the report C&C server",editing
+12,Capability,the data is still sent by the C&C. The,1,the C&C sent all of the data,dumping
+13,Capability,exchanges is that they update different variables in the,1,they update variables in the client,deleting
+14,Capability,v31. }; The server replies with the configuration for,1,The server replies with the configuration for the malware,end
+15,Capability,of internal systems to spread through a network once,1,spread through a network,perform
+16,Capability,an online forum was attacked with an exploit from,1,attacked a Kaspersky Lab user browsing an online forum with an exploit from one of the Equation group’s exploitation servers,dumping out
+17,Capability,specific PHP script that exploited only authenticated visitors. We,1,a specific PHP script exploited only authenticated visitors,parse
+18,Capability,taking great care to infect only very specific targets,1,the attackers infect only very specific targets on these forums,delete
+19,Capability,to attempt find and infect other devices automatically. The,1,infect other devices,route
+20,Capability,are used to attempt find and infect other devices,1,find other devices,modified
+21,Capability,rogue DNS servers can point legitimate sites to phishing,1,rogue DNS servers point legitimate sites to phishing sites,remove
+22,Capability,disconnect right away and considers that the host is,1,it considers that the host is already infected,looks for
+23,Capability,enables the worm to spread inside Local Area Networks,1,the worm Local Area Networks (LANs) that are not normally accessible from the Internet due to the use of firewalls and network address translation (NAT) spread inside,checks
+24,Capability,"discussed, this server is used by the bot to",1,the bot used this server to assess whether a system is infected,provide
+25,Capability,The attackers focused on obtaining access to specific systems,1,The attackers obtaining access to specific systems of interest in all of the compromised organizations,hijacks
+26,Capability,"access, they presumably then eavesdropped on email conversations and",1,they eavesdropped on email conversations,injecting
+27,Capability,a position to potentially insert fraudulent emails as well.,1,they insert fraudulent emails,self-destructs
+28,Capability,profile management application to create a back door on,1,create a back door on a newly infected system,implements
+29,Capability,used shred.exe to securely remove the infections. The Butterfly,1,shred.exe remove the infections,make
+30,Capability,through a network. It hides activity by editing events,1,It hides activity,stored
+31,Capability,also end processes and perform a secure self-delete. The,1,The tool perform a secure self-delete,sent
+32,Capability,that allows attackers to route traffic through an intermediary,1,Hacktool.Proxy.A route traffic through onto an intermediary node their destination node,collect
+33,Capability,"Similarly, event logs are modified to remove any evidence",1,modified event logs to remove any evidence of the attackers’ activity,save
+34,Capability,the attackers can securely remove infections from computers that,1,the attackers remove infections from computers that are of no interest,save
+35,Capability,It is designed to provide an effective (almost invisible),1,It provide an effective (almost invisible) persistence mechanism hidden storage malicious command execution inside the Windows operating system,escalate
+36,Capability,"the computer starts, GrayFish hijacks the OS loading mechanisms",1,GrayFish hijacks the OS loading mechanisms,run
+37,Capability,OS loading mechanisms by injecting its code into the,1,GrayFish injecting its code into the boot record,install
+38,Capability,the entire GrayFish platform self-destructs TLP: White For any,1,the entire GrayFish platform If self-destructs an error happens during launch,infect
+39,Capability,"own auxiliary information, GrayFish implements its own encrypted Virtual",1,GrayFish To implements its own encrypted Virtual File System (VFS) inside store stolen information the Windows registry,reprogramming
+40,Capability,have been designed to make it invisible to antivirus,1,The GrayFish implementation make to it invisible antivirus products,providing
+41,Capability,the stolen data are stored in encrypted form in,1,stored all the modules as well as the stolen data in encrypted form in the registry,attacked
+42,Capability,the hidden area and sent to the C&C. If,1,sent the data to the C&C,exploited
+43,Capability,"internet connection, it will collect basic system information and",1,it collect basic system information,infect
+44,Capability,basic system information and save it onto the hidden,1,save it onto the hidden area of the stick,uses
+45,Capability,began by attempting to escalate privileges using two known,1,an installer escalate privileges using two known EQUATION group exploits,include
+46,Capability,group’s DOUBLEFANTASY implant and install it onto the victim’s,1,install it onto the victim’s machine,loads
+47,Capability,is the ability to infect the hard drive firmware.,1,infect the hard drive firmware,hijacks
+48,Capability,supports two main functions: reprogramming the HDD firmware with,1,The plugin reprogramming the HDD firmware with a custom payload from the EQUATION group,steal
+49,Capability,"the EQUATION group, and providing an API into a",1,The plugin providing an API into a set of hidden sectors (or data storage) of the hard drive,steal
+50,Capability,"in GRAYFISH, which exclusively uses the registry to store",1,GRAYFISH uses the registry to store all malware-related modules and data in encrypted format,infect
+51,Capability,"features, GRAYFISH and EQUATIONDRUG include perhaps the most sophisticated",1,EQUATIONDRUG include perhaps the most sophisticated persistence mechanism we’ve ever seen,find
+52,Capability,"starts from the VBR, loads the operating system and",1,The GRAYFISH bootkit loads the operating system,kill
+53,Capability,the operating system and hijacks the loading of the,1,The GRAYFISH bootkit hijacks the loading of the first driver in the kernel,communicate
+54,Capability,devices are used to steal unencrypted network traffic and,1,The compromised devices steal unencrypted network traffic,provide
+55,Capability,capabilities are used to steal HTTP Cookies on popular,1,HTTP Cookies steal on popular social network sites,steal
+56,Capability,bot is trying to steal is HTTP cookies from,1,the bot HTTP cookies from popular social networks steal,checks
+57,Capability,"sites to phishing sites, inject malware in downloaded files,",1,inject malware in downloaded files,inject
+58,Capability,"in downloaded files, or perform man-in-the-middle attacks that would",1,rogue DNS servers perform man-in-the-middle attacks,point
+59,Capability,The obfuscation that is applied to the strings sent,1,The obfuscation applied to the strings sent through the network,perform
+60,Capability,It will attempt to bruteforce the login prompt (if,1,It bruteforce the login prompt with a username and password combination list it received from the configuration C&C server,applied
+61,Capability,"Moose continues with infection, executing commands on the victim",1,Moose executing commands on the victim device,created
+62,Capability,"specified address may be redirected to another, entirely unrelated",1,"redirected traffic intended for a certain specified address to another, entirely unrelated address",connect
+63,Capability,IP. This can effectively bypass firewalls on the perimeter,1,This bypass firewalls on the perimeter,considers
+64,Capability,"initial handshake, traffic is sent transparently back and forth",1,sent traffic between the client of the infected service and the specified host,report
+65,Capability,Linux/Moose is able to eavesdrop on traffic going through,1,Linux/Moose eavesdrop on traffic going through affected devices,bruteforce
+66,Capability,used was designed to work as an information stealer,1,the payload work as an information stealer,report
+67,Capability,used was designed to work as an information stealer,1,the payload work as reconnaissance tool,executing
+68,Capability,"using the infected bot, download and execute a command",1,download a command a library,send
+69,Capability,"infected bot, download and execute a command or a",1,execute a command a library,responds
+70,Capability,"command or a library, update and uninstall) the plugins",1,update,reach
+71,Capability,"a library, update and uninstall the plugins one can",1,uninstall,obtain
+72,Capability,explains that the botnet won’t work in a virtual machine.,1,the botnet won’t work in a virtual machine,redirected
+73,Capability,"machine, the malware author checks if the following directories",1,the malware author To checks if the following directories and the one file exist detect whether the malware is running in a virtual machine,returns
+74,Capability,persistence The malware persistence uses a registry key in,1,The malware persistence uses a registry key in order to be executed automatically in case the system is rebooted,spread
+75,Capability,Step This feature allows installing further malware on the,1,This feature installing further malware on the affected PC,bypass
+76,Capability,Sakula malware variants that were signed with stolen certificates. Investigation,1,Sakula malware variants were signed with stolen certificates,listening
+77,Capability,the ShellExecute() API to open a URL. The site’s,1,it open a URL,used
+78,Capability,view a website by using the ShellExecute() API to,1,it using the ShellExecute() API,result
+79,Capability,malware in this campaign utilized the Dynamic Link Library,1,Sakula malware utilized the Dynamic Link Library (DLL) side-loading technique,sent
+80,Capability,they utilized malicious droppers masquerading as installers for legitimate,1,droppers masquerading as installers,eavesdrop
+81,Capability,MediaSoft.exe (MD5 hash: d00b3169f45e74bb22a1cd684341b14a) loaded a file named msi.dll,1,MediaSoft.exe loaded a file named msi.dll,creates
+82,Capability,"turn, was used to load the Sakula executable (MD5",1,file named msi.dll load the Sakula executable,sent
+83,Capability,"addition, the droppers all directed victims to login pages",1,"the droppers directed victims to login pages for services specific to the target organization like webmail, document sharing, or corporate VPN",send
+84,Capability,"except one, the victims were directed to legitimate login pages.",1,the droppers were directed victims to legitimate login pages,sent
+85,Capability,It is unclear whether redirecting victims to these login,1,redirecting victims to these login pages,update
+86,Capability,case in which victims were sent to a login page,1,the droppers were sent victims to a login page hosted on a domain that spoofed that of the legitimate one,replies
+87,Capability,Microsoft ActiveX software. It dropped the side-loaded Sakula malware,1,It dropped the side-loaded Sakula malware,work
+88,NoCapability,Explorer. Bda9.tmp was then executed and went on to,0,Bda9.tmp executed,work
+89,NoCapability,application was used to create copies of Backdoor.Jiripbot on,0,create copies of Backdoor.Jiripbot on the compromised computers,visiting
+90,NoCapability,"It hides activity by editing events logs, dumping passwords,",0,It editing events logs,download
+91,NoCapability,"by editing events logs, dumping passwords, securely deleting files,",0,It dumping passwords,execute
+92,NoCapability,"logs, dumping passwords, securely deleting files, encrypting files, and",0,It deleting files,update
+93,NoCapability,The tool will also end processes and perform a,0,The tool end processes,uninstall
+94,NoCapability,"to parse event logs, dumping out ones of interest, and",0,Hacktool.Eventlog dumping out ones of interest,won’t work
+95,NoCapability,"primary functionality is to parse event logs, dumping out",0,Hacktool.Eventlog parse event logs,checks
+96,NoCapability,"of interest, and to delete entries. The tool will",0,Hacktool.Eventlog delete entries,uses
+97,NoCapability,was created. It also looks for certain process names of,0,It looks for certain process names of running processes,installing
+98,NoCapability,is looking for. It checks that the hashed value,0,It checks that the hashed value of the registry subkey HKEY_LOCAL_MACHINE\Microsoft\WindowsNT\ CurrentVersion\ProductId is not equal to a number of hashed values,were signed
+99,NoCapability,"Next, it attempted to run the group’s DOUBLEFANTASY implant",0,it run the group’s DOUBLEFANTASY implant,open
+100,NoCapability,hijacking capabilities and will kill the processes of other,0,Moose kill the processes of other malware families competing for the limited resources offered by the infected embedded system,using
+101,NoCapability,"upon launch, the malware checks whether the file /home/hik/start.sh",0,the malware checks whether the file /home/hik/start.sh exists on disk,utilized
+102,NoCapability,sets of threads are created that are related to,0,created three sets of threads,masquerading
+103,NoCapability,see if it can connect on TCP port 10073.,0,it TCP port 10073 connect on,loaded
+104,NoCapability,"been infected: it will reach the configuration C&C server,",0,it reach the configuration C&C server,load
+105,NoCapability,does is to start listening on TCP port 10073,0,Linux/Moose TCP port 10073 listening on for incoming connections,directed
+106,NoCapability,"10073 port, it will result in a TCP handshake",0,it result in without a TCP handshake a data payload,were directed
+107,NoCapability,"is rather simple. It creates a raw socket, sets",0,It creates a raw socket,redirecting
+108,NoCapability,"this list, it will send a kill signal to",0,it send a kill signal to any process that matches any of the blacklisted strings,were sent
+109,NoCapability,"(classic ones, such as visiting a website using the",0,visiting a website using the infected bot,dropped

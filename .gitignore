@@ -1,0 +1,8 @@
+*.bin
+*.txt
+./__pycache__/*
+*.zip
+__pycache__/*
+to-remove/*
+
+

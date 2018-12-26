@@ -96,4 +96,32 @@ def do_the_pipeline(pipeline, cats, dataframes, accuracy=True, report=True, top_
                         map_labels(cat, test_prediction)
                     ))
 
+def train_and_test(pipeline, train, test, data_column, label_num_column, accuracy = False, top_features = False, report = False):
+    pipeline.fit(train[data_column], train[label_num_column])
 
+    train_prediction = pipeline.predict(train[data_column])
+    accuracy = pipeline.score(train[data_column], train[label_num_column])
+
+    print("- Zbiór treningowy:")
+    if accuracy:
+        print("\tACCURACY: {n:2g}%".format(n=100.*accuracy))
+    if report:
+        print(classification_report(
+           train[label_num_column], 
+           train_prediction
+        ))
+
+    if top_features:
+        print("\tTop Features:\n", get_most_important_features(pipeline.named_steps['vectorizer'], pipeline.named_steps['clf']))
+
+    test_prediction = pipeline.predict(test[data_column])
+    accuracy = pipeline.score(test[data_column], test[label_num_column])
+
+    print("- Zbiór testowy:")
+    if accuracy:
+        print("\tACCURACY: {n:2g}%".format(n=100.*accuracy))
+    if report:
+        print(classification_report(
+            test[label_num_column], 
+            test_prediction
+        ))

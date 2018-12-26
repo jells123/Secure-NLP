@@ -1,6 +1,6 @@
 import re
 import operator
-
+import collections
 
 def extend_dataframe(df):
     # add or replace?
@@ -36,62 +36,74 @@ def clean_dataframe(df):
     columns = ['text-neigh-processed', 'text-rel-processed']
     
     for c in columns:
-        for i in range(df[c].count()):
-#             text = df[c].get(i)
-            text = df.at[i, c]
-            for word in text.split():
+        if c in df.columns:
+            for i in range(df[c].count()):
+    #             text = df[c].get(i)
+                text = df.at[i, c]
+                for word in text.split():
 
-                if '\\' in word or '/' in word:
-                    text = text.replace(word, 'system-path ')
+                    if '\\' in word or '/' in word:
+                        text = text.replace(word, 'system-path ')
 
-                if word.endswith('()'):
-                    text = text.replace(word, 'function-name')
+                    if word.endswith('()'):
+                        text = text.replace(word, 'function-name')
 
-                file = re.search('[^\s]+\.([A-Za-z]{3})', word)
-                if file:
-                    replacement = ' {}-file'.format(file.group(1))
-                    if word in text:
-                        text = text.replace(word, replacement)
-                    else:
-                        text += replacement
+                    file = re.search('[^\s]+\.([A-Za-z]{3})', word)
+                    if file:
+                        replacement = ' {}-file'.format(file.group(1))
+                        if word in text:
+                            text = text.replace(word, replacement)
+                        else:
+                            text += replacement
 
-                cmd = re.search(r'^-{1,2}[a-zA-Z]+', word)
-                if cmd:
-                    text = text.replace(word, 'cmd-param')
+                    cmd = re.search(r'^-{1,2}[a-zA-Z]+', word)
+                    if cmd:
+                        text = text.replace(word, 'cmd-param')
 
-                ip = re.search(r'[0-9]+?\.[0-9]+?\.[0-9]+?\.[0-9]+', word)
-                if ip:
-                    text = text.replace(word, 'ip-address')
+                    ip = re.search(r'[0-9]+?\.[0-9]+?\.[0-9]+?\.[0-9]+', word)
+                    if ip:
+                        text = text.replace(word, 'ip-address')
 
-                var = re.search(r'%[a-zA-Z0-9]+%', word)
-                if var:
-                    text = text + " some-variable"
+                    var = re.search(r'%[a-zA-Z0-9]+%', word)
+                    if var:
+                        text = text + " some-variable"
 
-                index = re.search(r'^\([0-9]+\)$', word)
-                if index:
-                    text = text.replace(word, "")
+                    index = re.search(r'^\([0-9]+\)$', word)
+                    if index:
+                        text = text.replace(word, "")
 
-                year = re.search(r'^[0-9]{4}$', word)
-                if year:
-                    text = text.replace(word, "")
-                    
-                hash_s = re.search(r'^[0-9a-zA-Z]{31,}$', word)
-                if hash_s:
-                    text = text.replace(word, 'hash')
+                    year = re.search(r'^[0-9]{4}$', word)
+                    if year:
+                        text = text.replace(word, "")
 
-            df.at[i, c] = text.lower()
+                    hash_s = re.search(r'^[0-9a-zA-Z]{31,}$', word)
+                    if hash_s:
+                        text = text.replace(word, 'hash')
+
+                df.at[i, c] = text.lower()
         
     return df
 
-def clean_sentence(text):
+def clean_sentence(text, get_features=False):
+
+    keys = ['system-path', 'function-name', 'file', 'cmd-param', 'ip-address', 'some-variable', 'hash', 'short-uppercase', 'bit']
+    features = collections.OrderedDict()
+    for k in keys:
+        features[k] = False
     
     for word in text.split():
-
+        
+        #uppercase? GET, POST... OS (two, three, four chars)
+        #32, 64 ? (bits)
+        #uppercase in general ?
+        
         if '\\' in word or '/' in word:
             text = text.replace(word, 'system-path ')
+            features['system-path'] = True
 
         if word.endswith('()'):
             text = text.replace(word, 'function-name')
+            features['function-name'] = True
 
         file = re.search('[^\s]+\.([A-Za-z]{3})', word)
         if file:
@@ -100,18 +112,22 @@ def clean_sentence(text):
                 text = text.replace(word, replacement)
             else:
                 text += replacement
+            features['file'] = True
 
         cmd = re.search(r'^-{1,2}[a-zA-Z]+', word)
         if cmd:
             text = text.replace(word, 'cmd-param')
+            features['cmd-param'] = True
 
         ip = re.search(r'[0-9]+?\.[0-9]+?\.[0-9]+?\.[0-9]+', word)
         if ip:
             text = text.replace(word, 'ip-address')
+            features['ip-address'] = True
 
         var = re.search(r'%[a-zA-Z0-9]+%', word)
         if var:
             text = text + " some-variable"
+            features['some-variable'] = True
 
         index = re.search(r'^\([0-9]+\)$', word)
         if index:
@@ -124,8 +140,22 @@ def clean_sentence(text):
         hash_s = re.search(r'^[0-9a-zA-Z]{31,}$', word)
         if hash_s:
             text = text.replace(word, 'hash')
+            features['hash'] = True
             
-    return text
+        # the following are feature_list - only
+        
+        short_uppercase = re.search(r'[A-Z]{2,4}', word)
+        if short_uppercase:
+            features['short-uppercase'] = True
+            
+        bit = re.search(r'(32|64)[^0-9]', word)
+        if bit:
+            features['bit'] = True
+            
+    if get_features:
+        return text, features
+    else:
+        return text
 
 def get_top_occuring_words(X_train_counts, how_many_words, vectorizer, train):
     id_to_word = {v: k for k, v in vectorizer.vocabulary_.items()} # stwórz mapowanie pozycji wektora bag-of-words na konkretne słowa

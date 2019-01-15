@@ -32,9 +32,8 @@ def extend_dataframe(df):
 
     return df
 
-def clean_dataframe(df):
-    columns = ['text-neigh-processed', 'text-rel-processed']
-    
+def clean_dataframe(df, columns):
+  
     for c in columns:
         if c in df.columns:
             for i in range(df[c].count()):

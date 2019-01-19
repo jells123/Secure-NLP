@@ -2,6 +2,74 @@ import re
 import operator
 import collections
 
+def replace_dataframe(df, columns):
+  
+    for c in columns:
+        if c in df.columns:
+            for i in range(df[c].count()):
+                text = df.at[i, c]
+                
+                words = text.split()
+                words_with_markers = []
+                
+                for word in words:
+                    current_l = len(words_with_markers)
+#                     words_with_markers.append(word)
+                    
+                    if r'()' in word:
+                        words_with_markers.append('some-function')
+                    word = re.sub(r'[()]', '', word)
+    
+                    if '\\' in word or '/' in word:
+                        if '\\' in word:
+                            words_with_markers.append('system-path')
+                        else:
+                            if ':' in word:
+                                x = word.find(':')
+                                if x <= 1:
+                                    words_with_markers.append('system-path')
+                                else:
+                                    words_with_markers.append('web-path')
+                            else:
+                                pass
+
+                    file = re.search('[^\s]+\.([A-Za-z]{2,3})$', word)
+                    if file:
+                        words_with_markers.append(' {}-file'.format(file.group(1)))
+
+                    cmd = re.search(r'^-{1,2}[a-zA-Z]+$', word)
+                    if cmd:
+                        words_with_markers.append('cmd-param')
+
+                    ip = re.search(r'[0-9]+?\.[0-9]+?\.[0-9]+?\.[0-9]+', word)
+                    if ip:
+                        words_with_markers.append('ip-addr')
+
+                    var = re.search(r'%[a-zA-Z0-9]+%', word)
+                    if var:
+                        words_with_markers.append('some-variable')
+                    
+                    hash_s = re.search(r'^[0-9a-zA-Z]{28,34}$', word)
+                    if hash_s:
+                        words_with_markers.append('hash-code')
+                        
+                    index = re.search(r'^[([][0-9]+[)\]]$', word)
+                    year = re.search(r'^[0-9]{4}$', word)
+
+                    if index or year:
+                        continue
+                    else:
+                        new_l = len(words_with_markers)
+                        if new_l != current_l:
+                            pass
+                        else:
+                            # if / not in word? ...
+                            words_with_markers.append(word)
+
+                df.at[i, c] = ' '.join(words_with_markers).lower()
+                
+    return df
+
 def extend_dataframe(df):
     # add or replace?
     
